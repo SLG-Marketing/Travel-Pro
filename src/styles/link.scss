@@ -1,0 +1,11 @@
+$component: tp-link;
+
+.#{$component} {
+  font-size: 1.6rem;
+  font-family: var(--font-family-body-sb);
+  color: var(--primary-900);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.8rem;
+}

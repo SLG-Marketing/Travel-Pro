@@ -1,0 +1,40 @@
+$component: tp-header;
+
+.#{$component} {
+  
+  &__row-1 {
+    height: 5.2rem;
+    justify-content: space-between;
+    border-bottom: 0.1rem solid var(--primary-50);
+
+    img {
+      height: 2rem;
+    }
+
+    &__right {
+      display: flex;
+      column-gap: 3.2rem;
+    }
+  }
+
+  .tp-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+  }
+}
+
+.tp-nav-mobile-trigger {
+  height: 4rem;
+  width: 4rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 2.4rem;
+  color: var(--primary-900);
+
+  i {
+    display: block;
+  }
+}
