@@ -1,0 +1,9 @@
+$component: tp-paragraph;
+
+.#{$component} {
+
+  &--14 {
+    font-size: 1.4rem;
+    color: var(--primary-100);
+  }
+}

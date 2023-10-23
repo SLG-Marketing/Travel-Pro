@@ -2,6 +2,7 @@
 
 @font-face {
   font-family: 'metropolis-regular';
+  font-weight: 400;
   src: url('../assets/fonts/metropolis/Metropolis-Regular.otf');
 }
 
@@ -16,8 +17,12 @@
 @import 'icons';
 @import 'button';
 @import 'header';
+@import 'footer';
 @import 'link';
 @import 'nav';
+@import 'flex';
+@import 'paragraph';
+@import 'utils/spacings';
 
 * {
   box-sizing: border-box;
