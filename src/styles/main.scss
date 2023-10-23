@@ -17,9 +17,11 @@
 @import 'button';
 @import 'header';
 @import 'link';
+@import 'nav';
 
-
-
+* {
+  box-sizing: border-box;
+}
 
 html {
   font-family: var(--font-family-body-regular);
@@ -36,13 +38,56 @@ body {
   padding: 0 1.6rem;
 }
 
+
 .d-lg {
-  display: none;
+  display: none!important;
 
   @media(min-width: $lg) {
-    display: block;
+    display: block!important;
+  }
+}
+
+.h-xs {
+  @media(min-width: $xs) {
+    display: none;
+  }
+}
+
+.d-f-sm {
+  display: none!important;
+
+  @media(min-width: $sm) {
+    display: flex!important;
+  }
+}
+
+.d-f-lg {
+  display: none!important;
+
+  @media(min-width: $lg) {
+    display: flex!important;
   }
 }
 
 
 
+.d-sm {
+  display: none!important;
+
+  @media(min-width: $sm) {
+    display: block!important;
+  }
+}
+
+
+
+.h-lg {
+  @media(min-width: $lg) {
+    display: none!important;
+  }
+}
+
+
+.content {
+  padding-top: 32rem;
+}

@@ -12,22 +12,53 @@
     <meta property="og:image" content="">
   </head>
   <body>
-    <header class="tp-header">
+    <header role="banner" class="tp-header">
       <div class="tp-header__row-1">
         <div class="tp-container">
           <div class="tp-header__row-1__left">
             <a href="#"><img src="<%= require('./assets/images/travelpro-logo-header.svg') %>" alt=""></a>
           </div>
           <div class="tp-header__row-1__right">
-            <a href="#" class="tp-link d-lg">Careers <i class="icon-arrow-up-right-from-square"></i></a>
-            <a href="#" class="tp-link"><i class="icon-globe"></i> EN</a>
+            <a href="#" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square"></i></a>
+            <a href="#" class="tp-link d-f-sm"><i class="icon-globe"></i> EN</a>
 
+            <a href="#" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Request Demo</a>
+
+            <button class="tp-nav-mobile-trigger h-lg" aria-label="Ouvrir menu" id="triggerNavMobile" aria-expanded="false"><i class="icon-bars"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-header__row-2">
+        <div class="tp-container">
+          <div class="tp-header__row-2__left">
+            <nav class="tp-nav">
+              <ul>
+                <li class="tp-nav__item tp-nav__item--selected"><a href="#">Home</a></li>
+                <li class="tp-nav__item"><a href="#">Business Travel</a></li>
+                <li class="tp-nav__item"><a href="#">About us</a></li>
+                <li class="tp-nav__item"><a href="#">Blog</a></li>
+                <li class="tp-nav__item"><a href="#">Contact us</a></li>
+              </ul>
+            </nav>
+            <a href="#" class="tp-link h-lg">Careers <i class="icon-arrow-up-right-from-square"></i></a>
+          </div>
+          <div class="tp-header__row-2__right d-lg">
             <a href="#" class="tp-button tp-button--primary">Request Demo</a>
-
-            <button class="tp-nav-mobile-trigger"><i class="icon-bars"></i></button>
           </div>
         </div>
       </div>
     </header>
+
+    <div class="content" style="height: 5000px;background-color: red;font-size: 2rem;">
+      <div class="tp-container">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusamus dolor laborum, placeat debitis veritatis at quisquam odio totam sequi magnam tempora! Eum cum deserunt ipsum quibusdam at. Voluptas, expedita.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusamus dolor laborum, placeat debitis veritatis at quisquam odio totam sequi magnam tempora! Eum cum deserunt ipsum quibusdam at. Voluptas, expedita.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusamus dolor laborum, placeat debitis veritatis at quisquam odio totam sequi magnam tempora! Eum cum deserunt ipsum quibusdam at. Voluptas, expedita.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusamus dolor laborum, placeat debitis veritatis at quisquam odio totam sequi magnam tempora! Eum cum deserunt ipsum quibusdam at. Voluptas, expedita.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusamus dolor laborum, placeat debitis veritatis at quisquam odio totam sequi magnam tempora! Eum cum deserunt ipsum quibusdam at. Voluptas, expedita.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto accusamus dolor laborum, placeat debitis veritatis at quisquam odio totam sequi magnam tempora! Eum cum deserunt ipsum quibusdam at. Voluptas, expedita.
+      </div>
+    </div>
   </body>
 </html>
