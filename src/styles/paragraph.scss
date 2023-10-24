@@ -1,0 +1,15 @@
+$component: tp-paragraph;
+
+.#{$component} {
+  margin: 0;
+
+  &--14 {
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+
+  &--16 {
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+}

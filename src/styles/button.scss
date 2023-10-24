@@ -1,29 +1,58 @@
 $button-colors: (
   primary: (
-    enable: (
-      background-color: var(--button-color-primary-enable-background-color),
-      color: var(--button-color-primary-enable-color),
-      border-color: var(--button-color-primary-enable-border-color)
+    filled: (
+      enable: (
+        background-color: var(--button-color-primary-filled-enable-background-color),
+        color: var(--button-color-primary-filled-enable-color),
+        border-color: var(--button-color-primary-filled-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-primary-filled-hover-background-color),
+        color: var(--button-color-primary-filled-hover-color),
+        border-color: var(--button-color-primary-filled-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-primary-filled-focus-background-color),
+        color: var(--button-color-primary-filled-focus-color),
+        border-color: var(--button-color-primary-filled-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-primary-filled-active-background-color),
+        color: var(--button-color-primary-filled-active-color),
+        border-color: var(--button-color-primary-filled-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-primary-filled-disabled-background-color),
+        color: var(--button-color-primary-filled-disabled-color),
+        border-color: var(--button-color-primary-filled-disabled-border-color)
+      )
     ),
-    hover: (
-      background-color: var(--button-color-primary-hover-background-color),
-      color: var(--button-color-primary-hover-color),
-      border-color: var(--button-color-primary-hover-border-color)
-    ),
-    focus: (
-      background-color: var(--button-color-primary-focus-background-color),
-      color: var(--button-color-primary-focus-color),
-      border-color: var(--button-color-primary-focus-border-color)
-    ),
-    active: (
-      background-color: var(--button-color-primary-active-background-color),
-      color: var(--button-color-primary-active-color),
-      border-color: var(--button-color-primary-active-border-color)
-    ),
-    disabled: (
-      background-color: var(--button-color-primary-disabled-background-color),
-      color: var(--button-color-primary-disabled-color),
-      border-color: var(--button-color-primary-disabled-border-color)
+    outlined: (
+      enable: (
+        background-color: var(--button-color-primary-outlined-enable-background-color),
+        color: var(--button-color-primary-outlined-enable-color),
+        border-color: var(--button-color-primary-outlined-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-primary-outlined-hover-background-color),
+        color: var(--button-color-primary-outlined-hover-color),
+        border-color: var(--button-color-primary-outlined-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-primary-outlined-focus-background-color),
+        color: var(--button-color-primary-outlined-focus-color),
+        border-color: var(--button-color-primary-outlined-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-primary-outlined-active-background-color),
+        color: var(--button-color-primary-outlined-active-color),
+        border-color: var(--button-color-primary-outlined-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-primary-outlined-disabled-background-color),
+        color: var(--button-color-primary-outlined-disabled-color),
+        border-color: var(--button-color-primary-outlined-disabled-border-color)
+      )
     )
   )
 );
@@ -51,37 +80,44 @@ $component: tp-button;
   align-items: center;
   justify-content: center;
   text-decoration: none;
+  border-style: solid;
 
   // colors styles
   @each $key, $value in $button-colors {
     &.#{$component}--primary {
-      color: map-deep-get($value, 'disabled', 'color');
-      background-color: map-deep-get($value, 'disabled', 'background-color');
-      border-color: map-deep-get($value, 'disabled', 'border-color');
+      color: map-deep-get($value, 'filled', 'disabled', 'color');
+      background-color: map-deep-get($value, 'filled', 'disabled', 'background-color');
+      border-color: map-deep-get($value, 'filled', 'disabled', 'border-color');
 
       &:not(:disabled) {
-        color: map-deep-get($value, 'enable', 'color');
-        background-color: map-deep-get($value, 'enable', 'background-color');
-        border-color: map-deep-get($value, 'enable', 'border-color');
+        color: map-deep-get($value, 'filled', 'enable', 'color');
+        background-color: map-deep-get($value, 'filled', 'enable', 'background-color');
+        border-color: map-deep-get($value, 'filled', 'enable', 'border-color');
 
         @media(hover: hover) {
           &:hover {
-            color: map-deep-get($value, 'hover', 'color');
-            background-color: map-deep-get($value, 'hover', 'background-color');
-            border-color: map-deep-get($value, 'hover', 'border-color');
+            color: map-deep-get($value, 'filled', 'hover', 'color');
+            background-color: map-deep-get($value, 'filled', 'hover', 'background-color');
+            border-color: map-deep-get($value, 'filled', 'hover', 'border-color');
           }
   
           &:focus {
-            color: map-deep-get($value, 'focus', 'color');
-            background-color: map-deep-get($value, 'focus', 'background-color');
-            border-color: map-deep-get($value, 'focus', 'border-color');
+            color: map-deep-get($value, 'filled', 'focus', 'color');
+            background-color: map-deep-get($value, 'filled', 'focus', 'background-color');
+            border-color: map-deep-get($value, 'filled', 'focus', 'border-color');
           }
   
           &:active {
-            color: map-deep-get($value, 'active', 'color');
-            background-color: map-deep-get($value, 'active', 'background-color');
-            border-color: map-deep-get($value, 'active', 'border-color');
+            color: map-deep-get($value, 'filled', 'active', 'color');
+            background-color: map-deep-get($value, 'filled', 'active', 'background-color');
+            border-color: map-deep-get($value, 'filled', 'active', 'border-color');
           }
+        }
+
+        &.#{$component}--outlined {
+          color: map-deep-get($value, 'outlined', 'enable', 'color');
+          background-color: map-deep-get($value, 'outlined', 'enable', 'background-color');
+          border-color: map-deep-get($value, 'outlined', 'enable', 'border-color');
         }
       }
     }

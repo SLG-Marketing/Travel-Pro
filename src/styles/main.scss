@@ -13,11 +13,17 @@
 
 
 @import 'functions/map-deep-get';
+@import 'utils/spacings';
+@import 'utils/colors';
+@import 'utils/texts';
 @import 'icons';
 @import 'button';
 @import 'header';
+@import 'footer';
 @import 'link';
 @import 'nav';
+@import 'flex';
+@import 'paragraph';
 
 * {
   box-sizing: border-box;
@@ -26,10 +32,21 @@
 html {
   font-family: var(--font-family-body-regular);
   font-size: 62.5%;
+  line-height: 1.5;
 }
 
 body {
   margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .tp-container {
@@ -69,8 +86,6 @@ body {
   }
 }
 
-
-
 .d-sm {
   display: none!important;
 
@@ -79,15 +94,8 @@ body {
   }
 }
 
-
-
 .h-lg {
   @media(min-width: $lg) {
     display: none!important;
   }
-}
-
-
-.content {
-  padding-top: 32rem;
 }

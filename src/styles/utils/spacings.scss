@@ -13,13 +13,13 @@ $xxl: 1400px;
   .mr-#{$result}, :host([mr-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
   .mb-#{$result}, :host([mb-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
   .ml-#{$result}, :host([ml-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
-  .ma-#{$lg}-#{$result}, :host([ma-#{$lg}-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
+  .ma-#{$result}, :host([ma-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
 
   .pt-#{$result}, :host([pt-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
   .pr-#{$result}, :host([pr-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
   .pb-#{$result}, :host([pb-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
   .pl-#{$result}, :host([pl-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
-  .pa-#{$lg}-#{$result}, :host([pa-#{$lg}-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
+  .pa-#{$result}, :host([pa-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
 }
 
 
@@ -28,17 +28,17 @@ $xxl: 1400px;
 
     $result: 8 * $multiplicator;
 
-    .mt-#{$sm}-#{$result}, :host([mt-#{$sm}-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
-    .mr-#{$sm}-#{$result}, :host([mt-#{$sm}-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
-    .mb-#{$sm}-#{$result}, :host([mt-#{$sm}-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
-    .ml-#{$sm}-#{$result}, :host([mt-#{$sm}-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
-    .ma-#{$lg}-#{$result}, :host([ma-#{$lg}-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
+    .mt-sm-#{$result}, :host([mt-sm-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
+    .mr-sm-#{$result}, :host([mt-sm-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
+    .mb-sm-#{$result}, :host([mt-sm-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
+    .ml-sm-#{$result}, :host([mt-sm-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
+    .ma-sm-#{$result}, :host([ma-sm-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
 
-    .pt-#{$result}, :host([pt-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
-    .pr-#{$result}, :host([pr-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
-    .pb-#{$result}, :host([pb-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
-    .pl-#{$result}, :host([pl-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
-    .pa-#{$lg}-#{$result}, :host([pa-#{$lg}-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
+    .pt-sm-#{$result}, :host([pt-sm-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
+    .pr-sm-#{$result}, :host([pr-sm-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
+    .pb-sm-#{$result}, :host([pb-sm-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
+    .pl-sm-#{$result}, :host([pl-sm-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
+    .pa-sm-#{$result}, :host([pa-sm-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
   }
 }
 
@@ -47,17 +47,17 @@ $xxl: 1400px;
   @for $multiplicator from 0 through 20 {
     $result: 8 * $multiplicator;
 
-    .mt-#{$md}-#{$result}, :host([mt-#{$md}-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
-    .mr-#{$md}-#{$result}, :host([mt-#{$md}-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
-    .mb-#{$md}-#{$result}, :host([mt-#{$md}-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
-    .ml-#{$md}-#{$result}, :host([mt-#{$md}-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
-    .ma-#{$lg}-#{$result}, :host([ma-#{$lg}-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
+    .mt-md-#{$result}, :host([mt-md-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
+    .mr-md-#{$result}, :host([mt-md-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
+    .mb-md-#{$result}, :host([mt-md-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
+    .ml-md-#{$result}, :host([mt-md-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
+    .ma-#{$result}, :host([ma-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
 
-    .pt-#{$result}, :host([pt-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
-    .pr-#{$result}, :host([pr-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
-    .pb-#{$result}, :host([pb-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
-    .pl-#{$result}, :host([pl-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
-    .pa-#{$lg}-#{$result}, :host([pa-#{$lg}-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
+    .pt-md-#{$result}, :host([pt-md-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
+    .pr-md-#{$result}, :host([pr-md-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
+    .pb-md-#{$result}, :host([pb-md-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
+    .pl-md-#{$result}, :host([pl-md-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
+    .pa-md-#{$result}, :host([pa-md-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
   }
 }
 
@@ -66,17 +66,17 @@ $xxl: 1400px;
   @for $multiplicator from 0 through 20 {
     $result: 8 * $multiplicator;
 
-    .mt-#{$lg}-#{$result}, :host([mt-#{$lg}-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
-    .mr-#{$lg}-#{$result}, :host([mt-#{$lg}-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
-    .mb-#{$lg}-#{$result}, :host([mt-#{$lg}-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
-    .ml-#{$lg}-#{$result}, :host([mt-#{$lg}-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
-    .ma-#{$lg}-#{$result}, :host([ma-#{$lg}-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
+    .mt-lg-#{$result}, :host([mt-lg-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
+    .mr-lg-#{$result}, :host([mt-lg-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
+    .mb-lg-#{$result}, :host([mt-lg-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
+    .ml-lg-#{$result}, :host([mt-lg-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
+    .ma-lg-#{$result}, :host([ma-lg-#{$result}]) { margin: 0.8rem * $multiplicator!important; }
 
-    .pt-#{$result}, :host([pt-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
-    .pr-#{$result}, :host([pr-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
-    .pb-#{$result}, :host([pb-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
-    .pl-#{$result}, :host([pl-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
-    .pa-#{$lg}-#{$result}, :host([pa-#{$lg}-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
+    .pt-lg-#{$result}, :host([pt-lg-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
+    .pr-lg-#{$result}, :host([pr-lg-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
+    .pb-lg-#{$result}, :host([pb-lg-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
+    .pl-lg-#{$result}, :host([pl-lg-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
+    .pa-lg-#{$result}, :host([pa-lg-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
   }
 }
 
@@ -85,15 +85,15 @@ $xxl: 1400px;
   @for $multiplicator from 0 through 20 {
     $result: 8 * $multiplicator;
 
-    .mt-#{$xl}-#{$result}, :host([mt-#{$xl}-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
-    .mr-#{$xl}-#{$result}, :host([mt-#{$xl}-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
-    .mb-#{$xl}-#{$result}, :host([mt-#{$xl}-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
-    .ml-#{$xl}-#{$result}, :host([mt-#{$xl}-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
+    .mt-xl-#{$result}, :host([mt-xl-#{$result}]) { margin-top: 0.8rem * $multiplicator!important; }
+    .mr-xl-#{$result}, :host([mt-xl-#{$result}]) { margin-right: 0.8rem * $multiplicator!important; }
+    .mb-xl-#{$result}, :host([mt-xl-#{$result}]) { margin-bottom: 0.8rem * $multiplicator!important; }
+    .ml-xl-#{$result}, :host([mt-xl-#{$result}]) { margin-left: 0.8rem * $multiplicator!important; }
 
-    .pt-#{$result}, :host([pt-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
-    .pr-#{$result}, :host([pr-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
-    .pb-#{$result}, :host([pb-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
-    .pl-#{$result}, :host([pl-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
-    .pa-#{$lg}-#{$result}, :host([pa-#{$lg}-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
+    .pt-xl-#{$result}, :host([pt-xl-#{$result}]) { padding-top: 0.8rem * $multiplicator!important; }
+    .pr-xl-#{$result}, :host([pr-xl-#{$result}]) { padding-right: 0.8rem * $multiplicator!important; }
+    .pb-xl-#{$result}, :host([pb-xl-#{$result}]) { padding-bottom: 0.8rem * $multiplicator!important; }
+    .pl-xl-#{$result}, :host([pl-xl-#{$result}]) { padding-left: 0.8rem * $multiplicator!important; }
+    .pa-xl-#{$result}, :host([pa-xl-#{$result}]) { padding: 0.8rem * $multiplicator!important; }
   }
 }

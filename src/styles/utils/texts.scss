@@ -7,48 +7,33 @@ $weights: (
 );
 
 @each $weight, $value in $weights {
-  :host([weight="#{$weight}"]),
-  [weight="#{$weight}"],
-  :host(.weight--#{$weight}),
-  .weight--#{$weight} {
+  .weight-#{$weight} {
     font-weight: $value!important;
 
     h1, h2, h3, h4, h5, h6 {
       font-weight: $value!important;
     }
   }
-
-  ::slotted(.weight--#{$weight}) {
-    font-weight: $value!important;
-  }
 }
 
-
-
-:host(.text--uppercase),
-[text--uppercase],
-.text--uppercase {
+.text-uppercase {
   text-transform: uppercase;
 }
 
-:host(.text--line-through),
-[text--line-through],
-.text--line-through {
+.text-line-through {
   text-decoration: line-through;
 }
 
-:host(.text-left),
-:host([text-align="left"]),
-[text-left],
 .text-left {
   text-align: left;
 }
 
-:host(.text-center),
-:host([text-align="center"]),
-[text-center],
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 
