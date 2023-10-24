@@ -1,10 +1,15 @@
 $component: tp-header;
 
-.#{$component} {
+tp-header {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
+}
+
+.#{$component} {
 
   &__row-1 {
     height: 7.2rem;
@@ -33,6 +38,7 @@ $component: tp-header;
   &__row-2 {
     border-bottom: 0.1rem solid var(--primary-50);
     z-index: -1;
+    position: relative;
     opacity: 0;
     background-color: var(--white);
     transition: 0.2s;
@@ -64,6 +70,10 @@ $component: tp-header;
       img {
         height: 6rem;
       }
+    }
+
+    &__row-2 {
+      z-index: 0;
     }
 
     &--scroll {

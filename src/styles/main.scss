@@ -11,6 +11,24 @@
   src: url('../assets/fonts/metropolis/Metropolis-SemiBold.otf');
 }
 
+@font-face {
+  font-family: 'metropolis-bold';
+  font-weight: 700;
+  src: url('../assets/fonts/metropolis/Metropolis-Bold.otf');
+}
+
+@font-face {
+  font-family: 'futura-regular';
+  font-weight: 400;
+  src: url('../assets/fonts/futura/Futura-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'futura-bold';
+  font-weight: 700;
+  src: url('../assets/fonts/futura/Futura-Bold.otf');
+}
+
 
 @import 'functions/map-deep-get';
 @import 'utils/spacings';
@@ -24,6 +42,9 @@
 @import 'nav';
 @import 'flex';
 @import 'paragraph';
+@import 'heading';
+@import 'highlight';
+@import 'list';
 
 * {
   box-sizing: border-box;
@@ -99,3 +120,18 @@ ul {
     display: none!important;
   }
 }
+
+.br-16 { border-radius: 1.6rem; }
+
+.tp-main {
+  margin-top: calc(7.2rem + 4.8rem);
+
+  @media(min-width: $sm) {
+    margin-top: calc(7.2rem + 10rem)
+  }
+
+  @media(min-width: $lg) {
+    margin-top: calc(22.8rem + 10rem)
+  }
+}
+

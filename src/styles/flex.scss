@@ -76,6 +76,7 @@ $component: tp-flex;
         &-10 { flex: 0 0 83.33333333%; }
         &-9 { flex: 0 0 75%; }
         &-8 { flex: 0 0 66.6667%; }
+        &-7 { flex: 0 0 58.33333333%; }
         &-6 { flex: 0 0 50%; }
         &-5 { flex: 0 0 41.6667%; }
         &-4 { flex: 0 0 33.3333%; }
@@ -93,6 +94,7 @@ $component: tp-flex;
         &-10 { flex: 0 0 83.33333333%; }
         &-9 { flex: 0 0 75%; }
         &-8 { flex: 0 0 66.6667%; }
+        &-7 { flex: 0 0 58.33333333%; }
         &-6 { flex: 0 0 50%; }
         &-5 { flex: 0 0 41.6667%; }
         &-4 { flex: 0 0 33.3333%; }
@@ -127,4 +129,7 @@ $component: tp-flex;
 }
 .align-items-center {
   align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
 }

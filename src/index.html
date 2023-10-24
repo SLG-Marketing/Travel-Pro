@@ -14,6 +14,59 @@
   <body>
     <tp-header active="home"></tp-header>
 
+    <main class="tp-main">
+      <div style="position: relative" class="pb-64 pb-sm-96">
+        <img src="<%= require('./assets/images/travelpro-background-1.png') %>" alt="" style="position: absolute;z-index: -1;bottom:0;left: 0;right: 0;margin: auto;object-fit:cover;width: 100%;">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between">
+            <div class="tp-flex__col tp-flex__col-lg-5 mb-40">
+              <h1 class="tp-heading tp-heading--jumbotron color-primary-800 mb-24">We personalise your business travel</h1>
+              <p class="tp-heading tp-heading--h4 color-primary-950">As a member of the American Express Global Business Travel’s travel partner network, our specialists will manage your business trip and support you throughout all stages of your travel (before, during & after).</p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-lg-6">
+              <img src="<%= require('./assets/images/travelpro-visual-1.png') %>" alt="">
+            </div>
+          </div>
+
+          <div class="tp-highlight mt-24 mt-sm-88" style="background-image: url('<%= require('./assets/images/travelpro-background-2.png') %>')">
+            <div class="tp-highlight__left">
+              <h2 class="tp-heading tp-heading--h3">Curious to see how Travel Pro works and the tools they use ?</h2>
+              <p class="tp-paragraph tp-paragraph--16">Discover with a personalized demo</p>
+            </div>
+            <div class="tp-highlight__right">
+              <a href="" class="tp-button tp-button--primary">Request Demo</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="position: relative" class="pt-64 pb-64 pt-md-80 pb-md-80">
+        <img src="<%= require('./assets/images/travelpro-background-1.png') %>" alt="" style="position: absolute;z-index: -1;bottom:0;left: 0;right: 0;margin: auto;object-fit:cover;width: 100%;">
+        <div class="tp-container">
+          <div class="tp-flex">
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-md-7">
+              <h2 class="tp-heading tp-heading--h2 mb-40">Unlocking seamless travel solutions for your business success</h2>
+            </div>
+          </div>
+          <div class="tp-flex justify-content-between">
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-md-7">
+              <img src="<%= require('./assets/images/travelpro-visual-2.jpg') %>" alt="" class="br-16">
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-md-4 mt-24 mt-md-0">
+              <p class="tp-paragraph tp-paragraph--16 mb-24">Tailored to your needs and the size of your organisation, Travel Pro have services to support you.</p>
+              <ul class="list-icons mb-40">
+                <li>Online booking tool</li>
+                <li>Profile Management tool</li>
+                <li>Approvals system</li>
+                <li>Visa service request</li>
+              </ul>
+              <a href="#" class="tp-button tp-button--outlined">See all services <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
     <tp-footer></tp-footer>
   </body>
 </html>
