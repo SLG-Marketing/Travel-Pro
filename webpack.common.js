@@ -52,6 +52,30 @@ module.exports = {
       template: path.resolve(__dirname, './src/index.html'),
       filename: 'index.html',
     }),
+    new HtmlWebpackPlugin({
+      title: '',
+      description: '',
+      template: path.resolve(__dirname, './src/business-travel.html'),
+      filename: 'business-travel.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: '',
+      description: '',
+      template: path.resolve(__dirname, './src/about-us.html'),
+      filename: 'about-us.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: '',
+      description: '',
+      template: path.resolve(__dirname, './src/blog.html'),
+      filename: 'blog.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: '',
+      description: '',
+      template: path.resolve(__dirname, './src/contact.html'),
+      filename: 'contact.html',
+    }),
     new CleanWebpackPlugin()
   ]
 };

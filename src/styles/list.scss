@@ -1,0 +1,21 @@
+.list-icons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.6rem;
+
+  li {
+    color: var(--primary-950);
+    font-family: var(--font-family-body-sb);
+    font-size: 1.6rem;
+    position: relative;
+    padding-left: 3.2rem;
+
+    &:before {
+      position: absolute;
+      left: 0;
+      content: "\e913";
+      font-family: 'icomoon';
+      color: var(--primary-700)
+    }
+  }
+}

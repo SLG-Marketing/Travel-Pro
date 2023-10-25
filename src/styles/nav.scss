@@ -1,7 +1,6 @@
 $component: tp-nav;
 
 .#{$component} {
-
   ul {
     list-style-type: none;
     padding: 0;
@@ -101,5 +100,24 @@ $component: tp-nav;
       }
     }
   
+  }
+}
+
+.tp-nav-social {
+  ul {
+    display: flex;
+    column-gap: 1.6rem;
+  }
+  li {
+    display: inline-flex;
+  }
+}
+
+
+.tp-nav-footer {
+  ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.6rem;
   }
 }

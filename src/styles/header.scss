@@ -1,10 +1,17 @@
 $component: tp-header;
 
-.#{$component} {
+tp-header {
+  display: block;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
+  height: 7.2rem;
+}
+
+.#{$component} {
+  height: 7.2rem;
 
   &__row-1 {
     height: 7.2rem;
@@ -32,16 +39,19 @@ $component: tp-header;
 
   &__row-2 {
     border-bottom: 0.1rem solid var(--primary-50);
-    pointer-events: none;
+    z-index: -1;
+    position: relative;
     opacity: 0;
+    visibility: hidden;
     background-color: var(--white);
     transition: 0.2s;
     transform: translateY(-1rem);
 
     &.nav-open {
-      pointer-events: all;
+      z-index: 0;
       opacity: 1;
       transform: translateY(0);
+      visibility: visible;
     }
 
 
@@ -66,10 +76,14 @@ $component: tp-header;
       }
     }
 
+    &__row-2 {
+      z-index: 0;
+    }
+
     &--scroll {
       .#{$component}__row-1 {
         height: 5.2rem;
-  
+
         img {
           height: 2.8rem;
           transition: 0.2s;
