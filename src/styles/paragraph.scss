@@ -2,6 +2,11 @@ $component: tp-paragraph;
 
 .#{$component} {
   margin: 0;
+  color: var(--primary-950);
+
+  strong {
+    font-family: var(--font-family-body-bold);
+  }
 
   &--14 {
     font-size: 1.4rem;

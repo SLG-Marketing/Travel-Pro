@@ -1,0 +1,16 @@
+$component: tp-badge;
+
+.#{$component} {
+  height: 2.8rem;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2.4rem;
+  padding: 0 1.6rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  &--tertiary-200 {
+    background-color: var(--tertiary-200);
+  }
+}

@@ -1,0 +1,17 @@
+$component: tp-testimonial-card;
+
+.#{$component} {
+  border: 0.1rem solid var(--primary-100);
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+
+  blockquote {
+    padding: 0;
+    margin: 0;
+    > p { font-style: italic; }
+  }
+
+  footer {
+    margin-top: 1.6rem;
+  }
+}

@@ -11,6 +11,8 @@ $colors: (
   'primary-700': var(--primary-700),
   'primary-800': var(--primary-800),
   'primary-900': var(--primary-900),
+  'primary-900-80': var(--primary-900-80),
+  'primary-950': var(--primary-950),
 );
 
 @each $color, $value in $colors {
@@ -19,6 +21,6 @@ $colors: (
   }
 
   .color-#{$color}, [color="#{$color}"] {
-    color: $value;
+    color: $value!important;
   }
 }

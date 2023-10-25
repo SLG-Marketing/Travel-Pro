@@ -45,6 +45,9 @@
 @import 'heading';
 @import 'highlight';
 @import 'list';
+@import 'illus';
+@import 'badge';
+@import 'testimonial-card';
 
 * {
   box-sizing: border-box;
@@ -64,6 +67,8 @@ img {
   max-width: 100%;
 }
 
+
+
 ul {
   margin: 0;
   padding: 0;
@@ -71,7 +76,7 @@ ul {
 }
 
 .tp-container {
-  max-width: 113rem;
+  max-width: var(--container-width);
   margin-inline: auto;
   padding: 0 1.6rem;
 }
@@ -133,5 +138,77 @@ ul {
   @media(min-width: $lg) {
     margin-top: calc(22.8rem + 10rem)
   }
+}
+
+
+
+.tp-card-service-name {
+  border-radius: 2.4rem;
+  padding: 3.2rem;
+  position: relative;
+
+  &__button {
+    position: absolute;
+    left: 0;
+    top: 5rem;
+    transform: translateX(-50%)
+  }
+
+  @media(min-width: $sm) {
+    padding: 4rem 5.6rem;
+  }
+}
+
+
+.tp-slider-overflow-container {
+  overflow: hidden;
+  padding-left: calc(((100vw - var(--container-width))/ 2) + 0.8rem);
+
+  &__content {
+    position: absolute;
+    max-width: 36rem;
+  }
+
+  &__inner {
+    -webkit-mask: linear-gradient(to right, transparent 97px, #000 123px);
+    -webkit-mask-position-x: 266px;
+    -webkit-mask-size: 150% 100%;
+    -webkit-mask-repeat: no-repeat;
+    padding-left: 38.4rem;
+  }
+
+  .tp-slider-container {
+    max-width: var(--container-width);
+  }
+}
+
+.swiper-pagination {
+  display: flex;
+  column-gap: 0.8rem;
+}
+
+.swiper-pagination-bullet {
+  border-radius: 1.6rem;
+  height: 0.8rem;
+  width: 3.2rem;
+  border: 0.1rem solid var(--primary-900);
+  cursor: pointer;
+  
+  &-active {
+    background-color: var(--primary-900);
+  }
+}
+
+.swiper-navigation {
+  display: flex;
+  column-gap: 1.6rem;
+}
+
+.swiper-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3.2rem;
+  max-width: calc(((100vw - var(--container-width))/ 2) + 0.8rem);
 }
 

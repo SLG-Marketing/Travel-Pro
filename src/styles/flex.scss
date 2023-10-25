@@ -52,6 +52,7 @@ $component: tp-flex;
     }
 
     &-12 { flex: 0 0 100%; }
+    &-11 { flex: 0 0 91.6667%; }
     &-10 { flex: 0 0 83.33333333%; }
     &-9 { flex: 0 0 75%; }
     &-8 { flex: 0 0 66.6667%; }
@@ -129,6 +130,9 @@ $component: tp-flex;
 }
 .align-items-center {
   align-items: center;
+}
+.justify-content-end {
+  justify-content: flex-end;
 }
 .justify-content-between {
   justify-content: space-between;

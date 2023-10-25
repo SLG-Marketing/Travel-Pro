@@ -2,6 +2,11 @@ $component: tp-heading;
 
 .#{$component} {
   margin: 0;
+  color: var(--primary-950);
+
+  strong {
+    font-family: var(--font-family-heading-bold);
+  }
 
   &--jumbotron {
     font-size: 3.2rem;
@@ -14,9 +19,23 @@ $component: tp-heading;
   }
 
   &--h2 {
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     font-family: var(--font-family-heading-bold);
     line-height: 1.3;
+
+    @media(min-width: $sm) {
+      font-size: 2.8rem;
+    }
+  }
+
+  &--h3 {
+    font-size: 2rem;
+    font-family: var(--font-family-heading-bold);
+    line-height: 1.3;
+
+    @media(min-width: $sm) {
+      font-size: 2rem;
+    }
   }
 
   &--h4 {
