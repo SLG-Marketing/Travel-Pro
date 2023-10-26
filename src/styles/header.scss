@@ -42,10 +42,10 @@ tp-header {
     z-index: -1;
     position: relative;
     opacity: 0;
-    visibility: hidden;
     background-color: var(--white);
     transition: 0.2s;
     transform: translateY(-1rem);
+    visibility: hidden;
 
     &.nav-open {
       z-index: 0;
@@ -78,6 +78,7 @@ tp-header {
 
     &__row-2 {
       z-index: 0;
+      visibility: visible;
     }
 
     &--scroll {

@@ -49,6 +49,7 @@
 @import 'illus';
 @import 'badge';
 @import 'testimonial-card';
+@import 'swiper';
 
 * {
   box-sizing: border-box;
@@ -160,74 +161,28 @@ ul {
   }
 }
 
+.tp-section {
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  background-size: cover;
+  position: relative;
 
-.tp-slider-overflow-container {
-  overflow: hidden;
-  padding-left: 1.6rem;
-
-  &__inner {
-    -webkit-mask: linear-gradient(to left, transparent 97px, #000 123px);
-    -webkit-mask-position-x: 0;
-    -webkit-mask-size: 122% 100%;
-  }
-
-  .tp-slider-container {
-    max-width: var(--container-width);
-    overflow: hidden;
-  }
-
-  @media(min-width: 113rem) {
-    padding-left: calc(((100vw - var(--container-width))/ 2) + 0.8rem);
-  }
-
-  @media(min-width: $lg) {
-    &__content {
-      position: absolute;
-      max-width: 36rem;
-    }
-
-    &__inner {
-      -webkit-mask: linear-gradient(to right, transparent 97px, #000 123px);
-      -webkit-mask-position-x: 266px;
-      -webkit-mask-size: 150% 100%;
-      padding-left: 38.4rem;
-    }
+  @media(min-width: $md) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 }
 
-.swiper-pagination {
+
+.tp-buttons-row {
   display: flex;
-  column-gap: 0.8rem;
-}
+  justify-content: center;
+  gap: 1.6rem;
+  flex-direction: column;
 
-.swiper-pagination-bullet {
-  border-radius: 1.6rem;
-  height: 0.8rem;
-  width: 3.2rem;
-  border: 0.1rem solid var(--primary-900);
-  cursor: pointer;
-
-  &-active {
-    background-color: var(--primary-900);
-  }
-}
-
-.swiper-navigation {
-  display: flex;
-  column-gap: 1.6rem;
-}
-
-.swiper-actions {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 1.6rem;
-  max-width: var(--container-width);
-  padding-right: 1.6rem;
-
-  @media(min-width: $lg) {
-    margin-top: 3.2rem;
-    padding-left: 39rem;
+  @media(min-width: $sm) {
+    gap: 3.2rem;
+    flex-direction: row;
   }
 }
 

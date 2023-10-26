@@ -48,7 +48,7 @@ export default class Footer extends HTMLElement {
                 </div>
 
                 <div class="tp-footer__row">
-                  <div class="tp-flex tp-flex--align-items--center">
+                  <div class="tp-flex align-items-center">
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-3">
                       <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Follow us</p>
                       <nav class="tp-nav-social">

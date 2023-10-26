@@ -125,15 +125,24 @@ $component: tp-flex;
 }
 
 
+.gap-32 { gap: 3.2rem; }
+
 .d-flex {
   display: flex;
 }
+
 .align-items-center {
   align-items: center;
 }
+
+.justify-content-center {
+  justify-content: center;
+}
+
 .justify-content-end {
   justify-content: flex-end;
 }
+
 .justify-content-between {
   justify-content: space-between;
 }
