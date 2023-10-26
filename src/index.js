@@ -8,6 +8,9 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 import 'swiper/css';
 
+import TabsAutomatic from './scripts/tabs';
+import expands from './scripts/expand';
+
 document.addEventListener('DOMContentLoaded', () => {
   // init Swiper:
   const swiper = new Swiper('.tp-swiper', {
@@ -30,4 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     }
   });
+
+  
+  window.addEventListener('load', function () {
+    var tablists = document.querySelectorAll('[role=tablist].tp-tabs');
+    for (var i = 0; i < tablists.length; i++) {
+      new TabsAutomatic(tablists[i]);
+    }
+  });
+
+  expands.init();
 });

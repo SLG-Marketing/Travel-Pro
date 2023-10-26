@@ -93,9 +93,25 @@ $xxl: 1400px;
   --button-color-primary-outlined-disabled-background-color: var(--neutral-50);
   --button-color-primary-outlined-disabled-border-color: var(--secondary-600);
 
+  --button-color-primary-text-only-enable-color:var(--secondary-300);
+  --button-color-primary-text-only-enable-background-color: transparent;
+  --button-color-primary-text-only-enable-border-color: var(--secondary-300);
+  --button-color-primary-text-only-hover-color: var(--primary-950);
+  --button-color-primary-text-only-hover-background-color: var(--secondary-400);
+  --button-color-primary-text-only-hover-border-color: var(--secondary-600);
+  --button-color-primary-text-only-focus-color: var(--primary-950);
+  --button-color-primary-text-only-focus-background-color: var(--secondary-400);
+  --button-color-primary-text-only-focus-border-color: var(--primary-950);
+  --button-color-primary-text-only-active-color: var(--primary-950);
+  --button-color-primary-text-only-active-background-color: var(--secondary-500);
+  --button-color-primary-text-only-active-border-color: var(--secondary-600);
+  --button-color-primary-text-only-disabled-color: var(--neutral-700);
+  --button-color-primary-text-only-disabled-background-color: var(--neutral-50);
+  --button-color-primary-text-only-disabled-border-color: var(--secondary-600);
 
-  --button-color-primary-900-filled-enable-color: var(--primary-950);
-  --button-color-primary-900-filled-enable-background-color: var(--secondary-300);
+
+  --button-color-primary-900-filled-enable-color: var(--white);
+  --button-color-primary-900-filled-enable-background-color: var(--primary-900);
   --button-color-primary-900-filled-enable-border-color: transparent;
 
   --button-color-primary-900-filled-hover-color: var(--primary-950);
@@ -133,6 +149,26 @@ $xxl: 1400px;
   --button-color-primary-900-outlined-disabled-color: var(--neutral-700);
   --button-color-primary-900-outlined-disabled-background-color: var(--neutral-50);
   --button-color-primary-900-outlined-disabled-border-color: var(--secondary-600);
+
+  --button-color-primary-900-text-only-enable-color: var(--primary-950);
+  --button-color-primary-900-text-only-enable-background-color: transparent;
+  --button-color-primary-900-text-only-enable-border-color: transparent;
+
+  --button-color-primary-900-text-only-hover-color: var(--primary-950);
+  --button-color-primary-900-text-only-hover-background-color: transparent;
+  --button-color-primary-900-text-only-hover-border-color: var(--primary-900);
+  
+  --button-color-primary-900-text-only-focus-color: var(--primary-950);
+  --button-color-primary-900-text-only-focus-background-color: transparent;
+  --button-color-primary-900-text-only-focus-border-color: var(--primary-900);
+
+  --button-color-primary-900-text-only-active-color: var(--primary-950);
+  --button-color-primary-900-text-only-active-background-color: transparent;
+  --button-color-primary-900-text-only-active-border-color: var(--primary-900);
+
+  --button-color-primary-900-text-only-disabled-color: var(--neutral-700);
+  --button-color-primary-900-text-only-disabled-background-color: var(--neutral-50);
+  --button-color-primary-900-text-only-disabled-border-color: var(--secondary-600);
 
 
   --button-color-primary-950-filled-enable-color: var(--tertiary-200);
@@ -174,6 +210,27 @@ $xxl: 1400px;
   --button-color-primary-950-outlined-disabled-color: var(--neutral-700);
   --button-color-primary-950-outlined-disabled-background-color: var(--neutral-50);
   --button-color-primary-950-outlined-disabled-border-color: var(--secondary-600);
+
+  --button-color-primary-950-text-only-enable-color: var(--primary-950);
+  --button-color-primary-950-text-only-enable-background-color: transparent;
+  --button-color-primary-950-text-only-enable-border-color: var(--primary-950);
+
+  --button-color-primary-950-text-only-hover-color: var(--primary-950);
+  --button-color-primary-950-text-only-hover-background-color: transparent;
+  --button-color-primary-950-text-only-hover-border-color: var(--primary-950);
+  
+  --button-color-primary-950-text-only-focus-color: var(--primary-950);
+  --button-color-primary-950-text-only-focus-background-color: transparent;
+  --button-color-primary-950-text-only-focus-border-color: var(--primary-950);
+
+  --button-color-primary-950-text-only-active-color: var(--primary-950);
+  --button-color-primary-950-text-only-active-background-color: transparent;
+  --button-color-primary-950-text-only-active-border-color: var(--primary-950);
+
+  --button-color-primary-950-text-only-disabled-color: var(--neutral-700);
+  --button-color-primary-950-text-only-disabled-background-color: var(--neutral-50);
+  --button-color-primary-950-text-only-disabled-border-color: var(--secondary-600);
+
 
   --button-size-default-size-height: 4rem;
   --button-size-default-border-radius: 6.4rem;

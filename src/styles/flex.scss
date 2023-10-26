@@ -7,6 +7,7 @@ $component: tp-flex;
 
   &.row-gap {
     &-32 { row-gap: 3.2rem; }
+    &-40 { row-gap: 4rem; }
   }
 
   &-align-items {
@@ -123,6 +124,8 @@ $component: tp-flex;
     }
   }
 }
+
+
 
 
 .gap-32 { gap: 3.2rem; }

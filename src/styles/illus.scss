@@ -9,3 +9,11 @@
     bottom: -10rem;
   }
 }
+
+.tp-illu-2 {
+  display: block; 
+  @media(min-width: $md) {
+    position: absolute;
+    bottom: 0;
+  }
+}

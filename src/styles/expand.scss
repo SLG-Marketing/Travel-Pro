@@ -1,0 +1,30 @@
+$component: tp-expand;
+
+.#{$component} {
+  padding: 2.4rem 3.2rem;
+  border: 0.1rem solid var(--primary-100);
+  border-radius: 2.4rem;
+
+  &__trigger {
+    margin-top: 1.6rem;
+    cursor: pointer;
+
+    i {
+      transform: rotate(0);
+      transition: 0.2s;
+    }
+
+    &[aria-expanded="true"] {
+      i {
+        transform: rotate(180deg)
+      }
+    }
+  }
+
+  &__content {
+    overflow: hidden;
+    transition: height 0.3s cubic-bezier(0.65, 0.05, 0.36, 1);
+    height: 0;
+    pointer-events: none;
+  }
+}

@@ -53,6 +53,33 @@ $button-colors: (
         color: var(--button-color-primary-outlined-disabled-color),
         border-color: var(--button-color-primary-outlined-disabled-border-color)
       )
+    ),
+    text-only: (
+      enable: (
+        background-color: var(--button-color-primary-text-only-enable-background-color),
+        color: var(--button-color-primary-text-only-enable-color),
+        border-color: var(--button-color-primary-text-only-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-primary-text-only-hover-background-color),
+        color: var(--button-color-primary-text-only-hover-color),
+        border-color: var(--button-color-primary-text-only-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-primary-text-only-focus-background-color),
+        color: var(--button-color-primary-text-only-focus-color),
+        border-color: var(--button-color-primary-text-only-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-primary-text-only-active-background-color),
+        color: var(--button-color-primary-text-only-active-color),
+        border-color: var(--button-color-primary-text-only-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-primary-text-only-disabled-background-color),
+        color: var(--button-color-primary-text-only-disabled-color),
+        border-color: var(--button-color-primary-text-only-disabled-border-color)
+      )
     )
   ),
   primary-900: (
@@ -109,6 +136,33 @@ $button-colors: (
         color: var(--button-color-primary-900-outlined-disabled-color),
         border-color: var(--button-color-primary-900-outlined-disabled-border-color)
       )
+    ),
+    text-only: (
+      enable: (
+        background-color: var(--button-color-primary-900-text-only-enable-background-color),
+        color: var(--button-color-primary-900-text-only-enable-color),
+        border-color: var(--button-color-primary-900-text-only-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-primary-900-text-only-hover-background-color),
+        color: var(--button-color-primary-900-text-only-hover-color),
+        border-color: var(--button-color-primary-900-text-only-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-primary-900-text-only-focus-background-color),
+        color: var(--button-color-primary-900-text-only-focus-color),
+        border-color: var(--button-color-primary-900-text-only-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-primary-900-text-only-active-background-color),
+        color: var(--button-color-primary-900-text-only-active-color),
+        border-color: var(--button-color-primary-900-text-only-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-primary-900-text-only-disabled-background-color),
+        color: var(--button-color-primary-900-text-only-disabled-color),
+        border-color: var(--button-color-primary-900-text-only-disabled-border-color)
+      )
     )
   ),
   primary-950: (
@@ -164,6 +218,33 @@ $button-colors: (
         background-color: var(--button-color-primary-950-outlined-disabled-background-color),
         color: var(--button-color-primary-950-outlined-disabled-color),
         border-color: var(--button-color-primary-950-outlined-disabled-border-color)
+      )
+    ),
+    text-only: (
+      enable: (
+        background-color: var(--button-color-primary-950-text-only-enable-background-color),
+        color: var(--button-color-primary-950-text-only-enable-color),
+        border-color: var(--button-color-primary-950-text-only-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-primary-950-text-only-hover-background-color),
+        color: var(--button-color-primary-950-text-only-hover-color),
+        border-color: var(--button-color-primary-950-text-only-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-primary-950-text-only-focus-background-color),
+        color: var(--button-color-primary-950-text-only-focus-color),
+        border-color: var(--button-color-primary-950-text-only-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-primary-950-text-only-active-background-color),
+        color: var(--button-color-primary-950-text-only-active-color),
+        border-color: var(--button-color-primary-950-text-only-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-primary-950-text-only-disabled-background-color),
+        color: var(--button-color-primary-950-text-only-disabled-color),
+        border-color: var(--button-color-primary-950-text-only-disabled-border-color)
       )
     )
   )
@@ -242,6 +323,12 @@ $component: tp-button;
           color: map-deep-get($value, 'outlined', 'enable', 'color');
           background-color: map-deep-get($value, 'outlined', 'enable', 'background-color');
           border-color: map-deep-get($value, 'outlined', 'enable', 'border-color');
+        }
+
+        &.#{$component}--text-only {
+          color: map-deep-get($value, 'text-only', 'enable', 'color');
+          background-color: map-deep-get($value, 'text-only', 'enable', 'background-color');
+          border-color: map-deep-get($value, 'text-only', 'enable', 'border-color');
         }
       }
     }

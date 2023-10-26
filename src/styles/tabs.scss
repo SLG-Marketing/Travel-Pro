@@ -1,0 +1,32 @@
+$component: tp-tabs;
+
+.#{$component} {
+  border-bottom: 0.1rem solid var(--primary-100);
+  overflow-y: hidden;
+  overflow-x: scroll;
+  position: sticky;
+  top: 7.2rem;
+  display: flex;
+  column-gap: 1.6rem;
+  padding-right: 2.4rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  margin-right: -1.6rem;
+  background-color: var(--white);
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+
+  .tp-button {
+    white-space: nowrap;
+  }
+}
+
+.#{$component}-content {
+  margin-top: 3.2rem;
+  
+  [role="tabpanel"].is-hidden {
+    display: none;
+  }
+}
