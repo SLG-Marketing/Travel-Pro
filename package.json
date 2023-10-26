@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --env production --config webpack.prod.js"
   },
   "keywords": [],
   "author": "Loïc Sciampagna <contact@loic-sciampagna.fr>",

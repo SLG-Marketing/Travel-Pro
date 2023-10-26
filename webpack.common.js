@@ -2,6 +2,8 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+
+
 module.exports = {
   entry: {
     main: path.resolve(__dirname, './src/index.js')
@@ -23,14 +25,6 @@ module.exports = {
         Si le type = 'asset/resource' alors le fichier sera traité comme une ressource et sera placé dans un dossier lors du build.
         Si le type = 'asset/inline' alors le fichier sera intégré directement là où il a été appelé. Par exemple une font de type asset/inline sera encodé dans le fichier css minifié du dossier dist
       */
-      {
-        test: /\.(woff(2)?|eot|ttf|otf|)$/,
-        type: 'asset/resource',
-        generator: {
-          publicPath: 'assets/fonts/', // Chemin ajouté devant le nom de la font dans le fichier css
-          outputPath: 'assets/fonts', // Nom du dossier dans lequel est stocké la font
-        },
-      },
       {
         test: /\.svg$/,
         type: 'asset/inline',
