@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "build": "webpack --env production --config webpack.prod.js"
+    "i18n": "static-i18n -l en -i en -i de -i fr src --localesPath src/langs/",
+    "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
   "author": "Loïc Sciampagna <contact@loic-sciampagna.fr>",
@@ -37,6 +38,7 @@
     "webpack-merge": "^5.10.0"
   },
   "dependencies": {
+    "static-i18n": "^0.2.10",
     "swiper": "^11.0.2"
   }
 }

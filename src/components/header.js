@@ -21,7 +21,7 @@ export default class Header extends HTMLElement {
                             </div>
                             <div class="tp-header__row-1__right">
                               <a href="#" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
-                              <a href="#" class="tp-link d-f-sm"><i class="icon-globe" aria-hidden="true"></i> EN</a>
+                              <a href="#" class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</a>
 
                               <a href="#" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Request Demo</a>
 

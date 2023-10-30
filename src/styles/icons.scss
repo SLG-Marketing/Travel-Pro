@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../assets/icons/fonts/icomoon.eot?un9oo7');
-  src:  url('../assets/icons/fonts/icomoon.eot?un9oo7#iefix') format('embedded-opentype'),
-    url('../assets/icons/fonts/icomoon.ttf?un9oo7') format('truetype'),
-    url('../assets/icons/fonts/icomoon.woff?un9oo7') format('woff'),
-    url('../assets/icons/fonts/icomoon.svg?un9oo7#icomoon') format('svg');
+  src:  url('../assets/icons/fonts/icomoon.eot?z8orqx');
+  src:  url('../assets/icons/fonts/icomoon.eot?z8orqx#iefix') format('embedded-opentype'),
+    url('../assets/icons/fonts/icomoon.ttf?z8orqx') format('truetype'),
+    url('../assets/icons/fonts/icomoon.woff?z8orqx') format('woff'),
+    url('../assets/icons/fonts/icomoon.svg?z8orqx#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-circle-pause:before {
+  content: "\e939";
+  color: #08436a;
+}
+.icon-circle-play:before {
+  content: "\e93a";
+  color: #08436a;
+}
 .icon-arrow-down-to-line:before {
   content: "\e900";
 }

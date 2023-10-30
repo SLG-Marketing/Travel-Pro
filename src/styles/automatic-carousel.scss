@@ -1,0 +1,17 @@
+.tp-automatic-swiper {
+  position: relative;
+
+  &:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: var(--primary-50);
+    content: "";
+    width: 1px;
+    z-index: 2;
+  }
+  .swiper-wrapper {
+    transition-timing-function: linear;
+  }
+}

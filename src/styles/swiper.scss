@@ -1,11 +1,11 @@
 .tp-slider-overflow-container {
   overflow: hidden;
   padding-left: 1.6rem;
-
+  
   &__inner {
-    -webkit-mask: linear-gradient(to left, transparent 97px, #000 123px);
+/*     -webkit-mask: linear-gradient(to left, transparent 97px, #000 123px);
     -webkit-mask-position-x: 0;
-    -webkit-mask-size: 122% 100%;
+    -webkit-mask-size: 122% 100%; */
   }
 
   .tp-slider-container {
@@ -16,16 +16,19 @@
 
 
   @media(min-width: $lg) {
+    display: flex;
+
     &__content {
-      position: absolute;
+      //position: absolute;
       max-width: 36rem;
+      flex: 0 0 100%;
     }
 
     &__inner {
-      -webkit-mask: linear-gradient(to right, transparent 97px, #000 123px);
+/*       -webkit-mask: linear-gradient(to right, transparent 97px, #000 123px);
       -webkit-mask-position-x: 266px;
-      -webkit-mask-size: 150% 100%;
-      padding-left: 38.4rem;
+      -webkit-mask-size: 150% 100%; */
+      //padding-left: 38.4rem;
     }
   }
 

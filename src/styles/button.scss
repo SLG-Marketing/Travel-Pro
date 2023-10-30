@@ -286,6 +286,7 @@ $component: tp-button;
   justify-content: center;
   text-decoration: none;
   border-style: solid;
+  cursor: pointer;
 
   // colors styles
   @each $key, $value in $button-colors {
@@ -323,12 +324,20 @@ $component: tp-button;
           color: map-deep-get($value, 'outlined', 'enable', 'color');
           background-color: map-deep-get($value, 'outlined', 'enable', 'background-color');
           border-color: map-deep-get($value, 'outlined', 'enable', 'border-color');
+
+          i {
+            color: map-deep-get($value, 'outlined', 'enable', 'color');
+          }
         }
 
         &.#{$component}--text-only {
           color: map-deep-get($value, 'text-only', 'enable', 'color');
           background-color: map-deep-get($value, 'text-only', 'enable', 'background-color');
           border-color: map-deep-get($value, 'text-only', 'enable', 'border-color');
+
+          i {
+            color: map-deep-get($value, 'text-only', 'enable', 'color');
+          }
         }
       }
     }

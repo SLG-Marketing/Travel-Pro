@@ -14,6 +14,456 @@
   <body>
     <tp-header active="about-us"></tp-header>
 
+    <main class="tp-main">
+
+      <div class="tp-section" style="background-image: url('<%= require('./assets/images/travelpro-background-6.png') %>')">
+        <div class="tp-container">
+          <div class="tp-flex mb-32 mb-md-56">
+            <div class="tp-flex__col tp-flex__col-md-7">
+              <h1 class="tp-heading tp-heading--h1 mb-32 mb-md-40">Who we are</h1>
+              <p class="tp-heading tp-heading--h3">Travel Pro is the largest Travel Management Company in Luxembourg.</p>
+            </div>
+          </div>
+          <div class="tp-flex row-gap-32">
+            <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3 weight-600">
+              <img src="<%= require('./assets/images/travelpro-rocket.svg') %>" alt="" class="mb-8">
+              <p class="tp-paragraph tp-paragraph--16">Specialised in Business travel since 1993</p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3 weight-600">
+              <img src="<%= require('./assets/images/travelpro-earth.svg') %>" alt="" class="mb-8">
+              <p class="tp-paragraph tp-paragraph--16">Serving over 450 local & international companies</p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3 weight-600">
+              <img src="<%= require('./assets/images/travelpro-prize.svg') %>" alt="" class="mb-8">
+              <p class="tp-paragraph tp-paragraph--16">Senior Travel Consultants</p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3 weight-600">
+              <img src="<%= require('./assets/images/travelpro-dialog.svg') %>" alt="" class="mb-8">
+              <p class="tp-paragraph tp-paragraph--16">Multilingual team En, lb, fr, de, it</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section">
+        <div class="tp-container">
+          <h2 class="tp-heading tp-heading--h2 mb-32">We work in partnership</h2>
+          <div class="tp-flex row-gap-32">
+            <div class="tp-flex__col tp-flex__col-sm-6 d-flex">
+              <div class="pa-32 bg-primary-50 br-16">
+                <img src="<%= require('./assets/images/travelpro-logo-header.svg') %>" alt="" class="mb-32">
+                <p class="tp-paragraph tp-paragraph--16 weight-600 mb-32">Travel Pro has been a member of the American Express Global Business Travel’s travel partner network since 2014.</p>
+                <a href="#" class="tp-link">More information <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-sm-6">
+              <div class="pa-32 bg-primary-50 br-16">
+                <img src="<%= require('./assets/images/travelpro-part-of-slg-2.svg') %>" alt="" class="mb-32">
+                <p class="tp-paragraph tp-paragraph--16 weight-600 mb-32">We are part of SLG Group, a family-owned business that was founded in 1948, a leader in Luxembourg in the field of Mobility and Travel.</p>
+                <a href="#" class="tp-link">More information <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section">
+        <div class="tp-container">
+          <h2 class="tp-heading tp-heading--h2 mb-32 text-center">Values</h2>
+          <div class="tp-flex justify-content-center">
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-8">
+              <p class="tp-heading tp-heading--h3 text-center weight-500">
+                As a part of SLG, Travel Pro shares the same values & corporate principles,
+                they describe what we stand for and how we work.
+              </p>
+            </div>
+          </div>
+
+          <div class="tp-flex mt-40 row-gap-sm-40">
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Working with respect & equality</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">We support our employees by advocating absolute equality, equal opportunities and respectful interaction. We reject any form of discrimination based on gender, origin, religion, age or sexual orientation.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Data protection & compliance commitment</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">
+                    We attach particular importance to the security of our clients. 
+                    Transparency, data security, individual rights, data retention, training and awareness, 
+                    collaboration with Authorities are all part of our daily work.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Health and safety</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">
+                    In order to protect our customers and ourselves, the word "safety" resonates as a leitmotif in all 
+                    our business sectors. The health of our employees is a top priority.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Innovation</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">The will to be technological pioneers in every area opens the door to new ideas. If these prove to be useful for our clients, we just implement them! To better understand our markets, we regularly carry out studies. The exchange of ideas and reflexions in our teams also makes it possible to develop new solutions to the problems that arise.</p>
+                </div>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Supplier partnership</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">
+                    Travel Pro treats its suppliers as important partners. 
+                    We determine our agreements in accordance with the terms and deadlines on which we have mutually agreed. 
+                    We select our suppliers according to quality and budget criteria, but prefer those who maintain a 
+                    similar corporate culture as we do.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Our approach to competition</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">
+                    Travel Pro respect the physical and intellectual property of market participants. 
+                    This means that the appropriation of commercial information by illegal and unethical means must be excluded. 
+                    We reject any questionable action that could give us a competitive advantage.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Environmental responsibility</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">We are committed to protecting the environment wherever possible. As an environmentally conscious group of companies, SLG avoids the waste of natural resources and prefers to use energy from renewable sources. When offered by our suppliers, we choose to purchase ecological materials and equipment. </p>
+                </div>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Social commitment</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">
+                    We are aware of our responsibility to integrate and secure jobs. Guaranteeing them is our first concern. In this way, we contribute to the economic success of the regions in which we are active. We are also aware of our role as a pioneer in the field of mobility. We want to actively contribute to the promotion of more responsible, sustainable and respectful tourism. We consider it our duty to support a humanitarian project every year.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4">
+              <div class="tp-expand-2">
+                <div class="tp-expand-2__trigger" aria-expanded="false"> 
+                  <i class="icon-circle-check color-primary-700 font-size-26" aria-hidden="true"></i>
+                  <h3 class="tp-heading tp-heading--h3">Corporate governance</h3>
+                  <i class="icon-chevron-down color-neutral-700 tp-expand-2__arrow" aria-hidden="true"></i>
+                </div>
+                <div class="tp-expand-2__content">
+                  <div class="tp-expand-2__spacer">&nbsp;</div>
+                  <p class="tp-paragraph tp-paragraph--16">
+                    We are a trustworthy group of companies that favours stable long-term management. By positioning ourselves as an actor of technological and social change, we also want to set ourselves new challenges. The ambition that drives us is reflected in our current philosophy "Driven by tomorrow": We want to find innovative ideas that make our customer's lives easier and better. The basis for our pursuit of stability and innovation always has the same foundation for our CEOs: professionalism, responsiveness and efficiency.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- team -->
+      <div class="tp-section pb-0" style="background-image: url('<%= require('./assets/images/travelpro-background-7.png') %>');">
+        <div class="tp-slider-overflow-container">
+          <div class="tp-slider-overflow-container__content">
+            <h2 class="tp-heading tp-heading--h2 mb-md-24 mb-16">Our team</h2>
+            <p class="tp-paragraph tp-paragraph--16 mb-24">Travel Pro is driven by dedicated leadership headquartered in Luxembourg, passionately devoted to overseeing the company.</p>
+          </div>
+
+          <div class="tp-slider-overflow-container__inner">
+            <div class="tp-slider-container">
+              <div class="tp-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="tp-team-card">
+                      <div class="tp-team-card__visual"><img src="<%= require('./assets/images/travelpro-visual-4.jpg') %>" alt=""></div>
+                      <div class="tp-team-card__content">
+                        <p class="tp-heading tp-heading--h4"><strong>Gianni Pietrangelo</strong></p>
+                        <p class="tp-paragraph tp-paragraph--16">CEO</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-team-card">
+                      <div class="tp-team-card__visual"><img src="<%= require('./assets/images/travelpro-visual-4.jpg') %>" alt=""></div>
+                      <div class="tp-team-card__content">
+                        <p class="tp-heading tp-heading--h4"><strong>Gianni Pietrangelo</strong></p>
+                        <p class="tp-paragraph tp-paragraph--16">CEO</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-team-card">
+                      <div class="tp-team-card__visual"><img src="<%= require('./assets/images/travelpro-visual-4.jpg') %>" alt=""></div>
+                      <div class="tp-team-card__content">
+                        <p class="tp-heading tp-heading--h4"><strong>Gianni Pietrangelo</strong></p>
+                        <p class="tp-paragraph tp-paragraph--16">CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="tp-team-card">
+                      <div class="tp-team-card__visual"><img src="<%= require('./assets/images/travelpro-visual-4.jpg') %>" alt=""></div>
+                      <div class="tp-team-card__content">
+                        <p class="tp-heading tp-heading--h4"><strong>Gianni Pietrangelo</strong></p>
+                        <p class="tp-paragraph tp-paragraph--16">CEO</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-actions">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-navigation">
+              <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-prev"><i class="icon-arrow-left-long" aria-hidden="true"></i></button>
+              <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-next"><i class="icon-arrow-right-long" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tp-container mt-56 mt-sm-24">
+          <div class="tp-flex align-items-center">
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-7">
+              <p class="tp-paragraph tp-paragraph--16">
+                Behind them, a team of 20 business travel agents with a minimum of 10 years
+                of experience in the industry.
+              </p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-5 mt-24 mt-sm-0">
+              <img src="<%= require('./assets/images/illustrations/travelpro-illustration-4.svg') %>" alt="" style="display:block;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section">
+        <div class="tp-container">
+          <h2 class="tp-heading tp-heading--h3 mb-16">Why work at Travel Pro ?</h2>
+          <div class="tp-flex">
+            <div class="tp-flex__col tp-flex__col-sm-8">
+              <p class="tp-paragraph tp-paragraph--16">
+                Travel Pro  offers attractive job opportunities. We believe in the potential of our employees and encourage 
+                their professional development. We want them to experience exciting moments every day.
+              </p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-sm-4 mt-16">
+              <a href="#" class="tp-button tp-button--outlined tp-button--primary-900">Job opportunities <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- suppliers -->
+      <div class="tp-section" style="border-top: 1px solid var(--primary-50)">
+        <div class="tp-container">
+          <h2 class="tp-heading tp-heading--h2 mb-md-24 mb-16">Travel Pro's suppliers</h2>
+        </div>
+        <div class="tp-slider-overflow-container">
+          <div class="tp-slider-overflow-container__content">
+            
+            <p class="tp-paragraph tp-paragraph--16 mb-24">More than xxx suppliers work with us efficiently and transparently. </p>
+          </div>
+
+          <div class="tp-slider-overflow-container__inner">
+            <div class="tp-slider-container">
+              <div class="tp-automatic-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/aegean-A3.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/aeromexico-AM.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/air-dolomity-EN.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/air-france-AF.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/american-airlines-AA.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/avianca-AV.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/british-airways-BA.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/brussels-airlines-SN.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/cathay-pacific-CX.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/copa-airlines-CM.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/delta-DL.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/emirates-EK.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/eurowings-discover-4Y.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/hawaiian-airlines-HA.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/iberia-IB.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/jetstar-JQ.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/klm-KL.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/level-VK.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/lot-LOx.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/lufthansa-LH.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/olympic-airlines-OA.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/qantas-QF.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/qatar-QR.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/ryanair-FR.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/singapore-airlines-SQ.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/swiss-LX.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/turkish-airlines-TK.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/united-UA.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/vueling-VY.svg') %>" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<%= require('./assets/images/partners/westjet-WS.svg') %>" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button 
+              class="tp-button tp-button--primary-900 tp-button--text-only mt-56 pl-0 pr-0" 
+              id="toggle-ally-animation"
+              data-start-text="Start motion"
+              data-start-icon="icon-circle-play"
+              data-pause-text="Pause motion"
+              data-pause-icon="icon-circle-pause"
+            >
+              <i class="icon-circle-pause" aria-hidden="true"></i> 
+              Pause motion
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Talk to the travel pro team -->
+      <div class="tp-section pb-0" style="background-image: url('<%= require('./assets/images/travelpro-background-5.png') %>')">
+        <div class="tp-container text-center">
+          
+          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Talk to the Travel Pro team !</h2>
+          <p class="tp-paragraph tp-paragraph--16 color-white">Want to know more about our services ? Let's talk !</p>
+          <p class="tp-paragraph tp-paragraph--16 color-white mb-40">We'll take the time to answer your questions and understand your needs.</p>
+          
+          <div class="tp-buttons-row">
+            <a href="#" class="tp-button tp-button--primary tp-button--outlined">Get in touch</a>
+            <a href="#" class="tp-button tp-button--primary">Request demo</a>
+          </div>
+
+          <img src="<%= require('./assets/images/illustrations/travelpro-illustration-2.svg') %>" alt="" class="mt-40" style="display: block;margin: auto;">
+        </div>
+      </div>
+    </main>
+    
     <tp-footer></tp-footer>
   </body>
 </html>

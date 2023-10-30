@@ -25,6 +25,12 @@
 }
 
 @font-face {
+  font-family: 'futura-medium';
+  font-weight: 500;
+  src: url('../assets/fonts/futura/Futura-Medium.otf');
+}
+
+@font-face {
   font-family: 'futura-bold';
   font-weight: 700;
   src: url('../assets/fonts/futura/Futura-Bold.otf');
@@ -52,6 +58,9 @@
 @import 'swiper';
 @import 'tabs';
 @import 'expand';
+@import 'expand-2';
+@import 'team-card';
+@import 'automatic-carousel';
 
 * {
   box-sizing: border-box;
@@ -137,6 +146,7 @@ ul {
 }
 
 .br-16 { border-radius: 1.6rem; }
+.br-24 { border-radius: 2.4rem; }
 
 .tp-main {
   margin-top: 7.2rem;
@@ -211,3 +221,5 @@ ul {
     padding-top: 0.3rem; // fake vertical center
   }
 }
+
+.font-size-26 { font-size: 2.6rem; }

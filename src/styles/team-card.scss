@@ -1,0 +1,19 @@
+$component: tp-team-card;
+
+.#{$component} {
+  border: 0.1rem solid var(--primary-100);
+  border-radius: 1.6rem;
+
+  &__visual {
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      border-radius: 1.6rem 1.6rem 0 0;
+    }
+  }
+  
+  &__content {
+    padding: 2.4rem;
+  }
+}

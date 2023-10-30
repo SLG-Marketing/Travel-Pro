@@ -8,6 +8,11 @@ $component: tp-flex;
   &.row-gap {
     &-32 { row-gap: 3.2rem; }
     &-40 { row-gap: 4rem; }
+
+    @media(min-width: $sm) {
+      &-sm-32 { row-gap: 3.2rem; }
+      &-sm-40 { row-gap: 4rem; }
+    }
   }
 
   &-align-items {
