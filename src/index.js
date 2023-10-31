@@ -2,6 +2,7 @@ import './styles/main.scss';
 
 import './components/header';
 import './components/footer';
+import './components/team-banner';
 
 import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';

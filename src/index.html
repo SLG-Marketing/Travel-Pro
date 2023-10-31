@@ -34,7 +34,7 @@
               <p class="tp-paragraph tp-paragraph--16 color-white">Discover with a personalized demo</p>
             </div>
             <div class="tp-highlight__right">
-              <a href="" class="tp-button tp-button--primary">Request Demo</a>
+              <a href="request-demo.html" class="tp-button tp-button--primary">Request Demo</a>
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@
           <div class="tp-flex justify-content-end" style="margin-bottom: -29rem;">
             <div class="tp-flex__col tp-flex__col-11 tp-flex__col-md-8">
               <div class="tp-card-service-name mt-64" style="background-image: url('<%= require('./assets/images/travelpro-background-2.png') %>')">
-                <a href="#" class="tp-card-service-name__button tp-button tp-button--primary-950 tp-button--lg tp-button--icon-only"><i class="icon-plus" aria-hidden="true"></i></a>
+                <span class="tp-card-service-name__button tp-button tp-button--primary-950 tp-button--lg tp-button--icon-only"><i class="icon-plus" aria-hidden="true"></i></span>
                 <div class="tp-badge tp-badge--tertiary-200 mb-16">Discover</div>
                 <p class="tp-heading tp-heading--h2 mb-16 color-white">#ServiceName</p>
                 <p class="tp-paragraph tp-paragraph--16 color-white mb-24">Lorem ipsum dolor quantum alea sit amet, selectum alerma lorem ipsum dolor sit amareatea selecum.</p>
@@ -166,7 +166,9 @@
               </div>
             </div>
           </div>
+        </div>
 
+        <div class="tp-container">
           <div class="swiper-actions">
             <div class="swiper-pagination"></div>
 
@@ -179,21 +181,7 @@
       </div>
 
       <!-- Talk to the travel pro team -->
-      <div class="tp-section pb-0" style="background-image: url('<%= require('./assets/images/travelpro-background-5.png') %>')">
-        <div class="tp-container text-center">
-          
-          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Talk to the Travel Pro team !</h2>
-          <p class="tp-paragraph tp-paragraph--16 color-white">Want to know more about our services ? Let's talk !</p>
-          <p class="tp-paragraph tp-paragraph--16 color-white mb-40">We'll take the time to answer your questions and understand your needs.</p>
-          
-          <div class="tp-buttons-row">
-            <a href="#" class="tp-button tp-button--primary tp-button--outlined">Get in touch</a>
-            <a href="#" class="tp-button tp-button--primary">Request demo</a>
-          </div>
-
-          <img src="<%= require('./assets/images/illustrations/travelpro-illustration-2.svg') %>" alt="" class="mt-40" style="display: block;margin: auto;">
-        </div>
-      </div>
+      <tp-team-banner></tp-team-banner>
     </main>
 
     <tp-footer></tp-footer>

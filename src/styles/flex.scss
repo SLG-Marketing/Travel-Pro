@@ -6,6 +6,7 @@ $component: tp-flex;
   margin: 0 -1.6rem;
 
   &.row-gap {
+    &-24 { row-gap: 2.4rem; }
     &-32 { row-gap: 3.2rem; }
     &-40 { row-gap: 4rem; }
 

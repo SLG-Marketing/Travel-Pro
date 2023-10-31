@@ -62,7 +62,7 @@
                     <li>Expense management</li>
                     <li>Clear CO2 displays</li>
                   </ul>
-                  <a href="#" class="tp-button tp-button--primary">Request demo</a>
+                  <a href="request-demo.html" class="tp-button tp-button--primary">Request demo</a>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
                 That's why we're your trusted partner in navigating the world of corporate travel. 
                 <strong>We simplify every aspect of your business journey.</strong>
               </p>
-              <a href="" class="tp-button tp-button--primary">Get in touch</a>
+              <a href="contact.html" class="tp-button tp-button--primary">Get in touch</a>
             </div>
             <div class="tp-flex__col tp-flex__col-md-8 mt-32 mt-md-0">
               <div class="tp-expand mb-16">
@@ -310,7 +310,8 @@
               </div>
             </div>
           </div>
-
+        </div>
+        <div class="tp-container">
           <div class="swiper-actions">
             <div class="swiper-pagination"></div>
 
@@ -323,21 +324,7 @@
       </div>
 
       <!-- Talk to the travel pro team -->
-      <div class="tp-section pb-0" style="background-image: url('<%= require('./assets/images/travelpro-background-5.png') %>')">
-        <div class="tp-container text-center">
-          
-          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Talk to the Travel Pro team !</h2>
-          <p class="tp-paragraph tp-paragraph--16 color-white">Want to know more about our services ? Let's talk !</p>
-          <p class="tp-paragraph tp-paragraph--16 color-white mb-40">We'll take the time to answer your questions and understand your needs.</p>
-          
-          <div class="tp-buttons-row">
-            <a href="#" class="tp-button tp-button--primary tp-button--outlined">Get in touch</a>
-            <a href="#" class="tp-button tp-button--primary">Request demo</a>
-          </div>
-
-          <img src="<%= require('./assets/images/illustrations/travelpro-illustration-2.svg') %>" alt="" class="mt-40" style="display: block;margin: auto;">
-        </div>
-      </div>
+      <tp-team-banner></tp-team-banner>
     </main>
     <tp-footer></tp-footer>
   </body>

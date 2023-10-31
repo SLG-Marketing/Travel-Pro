@@ -14,13 +14,13 @@ export default class Footer extends HTMLElement {
                     <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Links</p>
                     <nav class="tp-nav-footer">
                       <ul>
-                        <li><a href="#" class="tp-link">Home</a></li>
-                        <li><a href="#" class="tp-link">Business Travel</a></li>
-                        <li><a href="#" class="tp-link">About us</a></li>
+                        <li><a href="index.html" class="tp-link">Home</a></li>
+                        <li><a href="business-travel.html" class="tp-link">Business Travel</a></li>
+                        <li><a href="about-us.html" class="tp-link">About us</a></li>
                         <li><a href="#" class="tp-link">Blog</a></li>
-                        <li><a href="#" class="tp-link">Contact us</a></li>
-                        <li><a href="#" class="tp-link">Request demo</a></li>
-                        <li><a href="#" class="tp-link">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="contact.html" class="tp-link">Contact us</a></li>
+                        <li><a href="request-demo.html" class="tp-link">Request demo</a></li>
+                        <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
                   </div>

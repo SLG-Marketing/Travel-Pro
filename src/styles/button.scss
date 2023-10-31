@@ -287,6 +287,8 @@ $component: tp-button;
   text-decoration: none;
   border-style: solid;
   cursor: pointer;
+  transition: 0.2s;
+  outline: 0;
 
   // colors styles
   @each $key, $value in $button-colors {
@@ -305,6 +307,7 @@ $component: tp-button;
             color: map-deep-get($value, 'filled', 'hover', 'color');
             background-color: map-deep-get($value, 'filled', 'hover', 'background-color');
             border-color: map-deep-get($value, 'filled', 'hover', 'border-color');
+            outline: 0;
           }
   
           &:focus {
@@ -325,8 +328,32 @@ $component: tp-button;
           background-color: map-deep-get($value, 'outlined', 'enable', 'background-color');
           border-color: map-deep-get($value, 'outlined', 'enable', 'border-color');
 
-          i {
-            color: map-deep-get($value, 'outlined', 'enable', 'color');
+          i { color: map-deep-get($value, 'outlined', 'enable', 'color'); }
+
+          @media(hover: hover) {
+            &:hover {
+              color: map-deep-get($value, 'outlined', 'hover', 'color');
+              background-color: map-deep-get($value, 'outlined', 'hover', 'background-color');
+              border-color: map-deep-get($value, 'outlined', 'hover', 'border-color');
+
+              i { color: map-deep-get($value, 'outlined', 'hover', 'color'); }
+            }
+    
+            &:focus {
+              color: map-deep-get($value, 'outlined', 'focus', 'color');
+              background-color: map-deep-get($value, 'outlined', 'focus', 'background-color');
+              border-color: map-deep-get($value, 'outlined', 'focus', 'border-color');
+
+              i { color: map-deep-get($value, 'outlined', 'focus', 'color'); }
+            }
+    
+            &:active {
+              color: map-deep-get($value, 'outlined', 'active', 'color');
+              background-color: map-deep-get($value, 'outlined', 'active', 'background-color');
+              border-color: map-deep-get($value, 'outlined', 'active', 'border-color');
+
+              i { color: map-deep-get($value, 'outlined', 'active', 'color'); }
+            }
           }
         }
 
@@ -335,8 +362,32 @@ $component: tp-button;
           background-color: map-deep-get($value, 'text-only', 'enable', 'background-color');
           border-color: map-deep-get($value, 'text-only', 'enable', 'border-color');
 
-          i {
-            color: map-deep-get($value, 'text-only', 'enable', 'color');
+          i { color: map-deep-get($value, 'text-only', 'enable', 'color'); }
+
+          @media(hover: hover) {
+            &:hover {
+              color: map-deep-get($value, 'text-only', 'hover', 'color');
+              background-color: map-deep-get($value, 'text-only', 'hover', 'background-color');
+              border-color: map-deep-get($value, 'text-only', 'hover', 'border-color');
+
+              i { color: map-deep-get($value, 'text-only', 'hover', 'color'); }
+            }
+    
+            &:focus {
+              color: map-deep-get($value, 'text-only', 'focus', 'color');
+              background-color: map-deep-get($value, 'text-only', 'focus', 'background-color');
+              border-color: map-deep-get($value, 'text-only', 'focus', 'border-color');
+
+              i { color: map-deep-get($value, 'text-only', 'focus', 'color'); }
+            }
+    
+            &:active {
+              color: map-deep-get($value, 'text-only', 'active', 'color');
+              background-color: map-deep-get($value, 'text-only', 'active', 'background-color');
+              border-color: map-deep-get($value, 'text-only', 'active', 'border-color');
+
+              i { color: map-deep-get($value, 'text-only', 'active', 'color'); }
+            }
           }
         }
       }

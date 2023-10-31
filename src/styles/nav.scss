@@ -121,3 +121,47 @@ $component: tp-nav;
     row-gap: 1.6rem;
   }
 }
+
+.tp-nav-langs {
+  > li {
+    position: relative;
+
+    &:hover {
+      ul {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
+      }
+    }
+  }
+
+  ul {
+    position: absolute;
+    z-index: 2;
+    top: 100%;
+    right: -1.4rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid var(--primary-100);
+    box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: var(--white);
+    visibility: hidden;
+    opacity: 0;
+    transition: .2s;
+    transform: translateY(-10px);
+    overflow: hidden;
+
+    li {
+      a {
+        display: block;
+        padding: 0.4rem 1.2rem;
+        outline: 0;
+
+        @media(hover: hover) {
+          &:hover, &:focus {
+            background-color: var(--primary-300)
+          }
+        }
+      }
+    }
+  }
+}

@@ -17,11 +17,19 @@ export default class Header extends HTMLElement {
                         <div class="tp-header__row-1">
                           <div class="tp-container">
                             <div class="tp-header__row-1__left">
-                              <a href="#"><img src="${logoTravelProAE}" alt=""></a>
+                              <a href="index.html"><img src="${logoTravelProAE}" alt=""></a>
                             </div>
                             <div class="tp-header__row-1__right">
-                              <a href="#" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
-                              <a href="#" class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</a>
+                              <a href="" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                              <ul class="tp-nav-langs">
+                                <li>
+                                  <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</span>
+                                  <ul>
+                                    <li><a href="#" class="tp-link">FR</a></li>
+                                    <li><a href="#" class="tp-link">DE</a></li>
+                                  </ul>
+                                </li>
+                              </ul>
 
                               <a href="#" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Request Demo</a>
 
@@ -42,10 +50,13 @@ export default class Header extends HTMLElement {
                                   <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="contact.html">Contact us</a></li>
                                 </ul>
                               </nav>
-                              <a href="#" class="tp-link h-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                              <div class="tp-sub-nav">
+                                <a href="#" class="tp-link h-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                                <a href="request-demo.html" class="tp-button tp-button--primary h-sm">Request Demo</a>
+                              </div>
                             </div>
                             <div class="tp-header__row-2__right d-lg">
-                              <a href="#" class="tp-button tp-button--primary">Request Demo</a>
+                              <a href="request-demo.html" class="tp-button tp-button--primary">Request Demo</a>
                             </div>
                           </div>
                         </div>
