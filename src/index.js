@@ -61,25 +61,27 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  
-  const triggerAllyMotion = document.querySelector('#toggle-ally-animation');
 
+  if(document.querySelector('#toggle-ally-animation')) {
+    const triggerAllyMotion = document.querySelector('#toggle-ally-animation');
 
-  triggerAllyMotion.addEventListener('click', () => {
-    if(automaticSwiper.autoplay.paused) {
-      swiper.params.speed = 10000;
-      automaticSwiper.autoplay.resume();
-      triggerAllyMotion.innerHTML = `<i class="${triggerAllyMotion.dataset.pauseIcon}"></i> ${triggerAllyMotion.dataset.pauseText}`
-      console.log('start');
-    }
-    else {
-      swiper.params.speed = 1000;
-      automaticSwiper.autoplay.pause();
-      triggerAllyMotion.innerHTML = `<i class="${triggerAllyMotion.dataset.startIcon}"></i> ${triggerAllyMotion.dataset.startText}`
-      console.log('pause');
-    }
-  });
+    triggerAllyMotion.addEventListener('click', () => {
+      if(automaticSwiper.autoplay.paused) {
+        swiper.params.speed = 10000;
+        automaticSwiper.autoplay.resume();
+        triggerAllyMotion.innerHTML = `<i class="${triggerAllyMotion.dataset.pauseIcon}"></i> ${triggerAllyMotion.dataset.pauseText}`
+        console.log('start');
+      }
+      else {
+        swiper.params.speed = 1000;
+        automaticSwiper.autoplay.pause();
+        triggerAllyMotion.innerHTML = `<i class="${triggerAllyMotion.dataset.startIcon}"></i> ${triggerAllyMotion.dataset.startText}`
+        console.log('pause');
+      }
+    });
+  }
   
+
   window.addEventListener('load', function () {
     var tablists = document.querySelectorAll('[role=tablist].tp-tabs');
     for (var i = 0; i < tablists.length; i++) {
