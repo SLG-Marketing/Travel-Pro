@@ -1,4 +1,4 @@
-import background from '../assets/images/travelpro-background-11.png';
+import background from '../assets/images/travelpro-background-11.webp';
 import illustration from '../assets/images/travelpro-newsletter.svg';
 
 export default class Newsletter extends HTMLElement {
