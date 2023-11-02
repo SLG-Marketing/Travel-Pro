@@ -1,4 +1,4 @@
-import logoTravelProAE from '../assets/images/travelpro-logo-header.svg';
+import logoTravelProAE from '../assets/images/logos/travelpro-logo-header.svg';
 
 export default class Header extends HTMLElement {
   constructor() {

@@ -1,5 +1,5 @@
-import logoTravelProAEWhite from '../assets/images/travelpro-american-expresso-logo-white.svg';
-import logoTravelProPartSLG from '../assets/images/travelpro-part-of-slg.svg';
+import logoTravelProAEWhite from '../assets/images/logos/travelpro-american-express-logo-white.svg';
+import logoTravelProPartSLG from '../assets/images/logos/travelpro-part-of-slg.svg';
 
 export default class Footer extends HTMLElement {
   constructor() {
