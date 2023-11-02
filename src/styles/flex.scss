@@ -3,18 +3,7 @@ $component: tp-flex;
 .#{$component} {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1.6rem;
-
-  &.row-gap {
-    &-24 { row-gap: 2.4rem; }
-    &-32 { row-gap: 3.2rem; }
-    &-40 { row-gap: 4rem; }
-
-    @media(min-width: $sm) {
-      &-sm-32 { row-gap: 3.2rem; }
-      &-sm-40 { row-gap: 4rem; }
-    }
-  }
+  margin: 0 -1.2rem;
 
   &-align-items {
     &-center {
@@ -50,7 +39,7 @@ $component: tp-flex;
   }
 
   &__col {
-    padding: 0 1.6rem;
+    padding: 0 1.2rem;
     flex: 0 0 100%;
 
     &-justify-end {
@@ -131,6 +120,18 @@ $component: tp-flex;
   }
 }
 
+
+.row-gap {
+  &-16 { row-gap: 1.6rem; }
+  &-24 { row-gap: 2.4rem; }
+  &-32 { row-gap: 3.2rem; }
+  &-40 { row-gap: 4rem; }
+
+  @media(min-width: $sm) {
+    &-sm-32 { row-gap: 3.2rem; }
+    &-sm-40 { row-gap: 4rem; }
+  }
+}
 
 
 

@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     breakpoints: {
       576: {
-        spaceBetween: 30,
+        spaceBetween: 24,
         slidesPerView: 2.5
       },
     }
@@ -42,7 +42,6 @@ document.addEventListener('DOMContentLoaded', () => {
     spaceBetween: 10,
     speed: 10000,
     loop: true,
-    
     autoplay: {
       delay: 0.5,
       disableOnInteraction: false,

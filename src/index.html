@@ -11,6 +11,12 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('./assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('./assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('./assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- GetResponse Analytics -->
     <script type="text/javascript">
       (function(m, o, n, t, e, r, _){
@@ -187,6 +193,65 @@
             <div class="swiper-navigation">
               <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-prev" aria-label="Previous slide"><i class="icon-arrow-left-long" aria-hidden="true"></i></button>
               <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-next" aria-label="Next slide"><i class="icon-arrow-right-long" aria-hidden="true"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section pb-0">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between align-items-center mb-24 mb-md-40">
+            <div class="tp-flex__col tp-flex__col-md-6 mb-32 mb-md-0">
+              <h2 class="tp-heading tp-heading--h2">Discover the latest news</h2>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-6 text-md-right">
+              <a href="#" class="tp-button tp-button--primary-900 tp-button--outlined">All articles <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="tp-flex row-gap-16">
+            <div class="tp-flex__col tp-flex__col-md-6">
+              <article class="tp-article-card">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <div class="tp-badge tp-badge--tertiary-200">CategoryName</div>
+                    <img src="<%= require('./assets/images/travelpro-visual-4.webp') %>" alt="">
+                    <div class="tp-article-card__blur">
+                      <i class="icon-time" aria-hidden="true"></i>
+                      <p>3 min reading</p>
+                    </div>
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4 mb-16">Re-invoice Professional Expenses</h3>
+                    <p class="tp-paragraph tp-paragraph--16">
+                      To re-invoice professional expenses, it is essential to keep detailed accounting records to 
+                      be able to track the professional...
+                    </p>
+                  </div>
+                </a>
+              </article>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-6 d-flex row-gap-16 justify-content-between" style="flex-direction: column;">
+              <article class="tp-article-card tp-article-card--horizontal">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <img src="<%= require('./assets/images/travelpro-visual-4.webp') %>" alt="">
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4">Travel Pro S.A. is proud to announce obtaining the “Made in Luxembourg” label Travel Pro S.A. is proud to announce obtaining the “Made in Luxembourg” label</h3>
+                  </div>
+                </a>
+              </article>
+              <article class="tp-article-card tp-article-card--horizontal">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <img src="<%= require('./assets/images/travelpro-visual-4.webp') %>" alt="">
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4">Travel Pro S.A. is proud to announce obtaining the </h3>
+                  </div>
+                </a>
+              </article>
             </div>
           </div>
         </div>

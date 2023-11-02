@@ -5,7 +5,7 @@ $component: tp-advantage-card;
   border-radius: 2.4rem;
   background-color: var(--white);
   border: 0.1rem solid var(--primary-100);
-  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: var(--elevation-2);
   display: flex;
   row-gap: 1.6rem;
   flex-direction: column;
@@ -32,7 +32,7 @@ $component: tp-advantage-card;
   @media(hover: hover) {
     &:hover {
       background-color: var(--primary-50);
-      box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.15);
+      box-shadow: var(--elevation-3);
     }
   }
 }

@@ -29,7 +29,7 @@ export default class Footer extends HTMLElement {
                     <nav class="tp-nav-footer">
                       <ul>
                         <li><a href="#" class="tp-link">Terms of use <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tp-link">Privacy policy <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.slg.lu/en/politique-de-confidentialite/" target="_blank" class="tp-link">Privacy policy <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                         <li><a href="#" class="tp-link">Cookies</a></li>
                         <li><a href="#" class="tp-link">Sitemap</a></li>
                         <li><a href="#" class="tp-link">Accessibility</a></li>
@@ -50,9 +50,9 @@ export default class Footer extends HTMLElement {
                     <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Follow us</p>
                     <nav class="tp-nav-social">
                       <ul>
-                        <li><a href="#" class="tp-link font-size-26" title="facebook"><i class="icon-media_facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tp-link font-size-26" title="instagram"><i class="icon-media_insta" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tp-link font-size-26" title="linkedin"><i class="icon-media_linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.facebook.com/TravelProLuxembourg" target="_blank" class="tp-link font-size-26" title="facebook"><i class="icon-media_facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/travelproluxembourg/" target="_blank" class="tp-link font-size-26" title="instagram"><i class="icon-media_insta" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/travelproluxembourg/" target="_blank" class="tp-link font-size-26" title="linkedin"><i class="icon-media_linkedin" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
                   </div>

@@ -42,4 +42,9 @@ $weights: (
   }
 }
 
+@media(min-width: $md) {
+  .text-md-right {
+    text-align: right;
+  }
+}
 

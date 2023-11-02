@@ -6,7 +6,6 @@
   "private": true,
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
-    "i18n": "static-i18n -l en -i en -i de -i fr src --localesPath src/langs/",
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
