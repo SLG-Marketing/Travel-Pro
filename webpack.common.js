@@ -76,6 +76,12 @@ module.exports = {
       template: path.resolve(__dirname, './src/contact.html'),
       filename: 'contact.html',
     }),
+    new HtmlWebpackPlugin({
+      title: '',
+      description: '',
+      template: path.resolve(__dirname, './src/request-demo.html'),
+      filename: 'request-demo.html',
+    }),
     new CleanWebpackPlugin()
   ]
 };

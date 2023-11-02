@@ -36,4 +36,10 @@ $weights: (
   text-align: right;
 }
 
+@media(min-width: $sm) {
+  .text-sm-right {
+    text-align: right;
+  }
+}
+
 

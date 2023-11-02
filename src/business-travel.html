@@ -12,6 +12,8 @@
     <meta property="og:image" content="">
   </head>
   <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
     <tp-header active="business-travel"></tp-header>
 
     <main class="tp-main">
@@ -42,13 +44,14 @@
         </div>
 
         <div class="tp-container">
-          <div role="tablist" aria-labelledby="tablist-1" class="tp-tabs">
+<!--           <div role="tablist" aria-labelledby="tablist-1" class="tp-tabs">
             <button id="tab-1" class="tp-button tp-button--primary-900" role="tab" aria-selected="true" aria-controls="tabpanel-1">Cytric</button>
             <button id="tab-2" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-2" tabindex="-1">Neo by KDS</button>
-          </div>
+          </div> -->
 
           <div class="tp-tabs-content">
-            <div id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1">
+           <!--  Ne pas oublier de remettre tabindex="0" ainsi que aria-labelledby="tab-1" si on réactive les tabs -->
+            <div id="tabpanel-1" role="tabpanel">
               <div class="tp-flex justify-content-between">
                 <div class="tp-flex__col tp-flex__col-md-7">
                   <img src="<%= require('./assets/images/travelpro-visual-3.jpg') %>" alt="">
@@ -66,13 +69,13 @@
                 </div>
               </div>
             </div>
-            <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="is-hidden">
+<!--             <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="is-hidden">
               <p>
                 Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen.
                 Both as a virtuoso and as composer of flute music, he is considered one of the best of his time.
                 He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level.
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>

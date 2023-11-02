@@ -23,34 +23,37 @@
     <!-- End GetResponse Analytics -->
   </head>
   <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
     <tp-header active="contact"></tp-header>
 
     <main class="tp-main">
-      <div class="tp-section">
+      <div class="tp-section" style="background-image: url('<%= require('./assets/images/travelpro-background-12.png') %>')">
         <div class="tp-container">
           <div class="tp-flex justify-content-between">
             <div class="tp-flex__col tp-flex__col-md-4">
-              <h1 class="tp-heading tp-heading--h1 mb-40">Talk to Travel Pro team</h1>
-              <p class="tp-paragraph tp-paragraph--16 mb-24">
+              <h1 class="tp-heading tp-heading--h1 mb-40 color-white">Talk to Travel Pro team</h1>
+              <p class="tp-paragraph tp-paragraph--16 mb-24 color-white">
                 Do you have any questions? Would you like to see a demo of our services? 
                 We've got the answers, just leave us your details and the Travel Pro sales team will get back to you as soon as possible.
               </p>
-              <p class="tp-paragraph tp-paragraph--16 mb-24">
+              <p class="tp-paragraph tp-paragraph--16 mb-24 color-white">
                 You are already a <strong>Travel Pro client?</strong> Request a travel, compensation or leave feedback
               </p>
-              <a href="#" class="tp-link">Access the forms below <i class="icon-arrow-down-long" aria-hidden="true"></i></a>
+              <a href="#forms" class="tp-link color-white">Access the forms below <i class="icon-arrow-down-long" aria-hidden="true"></i></a>
 
               <img src="<%= require('./assets/images/illustrations/travelpro-illustration-5.svg') %>" alt="" class="mt-40">
             </div>
 
             <div class="tp-flex__col tp-flex__col-md-7">
-              <div class="pa-48 br-16" style="background-image: url('<%= require('./assets/images/travelpro-background-9.png') %>')">
+              <div class="pa-48 br-16 bg-white">
                 <getresponse-form form-id="a02ef05d-563d-476c-9fa5-ee6e8587b8eb" e="0"></getresponse-form>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
       <div class="tp-section" style="background-image: url('<%= require('./assets/images/travelpro-background-10.png') %>')">
         <div class="tp-container">
           <h2 class="tp-heading tp-heading--h2 mb-24 mb-md-40">Find us</h2>
@@ -83,7 +86,7 @@
         </div>
       </div>
 
-      <div class="tp-section">
+      <div class="tp-section" id="forms">
         <div class="tp-container">
           <div class="text-center mb-32">
             <h2 class="tp-heading tp-heading--h2 mb-24">For Travel Pro client</h2>

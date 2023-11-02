@@ -12,6 +12,7 @@ $component: tp-advantage-card;
   text-decoration: none;
   position: relative;
   width: 100%;
+  transition: 0.3s;
 
   &__header {
     display: flex;
@@ -26,5 +27,12 @@ $component: tp-advantage-card;
     transform: translateY(-50%);
     right: 2.4rem;
     color: var(--neutral-700);
+  }
+
+  @media(hover: hover) {
+    &:hover {
+      background-color: var(--primary-50);
+      box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.15);
+    }
   }
 }

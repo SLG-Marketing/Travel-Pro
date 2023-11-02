@@ -20,9 +20,9 @@ export default class Header extends HTMLElement {
                               <a href="index.html"><img src="${logoTravelProAE}" alt=""></a>
                             </div>
                             <div class="tp-header__row-1__right">
-                              <a href="" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                              <a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
                               <ul class="tp-nav-langs">
-                                <li>
+                                <li tabindex="0">
                                   <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</span>
                                   <ul>
                                     <li><a href="#" class="tp-link">FR</a></li>
@@ -31,7 +31,7 @@ export default class Header extends HTMLElement {
                                 </li>
                               </ul>
 
-                              <a href="#" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Request Demo</a>
+                              <a href="request-demo" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Request Demo</a>
 
                               <button class="tp-nav-mobile-trigger h-lg" aria-label="Ouvrir menu" id="triggerNavMobile" aria-expanded="false"><i class="icon-bars" aria-hidden="true"></i></button>
                             </div>
@@ -51,12 +51,12 @@ export default class Header extends HTMLElement {
                                 </ul>
                               </nav>
                               <div class="tp-sub-nav">
-                                <a href="#" class="tp-link h-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                                <a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link h-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
                                 <a href="request-demo.html" class="tp-button tp-button--primary h-sm">Request Demo</a>
                               </div>
                             </div>
                             <div class="tp-header__row-2__right d-lg">
-                              <a href="request-demo.html" class="tp-button tp-button--primary">Request Demo</a>
+                              <a href="request-demo.html" class="tp-button tp-button--primary" id="content">Request Demo</a>
                             </div>
                           </div>
                         </div>

@@ -5,10 +5,21 @@ $component: tp-footer;
   padding: 4.8rem 0;
 
   &__row {
-    margin: 4rem 0;
-    padding: 4rem 0;
+    padding-top: 4rem;
+    margin-top: 4rem;
     border-top: 0.1rem solid var(--primary-800);
-    border-bottom: 0.1rem solid var(--primary-800);
+  }
+
+  .tp-nav-langs {
+    .tp-link {
+      color: var(--white)
+    }
+
+    ul {
+      .tp-link {
+        color: var(--primary-900)
+      }
+    }
   }
 
   a, p {
@@ -16,11 +27,11 @@ $component: tp-footer;
   }
 
   @media(min-width: $sm) {
-    padding: 8.8rem 0;
+    padding-top: 8.8rem;
 
     &__row {
-      margin: 4.8rem 0;
-      padding: 4.8rem 0;
+      margin-top: 8rem;
+      padding-top: 8rem;
     }
   }
 
