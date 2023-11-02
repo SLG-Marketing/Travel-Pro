@@ -1,7 +1,9 @@
 const { merge } = require('webpack-merge');
+const path = require('path');
 const common = require('./webpack.common.js');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-
+const { PurgeCSSPlugin } = require('purgecss-webpack-plugin');
+const glob = require('glob');
 
 module.exports = merge(common, {
   mode: 'production',
@@ -9,6 +11,9 @@ module.exports = merge(common, {
     new MiniCssExtractPlugin({
       filename: "[name].css",
     }),
+    new PurgeCSSPlugin({
+      paths: glob.sync(`dist/**/*`,  { nodir: true }),
+    })
   ],
   optimization: {
     splitChunks: {

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!-- GetResponse Analytics -->
+    <script type="text/javascript">
+      (function(m, o, n, t, e, r, _){
+              m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+              r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+          })(window, document, 'script', 'https://newsletter.slg.lu/script/04309704-bfba-4e18-97d8-c7fc88928bfc/ga.js', 'GrTracking');
+    
+    
+      </script>
+    <!-- End GetResponse Analytics -->
+  </head>
+  <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header></tp-header>
+
+    <main class="tp-main">
+      <div class="tp-section tp-container">
+        <div class="tp-flex tp-flex-justify-center">
+          <div class="tp-flex__col tp-flex__col-md-4 mb-40">
+            <h1 class="tp-heading tp-heading--h1 mb-16">404</h1>
+            <p class="tp-paragraph tp-paragraph--16 mb-16 mb-md-40">Sorry, it looks like this page can’t be found...</p>
+            <a href="index.html" class="tp-button tp-button--primary-900 tp-button--outlined">Back to homepage <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+          </div>
+          <div class="tp-flex__col tp-flex__col-md-4">
+            <img src="<%= require('./assets/images/illustrations/travelpro-illustration-6.svg') %>" alt="illustration 404">
+          </div>
+        </div>
+      </div>
+    </main>
+    <tp-footer></tp-footer>
+  </body>
+</html>
