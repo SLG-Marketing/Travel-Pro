@@ -126,13 +126,11 @@ $component: tp-nav;
   > li {
     position: relative;
 
-    @media(hover: hover) {
-      &:hover, &:focus-within {
-        ul {
-          opacity: 1;
-          visibility: visible;
-          transform: translateY(0px);
-        }
+    &:hover, &:focus-within {
+      ul {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0px);
       }
     }
   }
