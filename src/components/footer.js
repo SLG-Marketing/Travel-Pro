@@ -50,9 +50,9 @@ export default class Footer extends HTMLElement {
                     <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Follow us</p>
                     <nav class="tp-nav-social">
                       <ul>
-                        <li><a href="#" class="tp-link font-size-26"><i class="icon-media_facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tp-link font-size-26"><i class="icon-media_insta" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tp-link font-size-26"><i class="icon-media_linkedin" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tp-link font-size-26" title="facebook"><i class="icon-media_facebook" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tp-link font-size-26" title="instagram"><i class="icon-media_insta" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tp-link font-size-26" title="linkedin"><i class="icon-media_linkedin" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
                   </div>
@@ -77,10 +77,10 @@ export default class Footer extends HTMLElement {
                 <div class="tp-footer__row">
                   <div class="tp-flex align-items-center">
                     <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3">
-                      <img src="${logoTravelProAEWhite}" alt="">
+                      <img src="${logoTravelProAEWhite}" alt="logo travelpro and american express global business travel">
                     </div>
                     <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3">
-                      <img src="${logoTravelProPartSLG}" alt="">
+                      <img src="${logoTravelProPartSLG}" alt="logo part of slg">
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4  mt-16 mt-sm-0">
                       <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2023 Travel Pro S.A. | All rights reserved</p>

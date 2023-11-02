@@ -17,7 +17,7 @@ export default class Header extends HTMLElement {
                         <div class="tp-header__row-1">
                           <div class="tp-container">
                             <div class="tp-header__row-1__left">
-                              <a href="index.html"><img src="${logoTravelProAE}" alt=""></a>
+                              <a href="index.html" title="logo travelpro and american express global business travel"><img src="${logoTravelProAE}" alt="logo travelpro and american express global business travel"></a>
                             </div>
                             <div class="tp-header__row-1__right">
                               <a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
