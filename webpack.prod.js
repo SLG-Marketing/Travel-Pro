@@ -17,7 +17,9 @@ module.exports = merge(common, {
     }),
     new CopyPlugin({
       patterns: [
-        { from: path.resolve(__dirname, './public/articles.json'), to: path.resolve(__dirname, './dist') },
+        { from: path.resolve(__dirname, './public/articles-en.json'), to: path.resolve(__dirname, './dist') },
+        { from: path.resolve(__dirname, './public/articles-fr.json'), to: path.resolve(__dirname, './dist') },
+        { from: path.resolve(__dirname, './public/articles-de.json'), to: path.resolve(__dirname, './dist') },
       ],
     }),
   ],
