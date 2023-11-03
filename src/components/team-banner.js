@@ -1,5 +1,5 @@
-import background from '../assets/images/travelpro-background-5.webp';
-import illustration from '../assets/images/illustrations/travelpro-illustration-2.svg';
+import background from '/public/assets/images/travelpro-background-5.webp';
+import illustration from '/public/assets/images/illustrations/travelpro-illustration-2.svg';
 
 export default class TravelProTeamBanner extends HTMLElement {
 

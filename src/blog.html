@@ -11,9 +11,9 @@
     <meta property="og:url" content="">
     <meta property="og:image" content="">
 
-    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('./assets/favicon/apple-touch-icon.png') %>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('./assets/favicon/favicon-32x32.png') %>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('./assets/favicon/favicon-16x16.png') %>">
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
   </head>
@@ -21,6 +21,62 @@
     <a class="tp-skiplink" href="#content">Go to content</a>
     
     <tp-header active="blog"></tp-header>
+
+    <main class="tp-main">
+      <div class="tp-section">
+        <div class="tp-container">
+          <h1 class="tp-heading tp-heading--h1 mb-40 mb-md-80">Travel Pro’s blog</h1>
+          <h2 class="tp-heading tp-heading--h2 mb-24 mb-md-40">Latest article</h2>
+
+          <article class="tp-article-card tp-article-card--jumbotron">
+            <a href="#">
+              <div class="tp-article-card__image">
+                <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="">
+              </div>
+              <div class="tp-article-card__content">
+                <p class="tp-article-card__timer"><i class="icon-time" aria-hidden="true"></i> 3 min reading</p>
+                <div class="mb-24">
+                  <span class="tp-badge tp-badge--primary-100 mr-8">CategoryName</span>
+                  <span class="tp-badge tp-badge--primary-100">CategoryName</span>
+                </div>
+                <h3 class="tp-heading tp-heading--h4 mb-16">Re-invoice Professional Expenses</h3>
+                <p class="tp-paragraph tp-paragraph--16 mb-40">
+                  To re-invoice professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate.
+                </p>
+
+                <span class="tp-button tp-button--outlined tp-button--primary-900">Read more <i class="icon-arrow-right-long" aria-hidden="true"></i></span>
+              </div>
+            </a>
+          </article>
+
+          <h2 class="tp-heading tp-heading--h2 mt-88 mb-24">Latest article</h2>
+          <p class="tp-paragraph tp-paragraph--16 mb-16"><strong>Filter by theme</strong></p>
+
+          <div id="filters" class="h-sm mb-32">
+            <select id="category">
+              <option value="all">ALL</option>
+              <option value="b2b">B2B</option>
+              <option value="b2c">B2C</option>
+              <option value="mice">MICE</option>
+              <option value="tech">TECH</option>
+            </select>
+          </div>
+
+          <div class="d-flex column-gap-16 mb-32 d-f-sm">
+            <button class="tp-button tp-button--primary-900 tp-button--sm" data-filter="all">ALL</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="b2b">B2B</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="b2c">B2C</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="mice">MICE</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="tech">TECH</button>
+          </div>
+          <div class="tp-flex row-gap-24" id="articles-list"></div>
+
+          <div class="text-center">
+            <button class="tp-button tp-button--outlined tp-button--primary-900 mt-40 mt-md-80" id="load-more">Load more <i class="icon-chevron-down" aria-hidden="true"></i></button>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <tp-footer></tp-footer>
   </body>

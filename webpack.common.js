@@ -12,6 +12,7 @@ module.exports = {
   },
   module: {
     rules: [
+
       // JavaScript
       {
         test: /\.js$/, // Tous les fichiers JS

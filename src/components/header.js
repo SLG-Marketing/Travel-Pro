@@ -1,4 +1,4 @@
-import logoTravelProAE from '../assets/images/logos/travelpro-logo-header.svg';
+import logoTravelProAE from '/public/assets/images/logos/travelpro-logo-header.svg';
 
 export default class Header extends HTMLElement {
   constructor() {
@@ -68,8 +68,16 @@ export default class Header extends HTMLElement {
 
 
     this._triggerNavMobile.addEventListener('click', () => {
-      this._navMobile.classList.toggle('nav-open');
+      if(this._navMobile.classList.contains('nav-open')) {
+        this._navMobile.classList.remove('nav-open');
+        this._triggerNavMobile.innerHTML = '<i class="icon-bars" aria-hidden="true"></i>';
+      }
+      else {
+        this._navMobile.classList.add('nav-open');
+        this._triggerNavMobile.innerHTML = '<i class="icon-cross" aria-hidden="true"></i>';
+      }
     });
+    
 
     window.addEventListener('scroll', () => {
       if(window.scrollY > 0) {

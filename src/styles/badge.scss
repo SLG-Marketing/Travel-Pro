@@ -13,4 +13,11 @@ $component: tp-badge;
   &--tertiary-200 {
     background-color: var(--tertiary-200);
   }
+
+  &--primary-100 {
+    background-color: var(--primary-100);
+    color: var(--neutral-900);
+  }
+
+  
 }

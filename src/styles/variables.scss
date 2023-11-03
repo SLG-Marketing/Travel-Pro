@@ -116,6 +116,60 @@ $xxl: 1400px;
   --button-color-primary-text-only-disabled-border-color: var(--secondary-600);
 
 
+
+
+
+  --button-color-neutral-100-filled-enable-color: var(--neutral-900);
+  --button-color-neutral-100-filled-enable-background-color: var(--neutral-100);
+  --button-color-neutral-100-filled-enable-border-color: transparent;
+  --button-color-neutral-100-filled-hover-color: var(--neutral-900);
+  --button-color-neutral-100-filled-hover-background-color: var(--secondary-400);
+  --button-color-neutral-100-filled-hover-border-color: var(--secondary-600);
+  --button-color-neutral-100-filled-focus-color: var(--neutral-900);
+  --button-color-neutral-100-filled-focus-background-color: var(--secondary-400);
+  --button-color-neutral-100-filled-focus-border-color: var(--neutral-900);
+  --button-color-neutral-100-filled-active-color: var(--primary-950);
+  --button-color-neutral-100-filled-active-background-color: var(--secondary-500);
+  --button-color-neutral-100-filled-active-border-color: var(--secondary-600);
+  --button-color-neutral-100-filled-disabled-color: var(--neutral-700);
+  --button-color-neutral-100-filled-disabled-background-color: var(--neutral-50);
+  --button-color-neutral-100-filled-disabled-border-color: var(--secondary-600);
+
+  --button-color-neutral-100-outlined-enable-color: var(--secondary-300);
+  --button-color-neutral-100-outlined-enable-background-color: transparent;
+  --button-color-neutral-100-outlined-enable-border-color: var(--secondary-300);
+  --button-color-neutral-100-outlined-hover-color: var(--primary-950);
+  --button-color-neutral-100-outlined-hover-background-color: var(--secondary-400);
+  --button-color-neutral-100-outlined-hover-border-color: var(--secondary-600);
+  --button-color-neutral-100-outlined-focus-color: var(--primary-950);
+  --button-color-neutral-100-outlined-focus-background-color: var(--secondary-400);
+  --button-color-neutral-100-outlined-focus-border-color: var(--primary-950);
+  --button-color-neutral-100-outlined-active-color: var(--primary-950);
+  --button-color-neutral-100-outlined-active-background-color: var(--secondary-500);
+  --button-color-neutral-100-outlined-active-border-color: var(--secondary-600);
+  --button-color-neutral-100-outlined-disabled-color: var(--neutral-700);
+  --button-color-neutral-100-outlined-disabled-background-color: var(--neutral-50);
+  --button-color-neutral-100-outlined-disabled-border-color: var(--secondary-600);
+
+  --button-color-neutral-100-text-only-enable-color:var(--secondary-300);
+  --button-color-neutral-100-text-only-enable-background-color: transparent;
+  --button-color-neutral-100-text-only-enable-border-color: var(--secondary-300);
+  --button-color-neutral-100-text-only-hover-color: var(--primary-950);
+  --button-color-neutral-100-text-only-hover-background-color: var(--secondary-400);
+  --button-color-neutral-100-text-only-hover-border-color: var(--secondary-600);
+  --button-color-neutral-100-text-only-focus-color: var(--primary-950);
+  --button-color-neutral-100-text-only-focus-background-color: var(--secondary-400);
+  --button-color-neutral-100-text-only-focus-border-color: var(--primary-950);
+  --button-color-neutral-100-text-only-active-color: var(--primary-950);
+  --button-color-neutral-100-text-only-active-background-color: var(--secondary-500);
+  --button-color-neutral-100-text-only-active-border-color: var(--secondary-600);
+  --button-color-neutral-100-text-only-disabled-color: var(--neutral-700);
+  --button-color-neutral-100-text-only-disabled-background-color: var(--neutral-50);
+  --button-color-neutral-100-text-only-disabled-border-color: var(--secondary-600);
+
+
+
+
   --button-color-primary-900-filled-enable-color: var(--white);
   --button-color-primary-900-filled-enable-background-color: var(--primary-900);
   --button-color-primary-900-filled-enable-border-color: transparent;
@@ -237,6 +291,17 @@ $xxl: 1400px;
   --button-color-primary-950-text-only-disabled-background-color: var(--neutral-50);
   --button-color-primary-950-text-only-disabled-border-color: var(--secondary-600);
 
+
+  --button-size-sm-size-height: 3.6rem;
+  --button-size-sm-border-radius: 6.4rem;
+  --button-size-sm-border-width: 0.2rem;
+  --button-size-sm-font-size: 1.6rem;
+  --button-size-sm-font-weight: 600;
+  --button-size-sm-spacing-padding-top: 0.4rem;
+  --button-size-sm-spacing-padding-right: 1.6rem;
+  --button-size-sm-spacing-padding-bottom: 0.4rem;
+  --button-size-sm-spacing-padding-left: 1.6rem;
+  --button-size-sm-spacing-gap: 1.2rem;
 
   --button-size-default-size-height: 4rem;
   --button-size-default-border-radius: 6.4rem;

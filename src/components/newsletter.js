@@ -1,5 +1,5 @@
-import background from '../assets/images/travelpro-background-11.webp';
-import illustration from '../assets/images/travelpro-newsletter.svg';
+import background from '/public/assets/images/travelpro-background-11.webp';
+import illustration from '/public/assets/images/travelpro-newsletter.svg';
 
 export default class Newsletter extends HTMLElement {
 

@@ -76,6 +76,14 @@ tp-header {
     }
   }
 
+  @media(min-width: $md) {
+    &__row-2 {
+      .tp-sub-nav { 
+        display: none;
+      }
+    }
+  }
+
   @media(min-width: $lg) {
     &__row-1 {
       height: 15.6rem;

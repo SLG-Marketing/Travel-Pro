@@ -247,6 +247,89 @@ $button-colors: (
         border-color: var(--button-color-primary-950-text-only-disabled-border-color)
       )
     )
+  ),
+  neutral-100: (
+    filled: (
+      enable: (
+        background-color: var(--button-color-neutral-100-filled-enable-background-color),
+        color: var(--button-color-neutral-100-filled-enable-color),
+        border-color: var(--button-color-neutral-100-filled-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-neutral-100-filled-hover-background-color),
+        color: var(--button-color-neutral-100-filled-hover-color),
+        border-color: var(--button-color-neutral-100-filled-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-neutral-100-filled-focus-background-color),
+        color: var(--button-color-neutral-100-filled-focus-color),
+        border-color: var(--button-color-neutral-100-filled-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-neutral-100-filled-active-background-color),
+        color: var(--button-color-neutral-100-filled-active-color),
+        border-color: var(--button-color-neutral-100-filled-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-neutral-100-filled-disabled-background-color),
+        color: var(--button-color-neutral-100-filled-disabled-color),
+        border-color: var(--button-color-neutral-100-filled-disabled-border-color)
+      )
+    ),
+    outlined: (
+      enable: (
+        background-color: var(--button-color-neutral-100-outlined-enable-background-color),
+        color: var(--button-color-neutral-100-outlined-enable-color),
+        border-color: var(--button-color-neutral-100-outlined-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-neutral-100-outlined-hover-background-color),
+        color: var(--button-color-neutral-100-outlined-hover-color),
+        border-color: var(--button-color-neutral-100-outlined-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-neutral-100-outlined-focus-background-color),
+        color: var(--button-color-neutral-100-outlined-focus-color),
+        border-color: var(--button-color-neutral-100-outlined-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-neutral-100-outlined-active-background-color),
+        color: var(--button-color-neutral-100-outlined-active-color),
+        border-color: var(--button-color-neutral-100-outlined-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-neutral-100-outlined-disabled-background-color),
+        color: var(--button-color-neutral-100-outlined-disabled-color),
+        border-color: var(--button-color-neutral-100-outlined-disabled-border-color)
+      )
+    ),
+    text-only: (
+      enable: (
+        background-color: var(--button-color-neutral-100-text-only-enable-background-color),
+        color: var(--button-color-neutral-100-text-only-enable-color),
+        border-color: var(--button-color-neutral-100-text-only-enable-border-color)
+      ),
+      hover: (
+        background-color: var(--button-color-neutral-100-text-only-hover-background-color),
+        color: var(--button-color-neutral-100-text-only-hover-color),
+        border-color: var(--button-color-neutral-100-text-only-hover-border-color)
+      ),
+      focus: (
+        background-color: var(--button-color-neutral-100-text-only-focus-background-color),
+        color: var(--button-color-neutral-100-text-only-focus-color),
+        border-color: var(--button-color-neutral-100-text-only-focus-border-color)
+      ),
+      active: (
+        background-color: var(--button-color-neutral-100-text-only-active-background-color),
+        color: var(--button-color-neutral-100-text-only-active-color),
+        border-color: var(--button-color-neutral-100-text-only-active-border-color)
+      ),
+      disabled: (
+        background-color: var(--button-color-neutral-100-text-only-disabled-background-color),
+        color: var(--button-color-neutral-100-text-only-disabled-color),
+        border-color: var(--button-color-neutral-100-text-only-disabled-border-color)
+      )
+    )
   )
 );
 
@@ -262,6 +345,18 @@ $button-sizes: (
     padding-bottom: var(--button-size-default-spacing-padding-bottom),
     padding-left: var(--button-size-default-spacing-padding-left),
     gap: var(--button-size-default-spacing-gap)
+  ),
+  sm: (
+    height: var(--button-size-sm-size-height),
+    border-radius: var(--button-size-sm-border-radius),
+    border-width: var(--button-size-sm-border-width),
+    font-size: var(--button-size-sm-font-size),
+    font-weight: var(--button-size-sm-font-weight),
+    padding-top: var(--button-size-sm-spacing-padding-top),
+    padding-right: var(--button-size-sm-spacing-padding-right),
+    padding-bottom: var(--button-size-sm-spacing-padding-bottom),
+    padding-left: var(--button-size-sm-spacing-padding-left),
+    gap: var(--button-size-sm-spacing-gap)
   ),
   lg: (
     height: var(--button-size-lg-size-height),

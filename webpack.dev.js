@@ -7,7 +7,7 @@ module.exports = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
     historyApiFallback: true, // Permet de rediriger les 404 vers la page index.html
-    static: path.resolve(__dirname, './dist'), // Permet de se baser sur les fichiers du dossier dist
+    static: path.resolve(__dirname, './public'), // Permet de se baser sur les fichiers du dossier dist
     watchFiles: ['src/*'], // Surveille les fichiers à hot reload
     open: true, // Ouvre le navigateur lorsque webpack est prêt
     hot: true, // Active le système de rechargement à chaud (rechargement automatique à la sauvegarde)
@@ -15,6 +15,11 @@ module.exports = merge(common, {
   },
   module: {
     rules: [
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
+        type: 'javascript/auto'
+      },
       {
         test: /\.(scss|css)$/,
         use: [
