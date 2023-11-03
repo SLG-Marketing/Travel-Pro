@@ -16,11 +16,6 @@ module.exports = merge(common, {
   module: {
     rules: [
       {
-        test: /\.json$/,
-        loader: 'json-loader',
-        type: 'javascript/auto'
-      },
-      {
         test: /\.(scss|css)$/,
         use: [
           'style-loader', // Permet de charger des fichiers CSS/SCSS dans le JS (import ./styles.css)

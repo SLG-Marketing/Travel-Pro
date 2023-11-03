@@ -4,6 +4,7 @@ const common = require('./webpack.common.js');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { PurgeCSSPlugin } = require('purgecss-webpack-plugin');
 const glob = require('glob');
+const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = merge(common, {
   mode: 'production',
@@ -13,7 +14,12 @@ module.exports = merge(common, {
     }),
     new PurgeCSSPlugin({
       paths: glob.sync(`dist/**/*`,  { nodir: true }),
-    })
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: path.resolve(__dirname, './public/articles.json'), to: path.resolve(__dirname, './dist') },
+      ],
+    }),
   ],
   optimization: {
     splitChunks: {

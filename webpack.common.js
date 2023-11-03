@@ -2,17 +2,23 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
+
 module.exports = {
   entry: {
     main: path.resolve(__dirname, './src/index.js')
   },
   output: {
     path: path.resolve(__dirname, './dist'),
-    filename: '[name].bundle.js'
+    filename: '[name].bundle.js',
+    assetModuleFilename: "[name][ext]",
   },
   module: {
     rules: [
-
+      {
+        test: /\.json$/,
+        loader: 'json-loader',
+        type: 'javascript/auto'
+      },
       // JavaScript
       {
         test: /\.js$/, // Tous les fichiers JS
