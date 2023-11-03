@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Article FR",
+    "url": "/article-1",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "3min reading",
+    "category": "b2b",
+    "description": "To re-invoice FR professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 2 FR",
+    "url": "/article-2",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "6min reading",
+    "category": "tech",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 3",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2b",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 4",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "mice",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 5",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2c",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 6",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2c",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 7",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2c",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 8",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2b",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 9",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "tech",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 10",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "tech",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 11",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2c",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  },
+  {
+    "title": "Re-invoice FR article 12",
+    "url": "/article-3",
+    "image": {
+      "url": "../assets/images/travelpro-visual-4.webp",
+      "alt": "this is an alt text"
+    },
+    "time-reading": "2min reading",
+    "category": "b2b",
+    "description": "To re-invoice FR professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
+  }
+]

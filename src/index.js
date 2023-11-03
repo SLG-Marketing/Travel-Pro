@@ -19,7 +19,9 @@ import TabsAutomatic from './scripts/tabs';
 import expands from './scripts/expand';
 import expands2 from './scripts/expand-2';
 
-import articlesJSON from '/public/articles.json';
+import ENarticlesJSON from '/public/articles-en.json';
+import FRarticlesJSON from '/public/articles-fr.json';
+import DEarticlesJSON from '/public/articles-de.json';
 
 document.addEventListener('DOMContentLoaded', () => {
   // init Swiper:
@@ -101,14 +103,24 @@ document.addEventListener('DOMContentLoaded', () => {
   expands2.init();
 
 
-  let articles = "";
-  let defaultLoadedArticles = "";
 
   if(document.querySelector('#articles-list')) {
+    let articles = "";
+    let defaultLoadedArticles = "";
+
     const articlesList = document.querySelector('#articles-list');
+    const lang = articlesList.dataset.lang;
     const loadMoreButton = document.querySelector('#load-more');
     const filterButtons = document.querySelectorAll('[data-filter]');
-  
+    let articlesJSON = "";
+
+    switch(lang) {
+      case 'en': articlesJSON = ENarticlesJSON; break;
+      case 'fr': articlesJSON = FRarticlesJSON; break;
+      case 'de': articlesJSON = DEarticlesJSON; break;
+      default: articlesJSON = ENarticlesJSON
+    }
+
     // Affiche les articles
     function renderArticles() {
       articlesList.innerHTML = '';
@@ -151,14 +163,13 @@ document.addEventListener('DOMContentLoaded', () => {
     // Affiche plus d'articles
     loadMoreButton.addEventListener('click', () => {
       // Récupère les articles suivants
-      fetch('articles.json').then(response => response.json()).then(data => {
+      fetch(`../articles-${lang}.json`).then(response => response.json()).then(data => {
         // Filtre les articles déjà affichés
         const articlesNonAffichees = data.slice(defaultLoadedArticles.length, data.length);
   
         // Ajoute les articles supplémentaires à la liste
         defaultLoadedArticles.push(...articlesNonAffichees);
-  
-        console.log(defaultLoadedArticles)
+
         renderArticles();
         loadMoreButton.style.display = "none"
       });
@@ -225,12 +236,11 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   
     // Charge les articles
-    fetch('../articles.json').then(response => response.json()).then(data => {
+    fetch(`../articles-${lang}.json`).then(response => response.json()).then(data => {
       defaultLoadedArticles = data.slice(0, 6);
   
       articles = defaultLoadedArticles;
       renderArticles();
     });
   }
-
 });
