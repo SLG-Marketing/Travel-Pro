@@ -35,7 +35,9 @@ export default class HeaderEN extends HTMLElement {
                                       : this._active === 'blog' 
                                       ? '../fr/blog.html'
                                       : this._active === 'contact' 
-                                      ? '../fr/contact.html' : ''
+                                      ? '../fr/contact.html'
+                                      : this._active === 'request-demo' 
+                                      ? '../fr/request-demo.html' : ''
                                     }" class="tp-link">FR</a></li>
                                     <li><a href="../de/index.html" class="tp-link">DE</a></li>
                                   </ul>
