@@ -1,9 +1,14 @@
 import './styles/main.scss';
 
-import './components/header';
-import './components/footer';
-import './components/team-banner';
-import './components/newsletter';
+import './fr/components/header';
+import './fr/components/footer';
+import './fr/components/team-banner';
+import './fr/components/newsletter';
+
+import './en/components/header';
+import './en/components/footer';
+import './en/components/team-banner';
+import './en/components/newsletter';
 
 import Swiper from 'swiper';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
@@ -99,130 +104,133 @@ document.addEventListener('DOMContentLoaded', () => {
   let articles = "";
   let defaultLoadedArticles = "";
 
-  const articlesList = document.querySelector('#articles-list');
-  const loadMoreButton = document.querySelector('#load-more');
-  const filterButtons = document.querySelectorAll('[data-filter]');
-
-  // Affiche les articles
-  function renderArticles() {
-    articlesList.innerHTML = '';
-
-    for (const article of articles) {
-
-      let category = "";
-      const col = document.createElement('div');
-      col.classList.add('tp-flex__col');
-      col.classList.add('tp-flex__col-md-4');
-      col.classList.add('tp-flex__col-sm-6');
-
-      if(article.category != "") {
-        category = `<div class="tp-badge tp-badge--primary-100">${article.category}</div>`;
-      }
-
-      col.innerHTML = `
-        <article class="tp-article-card">
-          <a href="${article.url}">
-            <div class="tp-article-card__image">
-              ${category}
-              <img src="${article.image.url}" alt="${article.image.alt}">
-              <div class="tp-article-card__blur">
-                <i class="icon-time" aria-hidden="true"></i>
-                <p>${article['time-reading']}</p>
-              </div>
-            </div>
-            <div class="tp-article-card__content">
-              <h3 class="tp-heading tp-heading--h4 mb-16">${article.title}</h3>
-              <p class="tp-paragraph tp-paragraph--16">${article.description}</p>
-            </div>
-          </a>
-        </article>
-
-      `;
-      articlesList.appendChild(col);
-    }
-  }
-
-  // Affiche plus d'articles
-  loadMoreButton.addEventListener('click', () => {
-    // Récupère les articles suivants
-    fetch('articles.json').then(response => response.json()).then(data => {
-      // Filtre les articles déjà affichés
-      const articlesNonAffichees = data.slice(defaultLoadedArticles.length, data.length);
-
-      // Ajoute les articles supplémentaires à la liste
-      defaultLoadedArticles.push(...articlesNonAffichees);
-
-      console.log(defaultLoadedArticles)
-      renderArticles();
-      loadMoreButton.style.display = "none"
-    });
-  });
-
-  // Met à jour la liste d'articles en fonction des filtres
-  filters.querySelector('select').addEventListener('change', () => {
-    const category = filters.querySelector('select').value;
-
-    // Réinitialise la liste d'articles
-    articles = [];
-
-      // Ajoute les articles correspondant au filtre
-      if (category === 'all') {
-        for (const article of articlesJSON) {
-          articles.push(article);
-        }
-      } 
-      else {
-        for (const article of articlesJSON) {
-          if (article.category === category) {
-            articles.push(article);
-          }
-        }
-      }
-
-    // Affiche les articles
-    renderArticles();
-  });
+  if(document.querySelector('#articles-list')) {
+    const articlesList = document.querySelector('#articles-list');
+    const loadMoreButton = document.querySelector('#load-more');
+    const filterButtons = document.querySelectorAll('[data-filter]');
   
-  filterButtons.forEach(filterButton => {
-    filterButton.addEventListener('click', () => {
-      const filterValue = filterButton.dataset.filter;
-
-      filterButtons.forEach(filterButton => {
-        filterButton.classList.remove('tp-button--primary-900');
-        filterButton.classList.add('tp-button--neutral-100');
+    // Affiche les articles
+    function renderArticles() {
+      articlesList.innerHTML = '';
+  
+      for (const article of articles) {
+  
+        let category = "";
+        const col = document.createElement('div');
+        col.classList.add('tp-flex__col');
+        col.classList.add('tp-flex__col-md-4');
+        col.classList.add('tp-flex__col-sm-6');
+  
+        if(article.category != "") {
+          category = `<div class="tp-badge tp-badge--primary-100">${article.category}</div>`;
+        }
+  
+        col.innerHTML = `
+          <article class="tp-article-card">
+            <a href="${article.url}">
+              <div class="tp-article-card__image">
+                ${category}
+                <img src="${article.image.url}" alt="${article.image.alt}">
+                <div class="tp-article-card__blur">
+                  <i class="icon-time" aria-hidden="true"></i>
+                  <p>${article['time-reading']}</p>
+                </div>
+              </div>
+              <div class="tp-article-card__content">
+                <h3 class="tp-heading tp-heading--h4 mb-16">${article.title}</h3>
+                <p class="tp-paragraph tp-paragraph--16">${article.description}</p>
+              </div>
+            </a>
+          </article>
+  
+        `;
+        articlesList.appendChild(col);
+      }
+    }
+  
+    // Affiche plus d'articles
+    loadMoreButton.addEventListener('click', () => {
+      // Récupère les articles suivants
+      fetch('articles.json').then(response => response.json()).then(data => {
+        // Filtre les articles déjà affichés
+        const articlesNonAffichees = data.slice(defaultLoadedArticles.length, data.length);
+  
+        // Ajoute les articles supplémentaires à la liste
+        defaultLoadedArticles.push(...articlesNonAffichees);
+  
+        console.log(defaultLoadedArticles)
+        renderArticles();
+        loadMoreButton.style.display = "none"
       });
-
-      
-      filterButton.classList.add('tp-button--primary-900');
-      filterButton.classList.remove('tp-button--neutral-100');
-
+    });
+  
+    // Met à jour la liste d'articles en fonction des filtres
+    filters.querySelector('select').addEventListener('change', () => {
+      const category = filters.querySelector('select').value;
+  
       // Réinitialise la liste d'articles
       articles = [];
-    
-      // Ajoute les articles correspondant au filtre
-      if (filterValue === 'all') {
-        for (const article of articlesJSON) {
-          articles.push(article);
-        }
-      } 
-      else {
-        for (const article of articlesJSON) {
-          if (article.category === filterValue) {
+  
+        // Ajoute les articles correspondant au filtre
+        if (category === 'all') {
+          for (const article of articlesJSON) {
             articles.push(article);
           }
+        } 
+        else {
+          for (const article of articlesJSON) {
+            if (article.category === category) {
+              articles.push(article);
+            }
+          }
         }
-      }
-
+  
       // Affiche les articles
       renderArticles();
+    });
+    
+    filterButtons.forEach(filterButton => {
+      filterButton.addEventListener('click', () => {
+        const filterValue = filterButton.dataset.filter;
+  
+        filterButtons.forEach(filterButton => {
+          filterButton.classList.remove('tp-button--primary-900');
+          filterButton.classList.add('tp-button--neutral-100');
+        });
+  
+        
+        filterButton.classList.add('tp-button--primary-900');
+        filterButton.classList.remove('tp-button--neutral-100');
+  
+        // Réinitialise la liste d'articles
+        articles = [];
+      
+        // Ajoute les articles correspondant au filtre
+        if (filterValue === 'all') {
+          for (const article of articlesJSON) {
+            articles.push(article);
+          }
+        } 
+        else {
+          for (const article of articlesJSON) {
+            if (article.category === filterValue) {
+              articles.push(article);
+            }
+          }
+        }
+  
+        // Affiche les articles
+        renderArticles();
+      })
     })
-  })
+  
+    // Charge les articles
+    fetch('../articles.json').then(response => response.json()).then(data => {
+      defaultLoadedArticles = data.slice(0, 6);
+  
+      articles = defaultLoadedArticles;
+      renderArticles();
+    });
+  }
 
-  // Charge les articles
-  fetch('articles.json').then(response => response.json()).then(data => {
-    defaultLoadedArticles = data.slice(0, 6);
-
-    articles = defaultLoadedArticles;
-    renderArticles();
-  });
 });

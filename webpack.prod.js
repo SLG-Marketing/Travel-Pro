@@ -44,14 +44,14 @@ module.exports = merge(common, {
           'sass-loader' // Compile Sass en CSS,
         ],
       },
-      {
+/*       {
         test: /\.(woff(2)?|eot|ttf|otf|)$/,
         type: 'asset/resource',
         generator: {
           publicPath: '//assets/fonts/' , // Chemin ajouté devant le nom de la font dans le fichier css
           outputPath: 'assets/fonts', // Nom du dossier dans lequel est stocké la font
         },
-      }
+      } */
     ]
   }
 });

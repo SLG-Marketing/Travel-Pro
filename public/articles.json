@@ -3,7 +3,7 @@
     "title": "Re-invoice Professional Expenses",
     "url": "/article-1",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
@@ -14,7 +14,7 @@
     "title": "Re-invoice article 2",
     "url": "/article-2",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "6min reading",
@@ -25,7 +25,7 @@
     "title": "Re-invoice article 3",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -36,7 +36,7 @@
     "title": "Re-invoice article 4",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -47,7 +47,7 @@
     "title": "Re-invoice article 5",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -58,7 +58,7 @@
     "title": "Re-invoice article 6",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -69,7 +69,7 @@
     "title": "Re-invoice article 7",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -80,7 +80,7 @@
     "title": "Re-invoice article 8",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -91,7 +91,7 @@
     "title": "Re-invoice article 9",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -102,7 +102,7 @@
     "title": "Re-invoice article 10",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -113,7 +113,7 @@
     "title": "Re-invoice article 11",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -124,7 +124,7 @@
     "title": "Re-invoice article 12",
     "url": "/article-3",
     "image": {
-      "url": "./assets/images/travelpro-visual-4.webp",
+      "url": "../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",

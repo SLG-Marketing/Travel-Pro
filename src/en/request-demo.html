@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <!-- GetResponse Analytics -->
+    <script type="text/javascript">
+      (function(m, o, n, t, e, r, _){
+              m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+              r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+          })(window, document, 'script', 'https://newsletter.slg.lu/script/04309704-bfba-4e18-97d8-c7fc88928bfc/ga.js', 'GrTracking');
+    
+    
+      </script>
+    <!-- End GetResponse Analytics -->
+  </head>
+  <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header-en></tp-header-en>
+
+    <main class="tp-main">
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-12.webp') %>')">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between">
+            <div class="tp-flex__col tp-flex__col-md-7">
+              <h1 class="tp-heading tp-heading--h1 mb-40 color-white">Request a personalised demo</h1>
+              <p class="tp-paragraph tp-paragraph--16 mb-24 color-white weight-600">
+                Discover how you can transform the way you manage your business travel.
+              </p>
+              <p class="tp-paragraph tp-paragraph--16 mb-24 color-white">
+                The demo is a personalized 1 on 1 discussion with the Travel Pro sales, the session will last around 30 min. You will discuss your project and focus the demonstration on your needs and expectations.
+              </p>
+             
+
+              <img src="<%= require('/public/assets/images/travelpro-visual-5.webp') %>" alt="" class="mt-40">
+            </div>
+
+            <div class="tp-flex__col tp-flex__col-md-5">
+              <div class="pa-48 br-16 bg-white">
+                <getresponse-form form-id="26c6829a-62e8-4d80-8646-8ce0ac142849" e="0"></getresponse-form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <tp-footer></tp-footer>
+  </body>
+</html>

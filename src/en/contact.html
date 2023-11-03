@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- GetResponse Analytics -->
+    <script type="text/javascript">
+      (function(m, o, n, t, e, r, _){
+              m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+              r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+          })(window, document, 'script', 'https://newsletter.slg.lu/script/04309704-bfba-4e18-97d8-c7fc88928bfc/ga.js', 'GrTracking');
+    
+    
+      </script>
+    <!-- End GetResponse Analytics -->
+  </head>
+  <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header-en active="contact"></tp-header-en>
+
+    <main class="tp-main">
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-12.webp') %>')">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between">
+            <div class="tp-flex__col tp-flex__col-md-4">
+              <h1 class="tp-heading tp-heading--h1 mb-40 color-white">Talk to Travel Pro team</h1>
+              <p class="tp-paragraph tp-paragraph--16 mb-24 color-white">
+                Do you have any questions? Would you like to see a demo of our services? 
+                We've got the answers, just leave us your details and the Travel Pro sales team will get back to you as soon as possible.
+              </p>
+              <p class="tp-paragraph tp-paragraph--16 mb-24 color-white">
+                You are already a <strong>Travel Pro client?</strong> Request a travel, compensation or leave feedback
+              </p>
+              <a href="#forms" class="tp-link color-white">Access the forms below <i class="icon-arrow-down-long" aria-hidden="true"></i></a>
+
+              <img src="<%= require('/public/assets/images/illustrations/travelpro-illustration-5.svg') %>" alt="" class="mt-40">
+            </div>
+
+            <div class="tp-flex__col tp-flex__col-md-7">
+              <div class="pa-48 br-16 bg-white">
+                <getresponse-form form-id="a02ef05d-563d-476c-9fa5-ee6e8587b8eb" e="0"></getresponse-form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-10.webp') %>')">
+        <div class="tp-container">
+          <h2 class="tp-heading tp-heading--h2 mb-24 mb-md-40">Find us</h2>
+
+          <div class="tp-flex justify-content-between">
+            <div class="tp-flex__col tp-flex__col-md-7">
+              <div class="tp-iframe-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.70817331268!2d6.087541376843289!3d49.60325244800034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4795494f510a00e1%3A0xde1f35321c849a50!2sTravel%20Pro%20American%20Express%20GBT!5e0!3m2!1sfr!2slu!4v1698737116990!5m2!1sfr!2slu" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-4 mt-40 mt-md-0">
+              <address class="mb-32">
+                <p class="tp-heading tp-heading--h4 mb-16"><strong>Address</strong></p>
+                <p class="tp-paragraph tp-paragraph--16">430-434, route de Longwy</p>
+                <p class="tp-paragraph tp-paragraph--16">L-1940 Luxembourg</p>
+              </address>
+
+              <div class="mb-32">
+                <p class="tp-heading tp-heading--h4 mb-16">Opening hours</p>
+                <p class="tp-paragraph tp-paragraph--16">Monday to Friday - 9am to 6pm</p>
+                <p class="tp-paragraph tp-paragraph--14 color-neutral-700">Closed on public holidays in Luxembourg.</p>
+              </div>
+
+              <div class="mb-32">
+                <p class="tp-heading tp-heading--h4 mb-16">Phone</p>
+                <a href="tel:003524695451" class="tp-paragraph tp-paragraph--16">(+352) 46 95 45 - 1</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section" id="forms">
+        <div class="tp-container">
+          <div class="text-center mb-32">
+            <h2 class="tp-heading tp-heading--h2 mb-24">For Travel Pro client</h2>
+            <h3 class="tp-heading tp-heading--h3 weight-500">Choose one of the options below based on your needs.</h3>
+          </div>
+
+          <div class="tp-flex row-gap-24">
+            <div class="tp-flex__col tp-flex__col-lg-4 d-flex">
+              <a href="#" class="tp-advantage-card">
+                <i class="icon-chevron-right tp-advantage-card__arrow" aria-hidden="true"></i>
+                <div class="tp-advantage-card__header">
+                  <img src="<%= require('/public/assets/images/travelpro-tickets.svg') %>" alt="">
+                  <p class="tp-heading tp-heading--h4">Travel request</p>
+                </div>
+                <div class="tp-advantage-card__content">
+                  <p class="tp-paragraph tp-paragraph--16">Request your next business trip by filling in our form.</p>
+                </div>
+              </a>
+            </div>
+            <div class="tp-flex__col tp-flex__col-lg-4 d-flex">
+              <a href="#" class="tp-advantage-card">
+                <i class="icon-chevron-right tp-advantage-card__arrow" aria-hidden="true"></i>
+                <div class="tp-advantage-card__header">
+                  <img src="<%= require('/public/assets/images/travelpro-compensation.svg') %>" alt="">
+                  <p class="tp-heading tp-heading--h4">Check & claim compensation</p>
+                </div>
+                <div class="tp-advantage-card__content">
+                  <p class="tp-paragraph tp-paragraph--16">We'll help you claim compensation if you're eligible.</p>
+                </div>
+              </a>
+            </div>
+            <div class="tp-flex__col tp-flex__col-lg-4 d-flex">
+              <a href="#" class="tp-advantage-card">
+                <i class="icon-chevron-right tp-advantage-card__arrow" aria-hidden="true"></i>
+                <div class="tp-advantage-card__header">
+                  <img src="<%= require('/public/assets/images/travelpro-review.svg') %>" alt="">
+                  <p class="tp-heading tp-heading--h4">Review us</p>
+                </div>
+                <div class="tp-advantage-card__content">
+                  <p class="tp-paragraph tp-paragraph--16">Your opinion counts, leave a review about your experience with us</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <tp-footer></tp-footer>
+  </body>
+</html>

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header-en active="business-travel"></tp-header-en>
+
+    <main class="tp-main">
+      <div class="tp-section pb-0 pb-md-80" style="background-image: url('<%= require('/public/assets/images/travelpro-background-6.webp') %>')">
+        <div class="tp-container">
+          <div class="tp-flex">
+            <div class="tp-flex__col tp-flex__col-md-7">
+              <h1 class="tp-heading tp-heading--h1 mb-32 mb-md-40">Our business Travel services</h1>
+              <p class="tp-heading tp-heading--h3 mb-24">Let us take care of the details, so you can concentrate on what truly matters – your business success.</p>
+              <p class="tp-paragraph tp-paragraph--16 mb-40">We offer a comprehensive range of services for your travelers, including flights, hotels, trains, car rentals, and much more.</p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-5">
+              <img src="<%= require('/public/assets/images/illustrations/travelpro-illustration-3.svg') %>" alt="" class="tp-illu-2">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section tabs -->
+      <div class="tp-section">
+        <div class="tp-container text-center">
+          <div class="tp-flex justify-content-center mb-40">
+            <div class="tp-flex__col tp-flex__col-lg-6">
+              <h2 class="tp-heading tp-heading--h2 mb-24">Manage your business trip</h2>
+              <p class="tp-heading tp-heading--h4">Whether you're a travel manager or a traveller, we offer you the applications you need to manage your business travel.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tp-container">
+<!--           <div role="tablist" aria-labelledby="tablist-1" class="tp-tabs">
+            <button id="tab-1" class="tp-button tp-button--primary-900" role="tab" aria-selected="true" aria-controls="tabpanel-1">Cytric</button>
+            <button id="tab-2" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-2" tabindex="-1">Neo by KDS</button>
+          </div> -->
+
+          <div class="tp-tabs-content">
+           <!--  Ne pas oublier de remettre tabindex="0" ainsi que aria-labelledby="tab-1" si on réactive les tabs -->
+            <div id="tabpanel-1" role="tabpanel">
+              <div class="tp-flex justify-content-between">
+                <div class="tp-flex__col tp-flex__col-md-7">
+                  <img src="<%= require('/public/assets/images/travelpro-visual-3.webp') %>" alt="">
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-paragraph tp-paragraph--16 mb-24">Benefits of the application</p>
+                  <ul class="list-icons mb-40">
+                    <li>Online booking tool for flight, hotel, car rental and rail</li>
+                    <li>Multi content : GDS, NDC, aggregators or direct suppliers</li>
+                    <li>Travel policy</li>
+                    <li>Expense management</li>
+                    <li>Clear CO2 displays</li>
+                  </ul>
+                  <a href="request-demo.html" class="tp-button tp-button--primary">Request demo</a>
+                </div>
+              </div>
+            </div>
+<!--             <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="is-hidden">
+              <p>
+                Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen.
+                Both as a virtuoso and as composer of flute music, he is considered one of the best of his time.
+                He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level.
+              </p>
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-7.webp') %>')">
+        <div class="tp-container">
+          <div class="tp-flex">
+            <div class="tp-flex__col tp-flex__col-md-4">
+              <h2 class="tp-heading tp-heading--h2 mb-24">Client Experience - Your trip</h2>
+              <p class="tp-paragraph tp-paragraph--16 mb-24">
+                Successful business trips require meticulous planning, seamless execution, and unwavering support. 
+                That's why we're your trusted partner in navigating the world of corporate travel. 
+                <strong>We simplify every aspect of your business journey.</strong>
+              </p>
+              <a href="contact.html" class="tp-button tp-button--primary">Get in touch</a>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-8 mt-32 mt-md-0">
+              <div class="tp-expand mb-16">
+                <div class="tp-number mb-16">
+                  <div class="tp-number__number">1</div>
+                  <div class="tp-heading tp-heading--h4">Before</div>
+                </div>
+                <p class="tp-paragraph tp-paragraph--16">
+                  Our comprehensive approach begins with pre-trip planning. 
+                  We offer a user friendly online reservation system designed to streamline the booking process. 
+                  Our dedicated...
+                </p>
+                <div class="tp-expand__content" id="expand-1" aria-hidden="false">
+                  <p class="tp-paragraph tp-paragraph--16">
+                    Our comprehensive approach begins with pre-trip planning. 
+                    We offer a user friendly online reservation system designed to streamline the booking process. 
+                    Our dedicated...
+                  </p>
+                </div>
+                <button 
+                  class="tp-expand__trigger tp-link" 
+                  aria-controls="expand-1" 
+                  aria-expanded="false" 
+                  data-more="See more" 
+                  data-less="See less"
+                >
+                  <span>See more</span> 
+                  <i class="icon-chevron-down" aria-hidden="true"></i>
+                </button>
+              </div>
+
+              <div class="tp-expand mb-16">
+                <div class="tp-number mb-16">
+                  <div class="tp-number__number">2</div>
+                  <div class="tp-heading tp-heading--h4">During</div>
+                </div>
+                <p class="tp-paragraph tp-paragraph--16">
+                  Once your journey begins, we remain at your side every step of the way. From priority check-ins to exclusive lounge access, we ensure a smooth travel experience. Our 24/7...
+                </p>
+                <div class="tp-expand__content" id="expand-1" aria-hidden="false">
+                  <p class="tp-paragraph tp-paragraph--16">
+                    Our comprehensive approach begins with pre-trip planning. 
+                    We offer a user friendly online reservation system designed to streamline the booking process. 
+                    Our dedicated...
+                  </p>
+                </div>
+                <button 
+                  class="tp-expand__trigger tp-link" 
+                  aria-controls="expand-1" 
+                  aria-expanded="false" 
+                  data-more="See more" 
+                  data-less="See less"
+                >
+                  <span>See more</span> 
+                  <i class="icon-chevron-down" aria-hidden="true"></i>
+                </button>
+              </div>
+
+              <div class="tp-expand">
+                <div class="tp-number mb-16">
+                  <div class="tp-number__number">3</div>
+                  <div class="tp-heading tp-heading--h4">After</div>
+                </div>
+                <p class="tp-paragraph tp-paragraph--16">
+                  Our commitment doesn't end when you return. We believe in the importance of post-trip evaluation to continually enhance our services. Share your feedback, and we'll use it to...
+                </p>
+                <div class="tp-expand__content" id="expand-1" aria-hidden="false">
+                  <p class="tp-paragraph tp-paragraph--16">
+                    Our comprehensive approach begins with pre-trip planning. 
+                    We offer a user friendly online reservation system designed to streamline the booking process. 
+                    Our dedicated...
+                  </p>
+                </div>
+                <button 
+                  class="tp-expand__trigger tp-link" 
+                  aria-controls="expand-1" 
+                  aria-expanded="false" 
+                  data-more="See more" 
+                  data-less="See less"
+                >
+                  <span>See more</span> 
+                  <i class="icon-chevron-down" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section tabs -->
+      <div class="tp-section">
+        <div class="tp-container text-center">
+          <div class="tp-flex justify-content-center mb-40">
+            <div class="tp-flex__col tp-flex__col-lg-6">
+              <h2 class="tp-heading tp-heading--h2 mb-24">Our detailed services</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="tp-container">
+          <div role="tablist" aria-labelledby="tablist-1" class="tp-tabs">
+            <button id="digital-tools" class="tp-button tp-button--primary-900" role="tab" aria-selected="true" aria-controls="tabpanel-digital-tools">Digital tools</button>
+            <button id="travel-facilities" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-travel-facilities" tabindex="-1">Travel facilities</button>
+            <button id="assistance" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-assistance" tabindex="-1">Assistance</button>
+            <button id="review" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-review" tabindex="-1">Review</button>
+          </div>
+
+          <div class="tp-tabs-content">
+            <div id="tabpanel-digital-tools" role="tabpanel" tabindex="0" aria-labelledby="digital-tools">
+              <div class="tp-flex row-gap-40">
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Online booking</p>
+                  <p class="tp-paragraph tp-paragraph--16">Vestibulum finibus cursus imperdiet. Sed posuere leo arcu, a pharetra velit sodales tincidunt. Integer elit ex, varius vitae egestas ut, maximus eu sapien. Imperdiet. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Reporting</p>
+                  <p class="tp-paragraph tp-paragraph--16">Vestibulum finibus cursus imperdiet. Sed posuere leo arcu, a pharetra velit sodales tincidunt. Integer elit ex, varius vitae egestas ut, maximus eu sapien. Imperdiet. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Travel alerts notifier</p>
+                  <p class="tp-paragraph tp-paragraph--16">Vestibulum finibus cursus imperdiet. Sed posuere leo arcu, a pharetra velit sodales tincidunt. Integer elit ex, varius vitae egestas ut, maximus eu sapien. Imperdiet. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Virtual paiement</p>
+                  <p class="tp-paragraph tp-paragraph--16">Vestibulum finibus cursus imperdiet. Sed posuere leo arcu, a pharetra velit sodales tincidunt. Integer elit ex, varius vitae egestas ut, maximus eu sapien. Imperdiet. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Mobile messenger</p>
+                  <p class="tp-paragraph tp-paragraph--16">Vestibulum finibus cursus imperdiet. Sed posuere leo arcu, a pharetra velit sodales tincidunt. Integer elit ex, varius vitae egestas ut, maximus eu sapien. Imperdiet. </p>
+                </div>
+              </div>
+            </div>
+            <div id="tabpanel-travel-facilities" role="tabpanel" tabindex="0" aria-labelledby="travel-facilities" class="is-hidden">
+              <p>
+                Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen.
+                Both as a virtuoso and as composer of flute music, he is considered one of the best of his time.
+                He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level.
+              </p>
+            </div>
+            <div id="tabpanel-assistance" role="tabpanel" tabindex="0" aria-labelledby="assistance" class="is-hidden">
+              <p>
+                Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen.
+                Both as a virtuoso and as composer of flute music, he is considered one of the best of his time.
+                He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level.
+              </p>
+            </div>
+            <div id="tabpanel-review" role="tabpanel" tabindex="0" aria-labelledby="review" class="is-hidden">
+              <p>
+                Carl Joachim Andersen (29 April 1847 – 7 May 1909) was a Danish flutist, conductor and composer born in Copenhagen, son of the flutist Christian Joachim Andersen.
+                Both as a virtuoso and as composer of flute music, he is considered one of the best of his time.
+                He was considered to be a tough leader and teacher and demanded as such a lot from his orchestras but through that style he reached a high level.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- testimonials -->
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-3.webp') %>')">
+        <div class="tp-slider-overflow-container">
+          <div class="tp-slider-overflow-container__content">
+            <h2 class="tp-heading tp-heading--h2 mb-md-40 mb-16">What Travel Pro’s clients say about us</h2>
+            <p class="tp-paragraph tp-paragraph--16 mb-24">Our solutions have helped our customers to travel safely, easily and stress-free. They tell us about their experiences</p>
+          </div>
+
+          <div class="tp-slider-overflow-container__inner">
+            <div class="tp-slider-container">
+              <div class="tp-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Lorem ipsum dolor sit amet, quantum consectetur elit. Morbi et bibendum massa. Sed accumsan ex. In quis eros ut justo blandit quis eu. Nun amet fringilla. Sit amet lorem. ”</p>
+                        <footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Lorem ipsum dolor sit amet, quantum consectetur elit. Morbi et bibendum massa. Sed accumsan ex. In quis eros ut justo blandit quis eu. Nun amet fringilla. Sit amet lorem. ”</p>
+                        <footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Lorem ipsum dolor sit amet, quantum consectetur elit. Morbi et bibendum massa. Sed accumsan ex. In quis eros ut justo blandit quis eu. Nun amet fringilla. Sit amet lorem. ”</p>
+                        <footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Lorem ipsum dolor sit amet, quantum consectetur elit. Morbi et bibendum massa. Sed accumsan ex. In quis eros ut justo blandit quis eu. Nun amet fringilla. Sit amet lorem. ”</p>
+                        <footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tp-container">
+          <div class="swiper-actions">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-navigation">
+              <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-prev" aria-label="Previous slide"><i class="icon-arrow-left-long" aria-hidden="true"></i></button>
+              <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-next" aria-label="Next slide"><i class="icon-arrow-right-long" aria-hidden="true"></i></button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between align-items-center mb-24 mb-md-40">
+            <div class="tp-flex__col tp-flex__col-md-6 mb-32 mb-md-0">
+              <h2 class="tp-heading tp-heading--h2">Discover the latest news</h2>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-6 text-md-right">
+              <a href="#" class="tp-button tp-button--primary-900 tp-button--outlined">All articles <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="tp-flex row-gap-16">
+            <div class="tp-flex__col tp-flex__col-md-6">
+              <article class="tp-article-card">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <div class="tp-badge tp-badge--tertiary-200">CategoryName</div>
+                    <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="">
+                    <div class="tp-article-card__blur">
+                      <i class="icon-time" aria-hidden="true"></i>
+                      <p>3 min reading</p>
+                    </div>
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4 mb-16">Re-invoice Professional Expenses</h3>
+                    <p class="tp-paragraph tp-paragraph--16">
+                      To re-invoice professional expenses, it is essential to keep detailed accounting records to 
+                      be able to track the professional...
+                    </p>
+                  </div>
+                </a>
+              </article>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-6 d-flex row-gap-16 justify-content-between" style="flex-direction: column;">
+              <article class="tp-article-card tp-article-card--horizontal">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="">
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4">Travel Pro S.A. is proud to announce obtaining the “Made in Luxembourg” label Travel Pro S.A. is proud to announce obtaining the “Made in Luxembourg” label</h3>
+                  </div>
+                </a>
+              </article>
+              <article class="tp-article-card tp-article-card--horizontal">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="">
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4">Travel Pro S.A. is proud to announce obtaining the </h3>
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Talk to the travel pro team -->
+      <tp-team-banner></tp-team-banner>
+    </main>
+    <tp-footer></tp-footer>
+  </body>
+</html>
