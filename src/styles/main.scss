@@ -1,5 +1,8 @@
+// Import des variables SCSS
 @import 'variables';
 
+
+// Import des fonts
 @font-face {
   font-family: 'metropolis-regular';
   font-weight: 400;
@@ -43,6 +46,7 @@
 }
 
 
+// Imports de tous les fichiers SCSS
 @import 'functions/map-deep-get';
 @import 'utils/spacings';
 @import 'utils/colors';
@@ -81,7 +85,7 @@ html {
   line-height: 1.5;
   scroll-behavior: smooth;
   scroll-padding-top: 4.8rem;
-  
+
   @media(min-width: $md) {
     scroll-padding-top: 8rem;
   }
@@ -279,14 +283,14 @@ address {
 .tp-section-full {
   position: relative;
   padding-top: 4.8rem;
-  
+
   &__left {
     padding: 0 1.6rem 6.4rem;
   }
 
   @media(min-width: $md) {
     padding-top: 0;
-    
+
     &__left {
       width: 55%;
       padding: 8rem 8rem 8rem 1.6rem;
@@ -297,7 +301,7 @@ address {
         width: 100%;
       }
     }
-  
+
     &__right {
       position: absolute;
       top: 0;
