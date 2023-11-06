@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header></tp-header>
+
+    <main class="tp-main">
+      <div class="tp-section tp-container">
+        <div class="tp-flex tp-flex-justify-center">
+          <div class="tp-flex__col tp-flex__col-md-4 mb-40">
+            <h1 class="tp-heading tp-heading--h1 mb-16">404</h1>
+            <p class="tp-paragraph tp-paragraph--16 mb-16 mb-md-40">Sorry, it looks like this page can’t be found...</p>
+            <a href="index.html" class="tp-button tp-button--primary-900 tp-button--outlined">Back to homepage <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+          </div>
+          <div class="tp-flex__col tp-flex__col-md-4">
+            <img src="<%= require('/public/assets/images/illustrations/travelpro-illustration-6.svg') %>" alt="illustration 404">
+          </div>
+        </div>
+      </div>
+    </main>
+    <tp-footer></tp-footer>
+  </body>
+</html>

@@ -9,7 +9,6 @@ module.exports = merge(common, {
     historyApiFallback: true, // Permet de rediriger les 404 vers la page index.html
     static: path.resolve(__dirname, './public'), // Permet de se baser sur les fichiers du dossier dist
     watchFiles: ['src/**'], // Surveille les fichiers à hot reload
-    open: ['en/index.html'], // Ouvre le navigateur lorsque webpack est prêt
     hot: true, // Active le système de rechargement à chaud (rechargement automatique à la sauvegarde)
     port: 8081
   },

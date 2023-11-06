@@ -122,11 +122,18 @@ document.addEventListener('DOMContentLoaded', () => {
     let articles = "";
     let defaultLoadedArticles = "";
     let articlesJSON = "";
+    let loadMoreButton = "";
+    let filterButtons = "";
+    let filters = "";
 
     const articlesList = document.querySelector('#articles-list');
     const lang = articlesList.dataset.lang;
-    const loadMoreButton = document.querySelector('#load-more');
-    const filterButtons = document.querySelectorAll('[data-filter]');
+    const urlFile = articlesList.dataset.url;
+    const limit = articlesList.dataset.limit;
+    
+    if(document.querySelector('#filters')) { filters = document.querySelector('#filters'); }
+    if(document.querySelector('#load-more')) { loadMoreButton = document.querySelector('#load-more'); }
+    if(document.querySelector('[data-filter]')) { filterButtons = document.querySelectorAll('[data-filter]'); }
 
     switch(lang) {
       case 'en': articlesJSON = ENarticlesJSON; break; // articlesJSON contient les articles en EN
@@ -175,83 +182,89 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Affiche plus d'articles
-    loadMoreButton.addEventListener('click', () => {
-      // Récupère les articles suivants
-      fetch(`../articles-${lang}.json`).then(response => response.json()).then(data => {
-        // Filtre les articles déjà affichés
-        const articlesNonAffichees = data.slice(defaultLoadedArticles.length, data.length);
-
-        // Ajoute les articles supplémentaires à la liste
-        defaultLoadedArticles.push(...articlesNonAffichees);
-
-        renderArticles();
-        loadMoreButton.style.display = "none"
-      });
-    });
-
-    // Met à jour la liste d'articles en fonction des filtres
-    filters.querySelector('select').addEventListener('change', () => {
-      const category = filters.querySelector('select').value;
-
-      // Réinitialise la liste d'articles
-      articles = [];
-
-        // Ajoute les articles correspondant au filtre
-        if (category === 'all') {
-          for (const article of articlesJSON) {
-            articles.push(article);
-          }
-        }
-        else {
-          for (const article of articlesJSON) {
-            if (article.category === category) {
-              articles.push(article);
-            }
-          }
-        }
-
-      // Affiche les articles
-      renderArticles();
-    });
-
-    filterButtons.forEach(filterButton => {
-      filterButton.addEventListener('click', () => {
-        const filterValue = filterButton.dataset.filter;
-
-        filterButtons.forEach(filterButton => {
-          filterButton.classList.remove('tp-button--primary-900');
-          filterButton.classList.add('tp-button--neutral-100');
+    if(loadMoreButton) {
+      loadMoreButton.addEventListener('click', () => {
+        // Récupère les articles suivants
+        fetch(`../articles-${lang}.json`).then(response => response.json()).then(data => {
+          // Filtre les articles déjà affichés
+          const articlesNonAffichees = data.slice(defaultLoadedArticles.length, data.length);
+  
+          // Ajoute les articles supplémentaires à la liste
+          defaultLoadedArticles.push(...articlesNonAffichees);
+  
+          renderArticles();
+          loadMoreButton.style.display = "none"
         });
-
-
-        filterButton.classList.add('tp-button--primary-900');
-        filterButton.classList.remove('tp-button--neutral-100');
-
+      });
+    }
+    
+    // Met à jour la liste d'articles en fonction des filtres
+    if(filters) {
+      filters.querySelector('select').addEventListener('change', () => {
+        const category = filters.querySelector('select').value;
+  
         // Réinitialise la liste d'articles
         articles = [];
-
-        // Ajoute les articles correspondant au filtre
-        if (filterValue === 'all') {
-          for (const article of articlesJSON) {
-            articles.push(article);
-          }
-        }
-        else {
-          for (const article of articlesJSON) {
-            if (article.category === filterValue) {
+  
+          // Ajoute les articles correspondant au filtre
+          if (category === 'all') {
+            for (const article of articlesJSON) {
               articles.push(article);
             }
           }
-        }
-
+          else {
+            for (const article of articlesJSON) {
+              if (article.category === category) {
+                articles.push(article);
+              }
+            }
+          }
+  
         // Affiche les articles
         renderArticles();
+      });
+    }
+
+    if(filterButtons) {
+      filterButtons.forEach(filterButton => {
+        filterButton.addEventListener('click', () => {
+          const filterValue = filterButton.dataset.filter;
+  
+          filterButtons.forEach(filterButton => {
+            filterButton.classList.remove('tp-button--primary-900');
+            filterButton.classList.add('tp-button--neutral-100');
+          });
+  
+  
+          filterButton.classList.add('tp-button--primary-900');
+          filterButton.classList.remove('tp-button--neutral-100');
+  
+          // Réinitialise la liste d'articles
+          articles = [];
+  
+          // Ajoute les articles correspondant au filtre
+          if (filterValue === 'all') {
+            for (const article of articlesJSON) {
+              articles.push(article);
+            }
+          }
+          else {
+            for (const article of articlesJSON) {
+              if (article.category === filterValue) {
+                articles.push(article);
+              }
+            }
+          }
+  
+          // Affiche les articles
+          renderArticles();
+        })
       })
-    })
+    }
 
     // Charge les articles
-    fetch(`../articles-${lang}.json`).then(response => response.json()).then(data => {
-      defaultLoadedArticles = data.slice(0, 6);
+    fetch(`${urlFile}articles-${lang}.json`).then(response => response.json()).then(data => {
+      defaultLoadedArticles = data.slice(0, limit);
 
       articles = defaultLoadedArticles;
       renderArticles();

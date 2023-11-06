@@ -1,0 +1,31 @@
+$component: tp-share-social;
+
+.#{$component} {
+  display: flex;
+  flex-direction: column;
+
+  padding: 4.8rem 0;
+  border-bottom: 0.1rem solid var(--primary-100);
+  margin-bottom: 1.6rem;
+
+  ul {
+    display: flex;
+    column-gap: 1.2rem;
+
+    li {
+      display: inline-flex;
+
+      a {
+        font-size: 2.8rem;
+        text-decoration: none;
+        color: var(--primary-950);
+      }
+    }
+  }
+
+  @media(min-width: $sm) {
+    flex-direction: row;
+    align-items: center;
+    column-gap: 2.6rem;
+  }
+}

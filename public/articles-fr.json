@@ -1,9 +1,9 @@
 [
   {
     "title": "Article FR",
-    "url": "/article-1",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
@@ -12,9 +12,9 @@
   },
   {
     "title": "Re-invoice FR article 2 FR",
-    "url": "/article-2",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "6min reading",
@@ -23,9 +23,9 @@
   },
   {
     "title": "Re-invoice FR article 3",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -34,9 +34,9 @@
   },
   {
     "title": "Re-invoice FR article 4",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -45,9 +45,9 @@
   },
   {
     "title": "Re-invoice FR article 5",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -56,9 +56,9 @@
   },
   {
     "title": "Re-invoice FR article 6",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -67,9 +67,9 @@
   },
   {
     "title": "Re-invoice FR article 7",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -78,9 +78,9 @@
   },
   {
     "title": "Re-invoice FR article 8",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -89,9 +89,9 @@
   },
   {
     "title": "Re-invoice FR article 9",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -100,9 +100,9 @@
   },
   {
     "title": "Re-invoice FR article 10",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -111,9 +111,9 @@
   },
   {
     "title": "Re-invoice FR article 11",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
@@ -122,9 +122,9 @@
   },
   {
     "title": "Re-invoice FR article 12",
-    "url": "/article-3",
+    "url": "articles/template.html",
     "image": {
-      "url": "../assets/images/travelpro-visual-4.webp",
+      "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
     },
     "time-reading": "2min reading",
