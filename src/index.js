@@ -24,9 +24,9 @@ import expands from './scripts/expand';
 import expands2 from './scripts/expand-2';
 
 // Import des fichiers de traductions JSON
-import ENarticlesJSON from '/public/articles-en.json';
-import FRarticlesJSON from '/public/articles-fr.json';
-import DEarticlesJSON from '/public/articles-de.json';
+import ENarticlesJSON from '/public/articles-en.js';
+import FRarticlesJSON from '/public/articles-fr.js';
+import DEarticlesJSON from '/public/articles-de.js';
 
 
 // Lorsque le Document a fini de charger
@@ -184,17 +184,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Affiche plus d'articles
     if(loadMoreButton) {
       loadMoreButton.addEventListener('click', () => {
-        // Récupère les articles suivants
-        fetch(`../articles-${lang}.json`).then(response => response.json()).then(data => {
-          // Filtre les articles déjà affichés
-          const articlesNonAffichees = data.slice(defaultLoadedArticles.length, data.length);
-  
-          // Ajoute les articles supplémentaires à la liste
-          defaultLoadedArticles.push(...articlesNonAffichees);
-  
-          renderArticles();
+        // Filtre les articles déjà affichés
+        console.log(articlesJSON, 'articlesJSON')
+        const articlesNonAffichees = articlesJSON.slice(defaultLoadedArticles.length, articlesJSON.length);
+        console.log(articlesNonAffichees, 'articlesNonAffichees')
+        console.log(defaultLoadedArticles, 'defaultLoadedArticles')
+        // Ajoute les articles supplémentaires à la liste
+        defaultLoadedArticles.push(...articlesNonAffichees);
+        console.log(defaultLoadedArticles, 'defaultLoadedArticles après push')
+
+        articles = defaultLoadedArticles;
+        renderArticles();
+        
+        if(defaultLoadedArticles.length === articlesJSON.length) {
           loadMoreButton.style.display = "none"
-        });
+        }
       });
     }
     
@@ -206,19 +210,19 @@ document.addEventListener('DOMContentLoaded', () => {
         // Réinitialise la liste d'articles
         articles = [];
   
-          // Ajoute les articles correspondant au filtre
-          if (category === 'all') {
-            for (const article of articlesJSON) {
+        // Ajoute les articles correspondant au filtre
+        if (category === 'all') {
+          for (const article of articlesJSON) {
+            articles.push(article);
+          }
+        }
+        else {
+          for (const article of articlesJSON) {
+            if (article.category === category) {
               articles.push(article);
             }
           }
-          else {
-            for (const article of articlesJSON) {
-              if (article.category === category) {
-                articles.push(article);
-              }
-            }
-          }
+        }
   
         // Affiche les articles
         renderArticles();
@@ -235,7 +239,6 @@ document.addEventListener('DOMContentLoaded', () => {
             filterButton.classList.add('tp-button--neutral-100');
           });
   
-  
           filterButton.classList.add('tp-button--primary-900');
           filterButton.classList.remove('tp-button--neutral-100');
   
@@ -244,18 +247,21 @@ document.addEventListener('DOMContentLoaded', () => {
   
           // Ajoute les articles correspondant au filtre
           if (filterValue === 'all') {
-            for (const article of articlesJSON) {
+            for (const article of articlesJSON.slice(0, limit)) {
               articles.push(article);
             }
+            loadMoreButton.style.display = "inline-flex"
           }
           else {
+            loadMoreButton.style.display = "none"
+
             for (const article of articlesJSON) {
               if (article.category === filterValue) {
                 articles.push(article);
               }
             }
           }
-  
+
           // Affiche les articles
           renderArticles();
         })
@@ -263,11 +269,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Charge les articles
-    fetch(`${urlFile}articles-${lang}.json`).then(response => response.json()).then(data => {
-      defaultLoadedArticles = data.slice(0, limit);
+    defaultLoadedArticles = articlesJSON.slice(0, limit);
+    articles = defaultLoadedArticles;
 
-      articles = defaultLoadedArticles;
-      renderArticles();
-    });
+    renderArticles();
   }
 });

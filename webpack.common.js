@@ -106,14 +106,26 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Welcome to TravelPro',
       description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
-      template: path.resolve(__dirname, './src/fr/articles/template.html'),
-      filename: 'fr/articles/template.html',
+      template: path.resolve(__dirname, './src/fr/articles/article-1.html'),
+      filename: 'fr/articles/article-1.html',
     }),
     new HtmlWebpackPlugin({
       title: 'Welcome to TravelPro',
       description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
-      template: path.resolve(__dirname, './src/en/template.html'),
-      filename: 'en/template.html',
+      template: path.resolve(__dirname, './src/en/articles/article-1.html'),
+      filename: 'en/articles/article-1.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/fr/articles/article-2.html'),
+      filename: 'fr/articles/article-2.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/en/articles/article-2.html'),
+      filename: 'en/articles/article-2.html',
     }),
 
 
