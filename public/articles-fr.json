@@ -1,7 +1,7 @@
 [
   {
     "title": "Article FR",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -12,7 +12,7 @@
   },
   {
     "title": "Re-invoice FR article 2 FR",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -23,7 +23,7 @@
   },
   {
     "title": "Re-invoice FR article 3",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -34,7 +34,7 @@
   },
   {
     "title": "Re-invoice FR article 4",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -45,7 +45,7 @@
   },
   {
     "title": "Re-invoice FR article 5",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -56,7 +56,7 @@
   },
   {
     "title": "Re-invoice FR article 6",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -67,7 +67,7 @@
   },
   {
     "title": "Re-invoice FR article 7",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -78,7 +78,7 @@
   },
   {
     "title": "Re-invoice FR article 8",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -89,7 +89,7 @@
   },
   {
     "title": "Re-invoice FR article 9",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -100,7 +100,7 @@
   },
   {
     "title": "Re-invoice FR article 10",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -111,7 +111,7 @@
   },
   {
     "title": "Re-invoice FR article 11",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"
@@ -122,7 +122,7 @@
   },
   {
     "title": "Re-invoice FR article 12",
-    "url": "articles/template.html",
+    "url": "./articles/template.html",
     "image": {
       "url": "../../assets/images/travelpro-visual-4.webp",
       "alt": "this is an alt text"

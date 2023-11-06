@@ -14,12 +14,12 @@ export default class Footer extends HTMLElement {
                     <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Links</p>
                     <nav class="tp-nav-footer">
                       <ul>
-                        <li><a href="index.html" class="tp-link">Home</a></li>
-                        <li><a href="business-travel.html" class="tp-link">Business Travel</a></li>
-                        <li><a href="about-us.html" class="tp-link">About us</a></li>
-                        <li><a href="#" class="tp-link">Blog</a></li>
-                        <li><a href="contact.html" class="tp-link">Contact us</a></li>
-                        <li><a href="request-demo.html" class="tp-link">Request demo</a></li>
+                        <li><a href="./index.html" class="tp-link">Home</a></li>
+                        <li><a href="./business-travel.html" class="tp-link">Business Travel</a></li>
+                        <li><a href="./about-us.html" class="tp-link">About us</a></li>
+                        <li><a href="./blog.html" class="tp-link">Blog</a></li>
+                        <li><a href="./contact.html" class="tp-link">Contact us</a></li>
+                        <li><a href="./request-demo.html" class="tp-link">Request demo</a></li>
                         <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
@@ -42,7 +42,7 @@ export default class Footer extends HTMLElement {
                       <ul>
                         <li><a href="tel:003524695451" class="tp-link"><i class="icon-phone" aria-hidden="true"></i> +352 46 95 45 - 1</a></li>
                         <li><a href="#" class="tp-link"><i class="icon-location" aria-hidden="true"></i> 430-434, route de Longwy L-1940 Luxembourg</a></li>
-                        <li><a href="contact.html" class="tp-button tp-button--primary tp-button--outlined">Contact us</a></li>
+                        <li><a href="./contact.html" class="tp-button tp-button--primary tp-button--outlined">Contact us</a></li>
                       </ul>
                     </nav>
                   </div>
