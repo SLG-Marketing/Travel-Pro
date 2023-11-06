@@ -50,7 +50,7 @@ module.exports = merge(common, {
         test: /\.(jpg|png|webp)$/,
         type: 'asset/resource',
         generator: {
-          publicPath: '//assets/images/' , // Chemin ajouté devant le nom de la font dans le fichier css
+          publicPath: '../assets/images/' , // Chemin ajouté devant le nom de la font dans le fichier css
           outputPath: 'assets/images', // Nom du dossier dans lequel est stocké la font
         },
       }
