@@ -7,11 +7,17 @@ import './fr/components/footer';
 import './fr/components/team-banner';
 import './fr/components/newsletter';
 
-// Import des web components DE
+// Import des web components EN
 import './en/components/header';
 import './en/components/footer';
 import './en/components/team-banner';
 import './en/components/newsletter';
+
+// Import des web components DE
+import './de/components/header';
+import './de/components/footer';
+import './de/components/team-banner';
+import './de/components/newsletter';
 
 // Import SwiperJS
 import Swiper from 'swiper';

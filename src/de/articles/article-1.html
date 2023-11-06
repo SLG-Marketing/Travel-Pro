@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- GetResponse Analytics -->
+    <script type="text/javascript">
+      (function(m, o, n, t, e, r, _){
+              m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+              r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+          })(window, document, 'script', 'https://newsletter.slg.lu/script/04309704-bfba-4e18-97d8-c7fc88928bfc/ga.js', 'GrTracking');
+    
+    
+      </script>
+    <!-- End GetResponse Analytics -->
+  </head>
+  <body>
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header-de active="article-1" url=".."></tp-header-de>
+
+    <main class="tp-main">
+      <div class="tp-section tp-container" id="content">
+        <a href="../blog.html" class="tp-link"><i class="icon-arrow-left-long"></i> Blog</a>
+        <div class="tp-flex mt-40">
+          <div class="tp-flex__col tp-flex__col-md-8">
+            <article>
+              <header>
+                <h1 class="tp-heading tp-heading--h1">Article 1 DE</h1>
+                <ul class="tp-list-blog-infos mt-24">
+                  <li>
+                    <i class="icon-calendar" aria-hidden="true"></i> 28/09/2023
+                  </li>
+                  <li>
+                    <i class="icon-time" aria-hidden="true"></i> 3 min reading
+                  </li>
+                </ul>
+              </header>
+              <section class="tp-blog pt-48">
+                <p class="tp-excerpt">
+                  To re-invoice professional expenses, it is essential to keep detailed accounting records to be able to track 
+                  the professional expenses incurred, their amount, their nature, and the applicable VAT rate.
+                </p>
+                <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="" class="mb-40" style="width: 100%;">
+
+                <p>
+                  To help professionals in this task, the N2F expense report management application can be 
+                  used to generate expense reports in order to avoid any errors or delays in managing 
+                  the re-invoicing of professional expenses.
+                </p>
+
+                <h2 class="mt-48 mb-24">Re-invoicing expenses: what does it mean?</h2>
+                <p class="mb-16">
+                  Re-invoicing expenses enables service providers to be reimbursed by the client company for 
+                  expenses incurred when providing a service.
+                </p>
+                <p>The main expenses re-invoiced are:</p>
+                <ul class="mb-16">
+                  <li>Travel Expenses</li>
+                  <li>Accommodation Costs</li>
+                  <li>Meal Expenses</li>
+                </ul>
+
+                <p>
+                  To be able to re-invoice expenses, the service provider must obtain the client company’s prior agreement to 
+                  include these costs in the quotation and invoice. For greater visibility, and depending on the number of costs 
+                  that are likely to be re-invoiced to the client, it is also possible to send a separate invoice in 
+                  addition to the main invoice for the performance of the service.
+                </p>
+
+                <h2 class="mt-48 mb-24">Re-invoicing expenses: a maximum amount?</h2>
+                <p class="mb-24">
+                  There is no legal maximum amount for the expenses re-invoiced. 
+                  It is essentially a matter of respecting the agreement with the client company that has undertaken 
+                  to reimburse the costs incurred by the service provider.
+                </p>
+                <p class="mb-24">
+                  Depending on the nature of the service, the amount of travel and accommodation expenses 
+                  re-invoiced to the client company may therefore vary.
+                </p>
+                <p class="mb-24">
+                  In addition, the amount to be re-invoiced must also take into account VAT and in particular whether it is deductible or not.
+                </p>
+                <p class="mb-24">
+                  When the VAT on the re-invoiced expenses is deductible, the service provider must invoice 
+                  its customer for the amount excluding VAT. The service provider will then be able to recover 
+                  the VAT on the costs it has incurred when performing its service. 
+                  The usual VAT declaration procedure remains applicable in this case.
+                </p>
+                <p class="mb-24">
+                  When re-invoicing expenses that are non-deductible for VAT purposes, 
+                  the service provider will need to issue invoices for the amount including VAT.
+                </p>
+                <p class="mb-24">
+                  Note that some professionals generate a margin when re-invoicing their expenses 
+                  by invoicing the amount they paid (including VAT) as though it excluded VAT. 
+                  This enables them to achieve a margin equivalent to the amount of VAT. 
+                  Although this practice is not illegal per se, it is generally perceived 
+                  to show a lack transparency with regard to the client company.
+                </p>
+
+                <img src="<%= require('/public/assets/images/travelpro-visual-3.webp') %>" alt="">
+
+                <h2 class="mt-48 mb-24">Re-invoicing expenses and VAT: examples</h2>
+                <p class="mb-24">
+                  Re-invoicing expenses with VAT does not follow the same rules as disbursements.
+                </p>
+                <p class="mb-24">
+                  As a reminder, the practice of re-invoicing expenses corresponds to the advance payment of 
+                  professional expenses by the service provider. 
+                  If the client company agrees to this practice, it may subsequently reimburse the service 
+                  provider for professional expenses relating to the engagement, such as travel expenses. 
+                  In this case, the service provider can re-invoice the expenses to its client excluding 
+                  VAT if the VAT is deductible. It can then recover the VAT for its own account.
+                </p>
+                <p class="mb-24">
+                  A disbursement is an expense incurred by the service provider on behalf of a client company. 
+                  The invoice is therefore drawn up in the name of the client company. 
+                  For a disbursement, the VAT cannot be recovered by the service provider. 
+                  The service provider is reimbursed for the expenses actually incurred.
+                </p>
+                <p class="mb-24">
+                  As an example, note that VAT on hotel accommodation costs is not deductible. 
+                  A service provider who pays €80 for a night in a hotel will therefore have to re-invoice 
+                  this accommodation expense at €80 including tax.
+                </p>
+
+                <h2 class="mt-48 mb-24">Re-invoicing expenses: save time!</h2>
+                <p class="mb-24">
+                  To re-invoice expenses you need to have mastered the notion of deductible and non-deductible 
+                  VAT and of invoicing excluding or including VAT, etc.
+                </p>
+                <p>
+                  This can quickly become an onerous task. You can optimize the management of your expense 
+                  re-invoicing by using N2F expense report management software, which offers 
+                  all the necessary functionalities to quickly edit and manage expense reports.
+                </p>
+              </section>
+              <section>
+                <div class="tp-share-social">
+                  <p class="tp-paragraph tp-paragraph--14">Share this article :</p>
+                  <ul>
+                    <li><a href="#" title="Partager sur facebook"><i class="icon-media_facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="Partager sur linkedin"><i class="icon-media_linkedin" aria-hidden="true"></i></a></li>
+                    <li><a href="#" title="Partager par email"><i class="icon-paper-plane" aria-hidden="true"></i></a></li>
+                  </ul>
+                </div>
+              </section>
+              <div class="tp-categories-list">
+                <p class="tp-paragraph tp-paragraph--16 color-neutral-700"><strong>Categories :</strong></p>
+                <ul>
+                  <li>#CategoryName</li>
+                  <li>#CategoryName</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+          <div class="tp-flex__col tp-flex__col-md-4 pt-48 pt-md-64">
+            <div class="tp-newsletter-box">
+              <div class="tp-newsletter-box__header">
+                <img src="<%= require('/public/assets/images/travelpro-newsletter.svg') %>" alt="">
+                <p class="tp-heading tp-heading--h4"><strong>Subscribe to the Travel Pro Newsletter for exclusive updates!</strong></p>
+              </div>
+              <div class="tp-newsletter-box__content">
+                <getresponse-form form-id="ad9db41b-a353-4019-a7ba-772acede3fcc" e="0"></getresponse-form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section pt-0">
+        <div class="tp-container">
+          <h2 class="tp-heading tp-heading--h2 mb-24 mb-md-40">Lire aussi...</h2>
+
+          <div class="tp-flex row-gap-24" id="articles-list" data-lang="fr" data-url="../../" data-limit="3"></div>
+        </div>
+      </div>
+    </main>
+    <tp-footer-de></tp-footer-de>
+  </body>
+</html>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="de">
   <head>
     <meta name="Viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -20,7 +20,7 @@
   <body>
     <a class="tp-skiplink" href="#content">Go to content</a>
     
-    <tp-header active="blog"></tp-header>
+    <tp-header-de active="blog"></tp-header-de>
 
     <main class="tp-main">
       <div class="tp-section">
@@ -29,7 +29,7 @@
           <h2 class="tp-heading tp-heading--h2 mb-24 mb-md-40">Latest article</h2>
 
           <article class="tp-article-card tp-article-card--jumbotron">
-            <a href="articles/template.html">
+            <a href="articles/article-1.html">
               <div class="tp-article-card__image">
                 <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="">
               </div>
@@ -69,7 +69,7 @@
             <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="mice">MICE</button>
             <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="tech">TECH</button>
           </div>
-          <div class="tp-flex row-gap-24" id="articles-list" data-lang="fr" data-url="/" data-limit="9"></div>
+          <div class="tp-flex row-gap-24" id="articles-list" data-lang="de" data-url="/" data-limit="9"></div>
 
           <div class="text-center">
             <button class="tp-button tp-button--outlined tp-button--primary-900 mt-40 mt-md-80" id="load-more">Load more <i class="icon-chevron-down" aria-hidden="true"></i></button>
@@ -78,6 +78,6 @@
       </div>
     </main>
 
-    <tp-footer></tp-footer>
+    <tp-footer-de></tp-footer-de>
   </body>
 </html>

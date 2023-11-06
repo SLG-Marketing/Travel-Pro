@@ -57,6 +57,13 @@ module.exports = {
       template: path.resolve(__dirname, './src/en/index.html'),
       filename: 'en/index.html'
     }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/index.html'),
+      filename: 'de/index.html'
+    }),
+
 
     // Business travel
     new HtmlWebpackPlugin({
@@ -70,6 +77,12 @@ module.exports = {
       description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
       template: path.resolve(__dirname, './src/en/business-travel.html'),
       filename: 'en/business-travel.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/business-travel.html'),
+      filename: 'de/business-travel.html',
     }),
 
 
@@ -86,6 +99,12 @@ module.exports = {
       template: path.resolve(__dirname, './src/en/about-us.html'),
       filename: 'en/about-us.html',
     }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/about-us.html'),
+      filename: 'de/about-us.html',
+    }),
 
 
     // Blog
@@ -101,6 +120,14 @@ module.exports = {
       template: path.resolve(__dirname, './src/en/blog.html'),
       filename: 'en/blog.html',
     }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/blog.html'),
+      filename: 'de/blog.html',
+    }),
+
+
 
     // Articles
     new HtmlWebpackPlugin({
@@ -118,6 +145,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Welcome to TravelPro',
       description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/articles/article-1.html'),
+      filename: 'de/articles/article-1.html',
+    }),
+
+
+
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
       template: path.resolve(__dirname, './src/fr/articles/article-2.html'),
       filename: 'fr/articles/article-2.html',
     }),
@@ -126,6 +162,12 @@ module.exports = {
       description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
       template: path.resolve(__dirname, './src/en/articles/article-2.html'),
       filename: 'en/articles/article-2.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/articles/article-2.html'),
+      filename: 'de/articles/article-2.html',
     }),
 
 
@@ -141,6 +183,13 @@ module.exports = {
       template: path.resolve(__dirname, './src/en/contact.html'),
       filename: 'en/contact.html',
     }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/contact.html'),
+      filename: 'de/contact.html',
+    }),
+
 
     new HtmlWebpackPlugin({
       title: 'Welcome to TravelPro',
@@ -154,6 +203,14 @@ module.exports = {
       template: path.resolve(__dirname, './src/en/request-demo.html'),
       filename: 'en/request-demo.html',
     }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/request-demo.html'),
+      filename: 'de/request-demo.html',
+    }),
+
+
 
     new HtmlWebpackPlugin({
       title: 'Welcome to TravelPro',
@@ -166,6 +223,12 @@ module.exports = {
       description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
       template: path.resolve(__dirname, './src/en/404.html'),
       filename: 'en/404.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: 'Welcome to TravelPro',
+      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      template: path.resolve(__dirname, './src/de/404.html'),
+      filename: 'de/404.html',
     })
   ]
 };
