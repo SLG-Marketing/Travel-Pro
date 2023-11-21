@@ -46,20 +46,20 @@ module.exports = {
   plugins: [
     // Home
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/index.html'),
       filename: 'fr/index.html'
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/index.html'),
       filename: 'en/index.html'
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/index.html'),
       filename: 'de/index.html'
     }),
@@ -67,20 +67,20 @@ module.exports = {
 
     // Business travel
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/business-travel.html'),
       filename: 'fr/business-travel.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/business-travel.html'),
       filename: 'en/business-travel.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/business-travel.html'),
       filename: 'de/business-travel.html',
     }),
@@ -88,20 +88,20 @@ module.exports = {
 
     // About us
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/about-us.html'),
       filename: 'fr/about-us.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/about-us.html'),
       filename: 'en/about-us.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/about-us.html'),
       filename: 'de/about-us.html',
     }),
@@ -109,20 +109,20 @@ module.exports = {
 
     // Blog
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/blog.html'),
       filename: 'fr/blog.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/blog.html'),
       filename: 'en/blog.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/blog.html'),
       filename: 'de/blog.html',
     }),
@@ -131,20 +131,20 @@ module.exports = {
 
     // Articles
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/articles/article-1.html'),
       filename: 'fr/articles/article-1.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/articles/article-1.html'),
       filename: 'en/articles/article-1.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/articles/article-1.html'),
       filename: 'de/articles/article-1.html',
     }),
@@ -152,60 +152,60 @@ module.exports = {
 
 
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/articles/article-2.html'),
       filename: 'fr/articles/article-2.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/articles/article-2.html'),
       filename: 'en/articles/article-2.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/articles/article-2.html'),
       filename: 'de/articles/article-2.html',
     }),
 
 
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/contact.html'),
       filename: 'fr/contact.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/contact.html'),
       filename: 'en/contact.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/contact.html'),
       filename: 'de/contact.html',
     }),
 
 
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/request-demo.html'),
       filename: 'fr/request-demo.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/request-demo.html'),
       filename: 'en/request-demo.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/request-demo.html'),
       filename: 'de/request-demo.html',
     }),
@@ -213,20 +213,20 @@ module.exports = {
 
 
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/404.html'),
       filename: 'fr/404.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/404.html'),
       filename: 'en/404.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Welcome to TravelPro',
-      description: 'Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu`il est prêt ou que la mise en page est achevée.',
+      title: 'Business Travel | Travel Pro',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/404.html'),
       filename: 'de/404.html',
     })

@@ -22,7 +22,7 @@ export default class HeaderEN extends HTMLElement {
                               <a href="${this._url}/index.html" title="logo travelpro and american express global business travel"><img src="${logoTravelProAE}" alt="logo travelpro and american express global business travel"></a>
                             </div>
                             <div class="tp-header__row-1__right">
-                              <a href="https://www.slg.lu/career/" target="_blank" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                              <a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
                               <ul class="tp-nav-langs">
                                 <li tabindex="0">
                                   <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</span>

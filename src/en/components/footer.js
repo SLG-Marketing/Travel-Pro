@@ -41,7 +41,7 @@ export default class FooterEN extends HTMLElement {
                     <nav class="tp-nav-footer">
                       <ul>
                         <li><a href="tel:003524695451" class="tp-link"><i class="icon-phone" aria-hidden="true"></i> +352 46 95 45 - 1</a></li>
-                        <li><a href="#" class="tp-link"><i class="icon-location" aria-hidden="true"></i> 430-434, route de Longwy L-1940 Luxembourg</a></li>
+                        <li><a href="https://maps.app.goo.gl/Vm6Up186MhyWwMjZ6" class="tp-link"><i class="icon-location" aria-hidden="true"></i> 430-434, route de Longwy L-1940 Luxembourg</a></li>
                         <li><a href="./contact.html" class="tp-button tp-button--primary tp-button--outlined">Contact us</a></li>
                       </ul>
                     </nav>
