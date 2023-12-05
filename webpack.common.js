@@ -213,19 +213,19 @@ module.exports = {
 
 
     new HtmlWebpackPlugin({
-      title: 'Business Travel | Travel Pro',
+      title: '404 | Travel Pro',
       description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/404.html'),
       filename: 'fr/404.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Business Travel | Travel Pro',
+      title: '404 | Travel Pro',
       description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/en/404.html'),
       filename: 'en/404.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Business Travel | Travel Pro',
+      title: '404 | Travel Pro',
       description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/de/404.html'),
       filename: 'de/404.html',

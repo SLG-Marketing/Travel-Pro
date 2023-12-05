@@ -6,13 +6,13 @@ export default class TravelProTeamBanner extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<div class="tp-section pb-0" style="background-image: url('${background}')">
                         <div class="tp-container text-center">
-                          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Talk to the Travel Pro team !</h2>
-                          <p class="tp-paragraph tp-paragraph--16 color-white">Want to know more about our services ? Let's talk !</p>
-                          <p class="tp-paragraph tp-paragraph--16 color-white mb-40">We'll take the time to answer your questions and understand your needs.</p>
+                          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Parlez à l'équipe de Travel Pro !</h2>
+                          <p class="tp-paragraph tp-paragraph--16 color-white">Vous voulez en savoir plus sur nos services ? Parlons-en !</p>
+                          <p class="tp-paragraph tp-paragraph--16 color-white mb-40">Nous prendrons le temps de répondre à vos questions et de comprendre vos besoins.</p>
                           
                           <div class="tp-buttons-row">
-                            <a href="contact.html" class="tp-button tp-button--primary tp-button--outlined">Get in touch</a>
-                            <a href="request-demo.html" class="tp-button tp-button--primary">Request demo</a>
+                            <a href="contact.html" class="tp-button tp-button--primary tp-button--outlined">Contactez-nous</a>
+                            <a href="request-demo.html" class="tp-button tp-button--primary">Demandez une démonstration</a>
                           </div>
 
                           <img src="${illustration}" alt="" class="mt-40" style="display: block;margin: auto;">

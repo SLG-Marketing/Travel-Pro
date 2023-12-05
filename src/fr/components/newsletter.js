@@ -9,8 +9,8 @@ export default class Newsletter extends HTMLElement {
                           <div class="tp-newsletter">
                             <div class="tp-newsletter__left" style="background-image: url('${background}')">
                               <img src="${illustration}" alt="">
-                              <p class="tp-heading tp-heading--h2 mt-24 mb-24">Subscribe to the Travel Pro Newsletter for exclusive updates!</p>
-                              <p class="tp-paragraph tp-paragraph--16">Stay in the loop with the latest news by subscribing to our newsletter.</p>
+                              <p class="tp-heading tp-heading--h2 mt-24 mb-24">Abonnez-vous à la newsletter de Travel Pro pour des mises à jour exclusives !</p>
+                              <p class="tp-paragraph tp-paragraph--16">Restez informé des dernières actualités en vous abonnant à notre newsletter.</p>
                             </div>
                             <div class="tp-newsletter__right">
                               <getresponse-form form-id="ad9db41b-a353-4019-a7ba-772acede3fcc" e="0"></getresponse-form>

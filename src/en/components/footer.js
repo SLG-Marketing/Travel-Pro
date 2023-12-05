@@ -90,8 +90,8 @@ export default class FooterEN extends HTMLElement {
                         <li tabindex="0">
                           <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</span>
                           <ul>
-                            <li><a href="#" class="tp-link">FR</a></li>
-                            <li><a href="#" class="tp-link">DE</a></li>
+                            <li><a href="../fr/index.html" class="tp-link">FR</a></li>
+                            <li><a href="../de/index.html" class="tp-link">DE</a></li>
                           </ul>
                         </li>
                       </ul>

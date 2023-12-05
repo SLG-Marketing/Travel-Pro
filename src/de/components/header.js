@@ -22,7 +22,7 @@ export default class HeaderDE extends HTMLElement {
                               <a href="${this._url}/index.html" title="logo travelpro and american express global business travel"><img src="${logoTravelProAE}" alt="logo travelpro and american express global business travel"></a>
                             </div>
                             <div class="tp-header__row-1__right">
-                              <a href="https://www.slg.lu/career/" target="_blank" class="tp-link d-f-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
+                              <a href="https://www.slg.lu/career/" target="_blank" class="tp-link d-f-lg">Karriere <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
                               <ul class="tp-nav-langs">
                                 <li tabindex="0">
                                   <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> DE</span>
@@ -69,7 +69,7 @@ export default class HeaderDE extends HTMLElement {
                                 </li>
                               </ul>
 
-                              <a href="${this._url}/request-demo.html" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Request Demo</a>
+                              <a href="${this._url}/request-demo.html" class="tp-button tp-button--primary h-xs d-f-sm h-lg">Demo anfordern</a>
 
                               <button class="tp-nav-mobile-trigger h-lg" aria-label="Ouvrir menu" id="triggerNavMobile" aria-expanded="false"><i class="icon-bars" aria-hidden="true"></i></button>
                             </div>
@@ -81,20 +81,20 @@ export default class HeaderDE extends HTMLElement {
                             <div class="tp-header__row-2__left">
                               <nav class="tp-nav">
                                 <ul>
-                                  <li class="tp-nav__item ${this._active === 'home' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/index.html">Accueil DE</a></li>
-                                  <li class="tp-nav__item ${this._active === 'business-travel' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/business-travel.html">Business Travel</a></li>
-                                  <li class="tp-nav__item ${this._active === 'about-us' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/about-us.html">A propos</a></li>
+                                  <li class="tp-nav__item ${this._active === 'home' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/index.html">Startseite</a></li>
+                                  <li class="tp-nav__item ${this._active === 'business-travel' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/business-travel.html">Geschäftsreisen</a></li>
+                                  <li class="tp-nav__item ${this._active === 'about-us' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/about-us.html">Über uns</a></li>
                                   <li class="tp-nav__item ${this._active === 'blog' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/blog.html">Blog</a></li>
-                                  <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/contact.html">Contact</a></li>
+                                  <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/contact.html">Kontakt</a></li>
                                 </ul>
                               </nav>
                               <div class="tp-sub-nav">
                                 <a href="https://www.slg.lu/career/" target="_blank" class="tp-link h-lg">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
-                                <a href="${this._url}/request-demo.html" class="tp-button tp-button--primary h-sm">Request Demo</a>
+                                <a href="${this._url}/request-demo.html" class="tp-button tp-button--primary h-sm">Demo anfordern</a>
                               </div>
                             </div>
                             <div class="tp-header__row-2__right d-lg">
-                              <a href="${this._url}/request-demo.html" class="tp-button tp-button--primary" id="content">Request Demo</a>
+                              <a href="${this._url}/request-demo.html" class="tp-button tp-button--primary" id="content">Demo anfordern</a>
                             </div>
                           </div>
                         </div>

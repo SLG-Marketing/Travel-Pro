@@ -11,28 +11,28 @@ export default class Footer extends HTMLElement {
               <div class="tp-container">
                 <div class="tp-flex">
                   <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-4 tp-flex__col-lg-3">
-                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Links</p>
+                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Liens</p>
                     <nav class="tp-nav-footer">
                       <ul>
-                        <li><a href="./index.html" class="tp-link">Home</a></li>
-                        <li><a href="./business-travel.html" class="tp-link">Business Travel</a></li>
-                        <li><a href="./about-us.html" class="tp-link">About us</a></li>
+                        <li><a href="./index.html" class="tp-link">Accueil</a></li>
+                        <li><a href="./business-travel.html" class="tp-link">Voyages d'affaires</a></li>
+                        <li><a href="./about-us.html" class="tp-link">À propos de nous</a></li>
                         <li><a href="./blog.html" class="tp-link">Blog</a></li>
-                        <li><a href="./contact.html" class="tp-link">Contact us</a></li>
-                        <li><a href="./request-demo.html" class="tp-link">Request demo</a></li>
-                        <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Careers <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="./contact.html" class="tp-link">Contactez-nous</a></li>
+                        <li><a href="./request-demo.html" class="tp-link">Demandez une démo</a></li>
+                        <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Carrières <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
                   </div>
                   <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-4 tp-flex__col-lg-3">
-                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Legal</p>
+                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Légal</p>
                     <nav class="tp-nav-footer">
                       <ul>
-                        <li><a href="#" class="tp-link">Terms of use <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
-                        <li><a href="https://www.slg.lu/en/politique-de-confidentialite/" target="_blank" class="tp-link">Privacy policy <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="#" class="tp-link">Conditions d'utilisation <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.slg.lu/en/politique-de-confidentialite/" target="_blank" class="tp-link">Politique de confidentialité <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                         <li><a href="#" class="tp-link">Cookies</a></li>
                         <li><a href="#" class="tp-link">Sitemap</a></li>
-                        <li><a href="#" class="tp-link">Accessibility</a></li>
+                        <li><a href="#" class="tp-link">Accessibilité</a></li>
                       </ul>
                     </nav>
                   </div>
@@ -42,12 +42,12 @@ export default class Footer extends HTMLElement {
                       <ul>
                         <li><a href="tel:003524695451" class="tp-link"><i class="icon-phone" aria-hidden="true"></i> +352 46 95 45 - 1</a></li>
                         <li><a href="#" class="tp-link"><i class="icon-location" aria-hidden="true"></i> 430-434, route de Longwy L-1940 Luxembourg</a></li>
-                        <li><a href="./contact.html" class="tp-button tp-button--primary tp-button--outlined">Contact us</a></li>
+                        <li><a href="./contact.html" class="tp-button tp-button--primary tp-button--outlined">Contactez-nous</a></li>
                       </ul>
                     </nav>
                   </div>
                   <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4 tp-flex__col-lg-3 mt-40 mt-sm-0">
-                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Follow us</p>
+                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Suivez-nous</p>
                     <nav class="tp-nav-social">
                       <ul>
                         <li><a href="https://www.facebook.com/TravelProLuxembourg" target="_blank" class="tp-link font-size-26" title="facebook"><i class="icon-media_facebook" aria-hidden="true"></i></a></li>
@@ -86,12 +86,13 @@ export default class Footer extends HTMLElement {
                       <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2023 Travel Pro S.A. | All rights reserved</p>
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-2 text-sm-right mt-40 mt-sm-0">
-                      <ul class="tp-nav-langs">
+                      
+                    <ul class="tp-nav-langs">
                         <li tabindex="0">
-                          <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> EN</span>
+                          <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> FR</span>
                           <ul>
-                            <li><a href="#" class="tp-link">FR</a></li>
-                            <li><a href="#" class="tp-link">DE</a></li>
+                            <li><a href="../en/index.html" class="tp-link">EN</a></li>
+                            <li><a href="../de/index.html" class="tp-link">DE</a></li>
                           </ul>
                         </li>
                       </ul>
