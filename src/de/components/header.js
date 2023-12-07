@@ -84,7 +84,7 @@ export default class HeaderDE extends HTMLElement {
                                   <li class="tp-nav__item ${this._active === 'home' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/index.html">Startseite</a></li>
                                   <li class="tp-nav__item ${this._active === 'business-travel' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/business-travel.html">Geschäftsreisen</a></li>
                                   <li class="tp-nav__item ${this._active === 'about-us' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/about-us.html">Über uns</a></li>
-                                  <li class="tp-nav__item ${this._active === 'blog' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/blog.html">Blog</a></li>
+                                  <!--<li class="tp-nav__item ${this._active === 'blog' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/blog.html">Blog</a></li>-->
                                   <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/contact.html">Kontakt</a></li>
                                 </ul>
                               </nav>

@@ -84,7 +84,7 @@ export default class Header extends HTMLElement {
                                   <li class="tp-nav__item ${this._active === 'home' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/index.html">Accueil</a></li>
                                   <li class="tp-nav__item ${this._active === 'business-travel' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/business-travel.html">Voyages d'affaires</a></li>
                                   <li class="tp-nav__item ${this._active === 'about-us' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/about-us.html">A propos</a></li>
-                                  <li class="tp-nav__item ${this._active === 'blog' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/blog.html">Blog</a></li>
+                                  <!--<li class="tp-nav__item ${this._active === 'blog' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/blog.html">Blog</a></li>-->
                                   <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/contact.html">Contact</a></li>
                                 </ul>
                               </nav>
