@@ -87,7 +87,7 @@ export default class Footer extends HTMLElement {
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-2 text-sm-right mt-40 mt-sm-0">
                       
-                    <ul class="tp-nav-langs">
+                      <ul class="tp-nav-langs">
                         <li tabindex="0">
                           <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> FR</span>
                           <ul>

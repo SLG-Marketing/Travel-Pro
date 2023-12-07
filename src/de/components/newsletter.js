@@ -13,7 +13,7 @@ export default class NewsletterDE extends HTMLElement {
                               <p class="tp-paragraph tp-paragraph--16">Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten, indem Sie unseren Newsletter abonnieren.</p>
                             </div>
                             <div class="tp-newsletter__right">
-                              <getresponse-form form-id="ad9db41b-a353-4019-a7ba-772acede3fcc" e="0"></getresponse-form>
+                            <getresponse-form form-id="4fdf8ddb-d7f1-4888-a31d-b1d7befd8b61" e="0"></getresponse-form>
                             </div>
                           </div>
                         </div>
