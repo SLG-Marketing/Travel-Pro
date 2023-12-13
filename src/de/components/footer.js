@@ -20,7 +20,7 @@ export default class FooterDE extends HTMLElement {
                         <li><a href="./blog.html" class="tp-link">Blog</a></li>
                         <li><a href="./contact.html" class="tp-link">Kontakt</a></li>
                         <li><a href="./request-demo.html" class="tp-link">Demo anfordern</a></li>
-                        <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Karrieren <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Karriere <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
                   </div>
@@ -37,7 +37,7 @@ export default class FooterDE extends HTMLElement {
                     </nav>
                   </div>
                   <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4 tp-flex__col-lg-3 mt-40 mt-sm-0">
-                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Kontaktieren Sie Travel Pro</p>
+                    <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Kontaktieren Sie uns</p>
                     <nav class="tp-nav-footer">
                       <ul>
                         <li><a href="tel:003524695451" class="tp-link"><i class="icon-phone" aria-hidden="true"></i> +352 46 95 45 - 1</a></li>

@@ -18,7 +18,7 @@ export default class Footer extends HTMLElement {
                         <li><a href="./business-travel.html" class="tp-link">Voyages d'affaires</a></li>
                         <li><a href="./about-us.html" class="tp-link">À propos de nous</a></li>
                         <li><a href="./blog.html" class="tp-link">Blog</a></li>
-                        <li><a href="./contact.html" class="tp-link">Contactez-nous</a></li>
+                        <li><a href="./contact.html" class="tp-link">Nous contacter</a></li>
                         <li><a href="./request-demo.html" class="tp-link">Demandez une démo</a></li>
                         <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Carrières <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>
@@ -83,7 +83,7 @@ export default class Footer extends HTMLElement {
                       <img src="${logoTravelProPartSLG}" alt="logo part of slg">
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4  mt-16 mt-sm-0">
-                      <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2023 Travel Pro S.A. | All rights reserved</p>
+                      <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2023 Travel Pro S.A. | Tous droits réservés</p>
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-2 text-sm-right mt-40 mt-sm-0">
                       

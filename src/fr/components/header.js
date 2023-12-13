@@ -19,7 +19,7 @@ export default class Header extends HTMLElement {
                         <div class="tp-header__row-1">
                           <div class="tp-container">
                             <div class="tp-header__row-1__left">
-                              <a href="${this._url}/index.html" title="logo travelpro and american express global business travel"><img src="${logoTravelProAE}" alt="logo travelpro and american express global business travel"></a>
+                              <a href="${this._url}/index.html" title="Travel Pro et American Express Global Business Travel logo"><img src="${logoTravelProAE}" alt="Travel Pro et American Express Global Business Travel logo"></a>
                             </div>
                             <div class="tp-header__row-1__right">
                               <a href="https://www.slg.lu/career/" target="_blank" class="tp-link d-f-lg">Carrières <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a>
@@ -83,9 +83,9 @@ export default class Header extends HTMLElement {
                                 <ul>
                                   <li class="tp-nav__item ${this._active === 'home' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/index.html">Accueil</a></li>
                                   <li class="tp-nav__item ${this._active === 'business-travel' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/business-travel.html">Voyages d'affaires</a></li>
-                                  <li class="tp-nav__item ${this._active === 'about-us' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/about-us.html">A propos</a></li>
+                                  <li class="tp-nav__item ${this._active === 'about-us' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/about-us.html">À propos de nous</a></li>
                                   <!--<li class="tp-nav__item ${this._active === 'blog' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/blog.html">Blog</a></li>-->
-                                  <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/contact.html">Contact</a></li>
+                                  <li class="tp-nav__item ${this._active === 'contact' ? `tp-nav__item--selected` : ''}"><a href="${this._url}/contact.html">Nous contacter</a></li>
                                 </ul>
                               </nav>
                               <div class="tp-sub-nav">

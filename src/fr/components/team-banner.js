@@ -6,7 +6,7 @@ export default class TravelProTeamBanner extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `<div class="tp-section pb-0" style="background-image: url('${background}')">
                         <div class="tp-container text-center">
-                          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Parlez à l'équipe de Travel Pro !</h2>
+                          <h2 class="tp-heading tp-heading--h2 mb-24 color-white">Contactez les experts de Travel Pro !</h2>
                           <p class="tp-paragraph tp-paragraph--16 color-white">Vous voulez en savoir plus sur nos services ? Parlons-en !</p>
                           <p class="tp-paragraph tp-paragraph--16 color-white mb-40">Nous prendrons le temps de répondre à vos questions et de comprendre vos besoins.</p>
                           
