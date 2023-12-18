@@ -17,7 +17,7 @@ export default class FooterDE extends HTMLElement {
                         <li><a href="./index.html" class="tp-link">Startseite</a></li>
                         <li><a href="./business-travel.html" class="tp-link">Geschäftsreisen</a></li>
                         <li><a href="./about-us.html" class="tp-link">Über uns</a></li>
-                        <li><a href="./blog.html" class="tp-link">Blog</a></li>
+                        <!--<li><a href="./blog.html" class="tp-link">Blog</a></li>-->
                         <li><a href="./contact.html" class="tp-link">Kontakt</a></li>
                         <li><a href="./request-demo.html" class="tp-link">Demo anfordern</a></li>
                         <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Karriere <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
@@ -28,11 +28,11 @@ export default class FooterDE extends HTMLElement {
                     <p class="tp-paragraph tp-paragraph--14 mb-24 color-primary-100">Rechtliches</p>
                     <nav class="tp-nav-footer">
                       <ul>
-                        <li><a href="#" class="tp-link">Nutzungsbedingungen <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <!--<li><a href="#" class="tp-link">Nutzungsbedingungen <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>-->
                         <li><a href="https://www.slg.lu/en/politique-de-confidentialite/" target="_blank" class="tp-link">Datenschutzrichtlinie <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
-                        <li><a href="#" class="tp-link">Cookies</a></li>
-                        <li><a href="#" class="tp-link">Sitemap</a></li>
-                        <li><a href="#" class="tp-link">Barrierefreiheit</a></li>
+                        <!--<li><a href="#" class="tp-link">Cookies</a></li>-->
+                        <!--<li><a href="#" class="tp-link">Sitemap</a></li>-->
+                        <!--<li><a href="#" class="tp-link">Barrierefreiheit</a></li>-->
                       </ul>
                     </nav>
                   </div>
