@@ -6,10 +6,25 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
 
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://travel-pro.lu/" />
+    <meta property="og:title" content="Page Introuvable - Travel Pro" />
+    <meta property="og:description" content="Oups ! La page que vous cherchez ne peut être trouvée. Revenez à la page d'accueil de Travel Pro ou utilisez notre menu pour trouver les bonnes solutions de voyage d'affaires pour vous." />
+    <meta property="og:image" content="https://travel-pro.lu/beta/travelpro-meta-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://travel-pro.lu/" />
+    <meta property="twitter:title" content="Page Introuvable - Travel Pro" />
+    <meta property="twitter:description" content="Oups ! La page que vous cherchez ne peut être trouvée. Revenez à la page d'accueil de Travel Pro ou utilisez notre menu pour trouver les bonnes solutions de voyage d'affaires pour vous." />
+    <meta property="twitter:image" content="https://travel-pro.lu/beta/travelpro-meta-image.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
     <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">

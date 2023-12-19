@@ -6,10 +6,25 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
 
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:image" content="">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://travel-pro.lu/" />
+    <meta property="og:title" content="Demandez une Démo de Cytric avec Travel Pro : Outil de Voyage d'Affaires Sur Mesure" />
+    <meta property="og:description" content="Planifiez une démo avec Travel Pro pour découvrir Cytric, notre outil de réservation en ligne sur mesure pour le voyage d'affaires. Découvrez comment Cytric peut être personnalisé pour répondre aux besoins uniques de gestion de voyage de votre entreprise." />
+    <meta property="og:image" content="https://travel-pro.lu/beta/travelpro-meta-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://travel-pro.lu/" />
+    <meta property="twitter:title" content="Demandez une Démo de Cytric avec Travel Pro : Outil de Voyage d'Affaires Sur Mesure" />
+    <meta property="twitter:description" content="Planifiez une démo avec Travel Pro pour découvrir Cytric, notre outil de réservation en ligne sur mesure pour le voyage d'affaires. Découvrez comment Cytric peut être personnalisé pour répondre aux besoins uniques de gestion de voyage de votre entreprise." />
+    <meta property="twitter:image" content="https://travel-pro.lu/beta/travelpro-meta-image.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
     <!-- GetResponse Analytics -->
     <script type="text/javascript">
