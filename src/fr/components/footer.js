@@ -18,7 +18,7 @@ export default class Footer extends HTMLElement {
                         <li><a href="./business-travel.html" class="tp-link">Voyages d'affaires</a></li>
                         <li><a href="./about-us.html" class="tp-link">À propos de nous</a></li>
                         <!--<li><a href="./blog.html" class="tp-link">Blog</a></li>-->
-                        <li><a href="./contact.html" class="tp-link">Nous contacter</a></li>
+                        <li><a href="./contact.html" class="tp-link">Contact</a></li>
                         <li><a href="./request-demo.html" class="tp-link">Demandez une démo</a></li>
                         <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Carrières <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>

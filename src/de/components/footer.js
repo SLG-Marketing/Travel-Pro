@@ -20,7 +20,7 @@ export default class FooterDE extends HTMLElement {
                         <!--<li><a href="./blog.html" class="tp-link">Blog</a></li>-->
                         <li><a href="./contact.html" class="tp-link">Kontakt</a></li>
                         <li><a href="./request-demo.html" class="tp-link">Demo anfordern</a></li>
-                        <li><a href="https://www.slg.lu/en/career/" target="_blank" class="tp-link">Karriere <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.slg.lu/de/career/" target="_blank" class="tp-link">Karriere <i class="icon-arrow-up-right-from-square" aria-hidden="true"></i></a></li>
                       </ul>
                     </nav>
                   </div>
