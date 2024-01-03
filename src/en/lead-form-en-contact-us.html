@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://travel-pro.lu/" />
+    <meta property="og:title" content="Travel Pro: Comprehensive Business Travel Solutions | 24/7 Services & Online Booking" />
+    <meta property="og:description" content="Explore Travel Pro for your business travel needs. Offering both online tool and agent reservations, 24/7 service, reporting systems, virtual payments, and travel alerts. Book flights, hotels, car rentals, and trains with ease." />
+    <meta property="og:image" content="https://travel-pro.lu/beta/travelpro-meta-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://travel-pro.lu/" />
+    <meta property="twitter:title" content="Travel Pro: Comprehensive Business Travel Solutions | 24/7 Services & Online Booking" />
+    <meta property="twitter:description" content="Explore Travel Pro for your business travel needs. Offering both online tool and agent reservations, 24/7 service, reporting systems, virtual payments, and travel alerts. Book flights, hotels, car rentals, and trains with ease." />
+    <meta property="twitter:image" content="https://travel-pro.lu/beta/travelpro-meta-image.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- GetResponse Analytics -->
+    <script type="text/javascript">
+      (function(m, o, n, t, e, r, _){
+              m['__GetResponseAnalyticsObject'] = e;m[e] = m[e] || function() {(m[e].q = m[e].q || []).push(arguments)};
+              r = o.createElement(n);_ = o.getElementsByTagName(n)[0];r.async = 1;r.src = t;r.setAttribute('crossorigin', 'use-credentials');_.parentNode .insertBefore(r, _);
+          })(window, document, 'script', 'https://newsletter.slg.lu/script/04309704-bfba-4e18-97d8-c7fc88928bfc/ga.js', 'GrTracking');
+    
+    
+      </script>
+    <!-- End GetResponse Analytics -->
+
+    <!-- Cookiebot -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="0b502577-0cf0-4d39-b511-8d9c5d2e1b2b" type="text/javascript" async></script>
+    <!-- END Cookiebot -->
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-NTB3J5D');
+    </script> 
+    <!-- End Google Tag Manager -->
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) --> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTB3J5D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
+    <!-- End Google Tag Manager (noscript) -->
+
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    <tp-header-en ></tp-header-en>
+
+    <main class="tp-main">
+      <div style="position: relative" class="pb-64 pb-sm-96 pt-40 pt-sm-96">
+        <img src="<%= require('/public/assets/images/travelpro-background-1.webp') %>" alt="background-1" style="position: absolute;z-index: -1;bottom:0;left: 0;right: 0;margin: auto;object-fit:cover;width: 100%;">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between">
+            <div class="tp-flex__col tp-flex__col-lg-5 mb-40">
+              <h1 class="tp-heading tp-heading--jumbotron color-primary-800 mb-24">Thank you for your request!</h1>
+              <p class="tp-heading tp-heading--h4 color-primary-950">
+                We appreciate your interest and will get back to you as soon as possible. In the meantime, feel free to explore more on our website.<br><br>
+                For urgent inquiries or immediate assistance, please don't hesitate to reach us at<br> (+352) 46 95 45 - 1<br><br>
+                Thank you for choosing us. We look forward to assisting you!
+              </p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-lg-6">
+              <img src="<%= require('/public/assets/images/travelpro-visual-1.webp') %>" alt="Illustration of a person presenting the Cytric application that Travel Pro provides to its clients. ">
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+
+
+      
+
+    </main>
+
+    <tp-footer-en></tp-footer-en>
+  </body>
+</html>

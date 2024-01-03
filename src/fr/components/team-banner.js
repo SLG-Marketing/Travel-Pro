@@ -12,7 +12,7 @@ export default class TravelProTeamBanner extends HTMLElement {
                           
                           <div class="tp-buttons-row">
                             <a href="contact.html" class="tp-button tp-button--primary tp-button--outlined">Contactez-nous</a>
-                            <a href="request-demo.html" class="tp-button tp-button--primary">Demandez une démonstration</a>
+                            <a href="request-demo.html" class="tp-button tp-button--primary">Demander une démo</a>
                           </div>
 
                           <img src="${illustration}" alt="" class="mt-40" style="display: block;margin: auto;">

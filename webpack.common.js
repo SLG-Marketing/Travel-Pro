@@ -213,6 +213,15 @@ module.exports = {
 
 
     new HtmlWebpackPlugin({
+      title: 'LEAD FORM EN - Contact us',
+      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
+      template: path.resolve(__dirname, './src/en/lead-form-en-contact-us.html'),
+      filename: 'en/lead-form-en-contact-us.html',
+    }),
+
+
+
+    new HtmlWebpackPlugin({
       title: '404 | Travel Pro',
       description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
       template: path.resolve(__dirname, './src/fr/404.html'),
