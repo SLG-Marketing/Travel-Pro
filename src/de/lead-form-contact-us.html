@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
   <head>
     <meta name="Viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+    <meta name="robots" content="noindex">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://travel-pro.lu/" />
-    <meta property="og:title" content="Page Introuvable - Travel Pro" />
-    <meta property="og:description" content="Oups ! La page que vous cherchez ne peut être trouvée. Revenez à la page d'accueil de Travel Pro ou utilisez notre menu pour trouver les bonnes solutions de voyage d'affaires pour vous." />
+    <meta property="og:title" content="Vielen Dank, dass Sie sich bei uns gemeldet haben, wir werden uns in Kürze bei Ihnen melden!" />
+    <meta property="og:description" content="Normalerweise antworten wir innerhalb von 1-3 Werktagen. Wir werden entweder telefonisch oder per E-Mail Kontakt aufnehmen, also halten Sie Ausschau." />
     <meta property="og:image" content="https://travel-pro.lu/travelpro-meta-image.png" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://travel-pro.lu/" />
-    <meta property="twitter:title" content="Page Introuvable - Travel Pro" />
-    <meta property="twitter:description" content="Oups ! La page que vous cherchez ne peut être trouvée. Revenez à la page d'accueil de Travel Pro ou utilisez notre menu pour trouver les bonnes solutions de voyage d'affaires pour vous." />
+    <meta property="twitter:title" content="Vielen Dank, dass Sie sich bei uns gemeldet haben, wir werden uns in Kürze bei Ihnen melden!" />
+    <meta property="twitter:description" content="Normalerweise antworten wir innerhalb von 1-3 Werktagen. Wir werden entweder telefonisch oder per E-Mail Kontakt aufnehmen, also halten Sie Ausschau." />
     <meta property="twitter:image" content="https://travel-pro.lu/travelpro-meta-image.png" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
@@ -25,13 +26,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
-    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
-    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-
+    
     <!-- Cookiebot -->
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="0b502577-0cf0-4d39-b511-8d9c5d2e1b2b" type="text/javascript" async></script>
     <!-- END Cookiebot -->
@@ -58,24 +53,24 @@
     <!-- Google Tag Manager (noscript) --> 
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTB3J5D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
     <!-- End Google Tag Manager (noscript) -->
-    <a class="tp-skiplink" href="#content">Go to content</a>
+    <a class="tp-skiplink" href="#content">Zum Inhalt gehen</a>
     
-    <tp-header></tp-header>
+    <tp-header-en></tp-header-en>
 
     <main class="tp-main">
       <div class="tp-section tp-container">
         <div class="tp-flex tp-flex-justify-center">
           <div class="tp-flex__col tp-flex__col-md-4 mb-40">
-            <h1 class="tp-heading tp-heading--h1 mb-16">404</h1>
-            <p class="tp-paragraph tp-paragraph--16 mb-16 mb-md-40">Sorry, it looks like this page can’t be found...</p>
-            <a href="index.html" class="tp-button tp-button--primary-900 tp-button--outlined">Back to homepage <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+            <h1 class="tp-heading tp-heading--h1 mb-16">Vielen Dank, dass Sie sich bei uns gemeldet haben, wir werden uns in Kürze bei Ihnen melden!</h1>
+            <p class="tp-paragraph tp-paragraph--16 mb-16 mb-md-40">Normalerweise antworten wir innerhalb von 1-3 Werktagen. Wir werden entweder telefonisch oder per E-Mail Kontakt aufnehmen, also halten Sie Ausschau.</p>
+            <a href="index.html" class="tp-button tp-button--primary-900 tp-button--outlined">Zurück zur Startseite <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
           </div>
           <div class="tp-flex__col tp-flex__col-md-4">
-            <img src="<%= require('/public/assets/images/illustrations/travelpro-illustration-6.svg') %>" alt="illustration 404">
+            <img src="<%= require('/public/assets/images/illustrations/travelpro-illustration-7.svg') %>" alt="Abbildung Danke">
           </div>
         </div>
       </div>
     </main>
-    <tp-footer></tp-footer>
+    <tp-footer-en></tp-footer-en>
   </body>
 </html>
