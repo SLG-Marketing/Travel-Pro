@@ -44,6 +44,8 @@ export default class Header extends HTMLElement {
                                       ? '../../en/articles/article-1.html' 
                                       : this._active === 'article-2' 
                                       ? '../../en/articles/article-2.html'
+                                      : this._active === 'article-0' 
+                                      ? '../../en/articles/28-days-holiday-with-6-days-off.html'
                                       : '' 
                                     }" class="tp-link">EN</a></li>
                                     <li><a href="${
@@ -63,6 +65,8 @@ export default class Header extends HTMLElement {
                                       ? '../../de/articles/article-1.html' 
                                       : this._active === 'article-2' 
                                       ? '../../de/articles/article-2.html'
+                                      : this._active === 'article-0' 
+                                      ? '../../de/articles/28-days-holiday-with-6-days-off.html'
                                       : '' 
                                     }" class="tp-link">DE</a></li>
                                   </ul>

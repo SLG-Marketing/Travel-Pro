@@ -1,4 +1,6 @@
 import image from '/public/assets/images/travelpro-visual-4.webp';
+import image2 from '/public/assets/images/travelpro-visual-5.webp';
+import image3 from '/public/assets/images/blog/2024-01-10/lifestyle.png';
 
 const DEarticlesJSON = [
   {
@@ -9,7 +11,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2b",
+    category: "B2B",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -20,7 +22,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -31,7 +33,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -42,7 +44,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -53,7 +55,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -64,7 +66,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -75,7 +77,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -86,7 +88,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "tech",
+    category: "TECH",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -97,7 +99,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -108,7 +110,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -119,7 +121,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -130,7 +132,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "mice",
+    category: "MICE",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -141,7 +143,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   },
   {
@@ -152,7 +154,7 @@ const DEarticlesJSON = [
       "alt": "this is an alt text"
     },
     "time-reading": "3min reading",
-    category: "b2c",
+    category: "B2C",
     description: "To re-invoice DE professional <strong>expenses</strong>, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate."
   }
 ]

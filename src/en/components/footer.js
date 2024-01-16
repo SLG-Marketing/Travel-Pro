@@ -77,13 +77,13 @@ export default class FooterEN extends HTMLElement {
                 <div class="tp-footer__row">
                   <div class="tp-flex align-items-center">
                     <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3">
-                      <img src="${logoTravelProAEWhite}" alt="logo travelpro and american express global business travel">
+                      <img src="${logoTravelProAEWhite}" alt="logo travel pro and american express global business travel">
                     </div>
                     <div class="tp-flex__col tp-flex__col-6 tp-flex__col-sm-3">
                       <img src="${logoTravelProPartSLG}" alt="logo part of slg">
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4  mt-16 mt-sm-0">
-                      <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2023 Travel Pro S.A. | All rights reserved</p>
+                      <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2024 Travel Pro S.A. | All rights reserved</p>
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-2 text-sm-right mt-40 mt-sm-0">
                       <ul class="tp-nav-langs">

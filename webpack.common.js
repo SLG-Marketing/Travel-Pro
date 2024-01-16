@@ -91,7 +91,7 @@ module.exports = {
       title: 'À Propos de Travel Pro : Leader des Agences de Voyage d Affaires au Luxembourg Depuis 1993',
       description: 'Apprenez en plus sur Travel Pro, établi en 1993 et maintenant la plus grande agence de voyage d affaires du Luxembourg. Expertise dans la fourniture de services et solutions de voyage de premier plan pour les entreprises. Découvrez notre parcours et nos valeurs.',
       template: path.resolve(__dirname, './src/fr/about-us.html'),
-      filename: 'fr/about-us.html',
+      filename: 'fr/nous.html',
     }),
     new HtmlWebpackPlugin({
       title: 'About Travel Pro: Leading Business Travel Agency in Luxembourg Since 1993',
@@ -109,20 +109,20 @@ module.exports = {
 
     // Blog
     new HtmlWebpackPlugin({
-      title: 'Business Travel | Travel Pro',
-      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
+      title: 'Blog de Travel Pro : Aperçus et Tendances dans l Industrie du Voyage d Affaires',
+      description: 'Plongez dans le blog de Travel Pro pour les dernières informations, tendances et rapports dans l industrie du voyage d affaires. Obtenez des conseils précieux pour les voyageurs et restez à jour avec nos aperçus et conseils d experts.',
       template: path.resolve(__dirname, './src/fr/blog.html'),
       filename: 'fr/blog.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Business Travel | Travel Pro',
-      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
+      title: 'Travel Pro Blog: Insights and Trends in Business Travel Industry',
+      description: 'Dive into the Travel Pro blog for the latest information, trends, and reports in the business travel industry. Get valuable tips for travelers and stay updated with our expert insights and advice.',
       template: path.resolve(__dirname, './src/en/blog.html'),
       filename: 'en/blog.html',
     }),
     new HtmlWebpackPlugin({
-      title: 'Business Travel | Travel Pro',
-      description: 'Travel Pro American Express GBT provides end-to-end corporate travel management services, meetings, and booking solutions. Explore our programs for business travelers.',
+      title: 'Travel Pro Blog: Einblicke und Trends in der Geschäftsreisebranche',
+      description: 'Tauchen Sie ein in den Travel Pro Blog für die neuesten Informationen, Trends und Berichte in der Geschäftsreisebranche. Erhalten Sie wertvolle Tipps für Reisende und bleiben Sie mit unseren Experteneinblicken und Ratschlägen auf dem Laufenden.',
       template: path.resolve(__dirname, './src/de/blog.html'),
       filename: 'de/blog.html',
     }),
@@ -169,6 +169,28 @@ module.exports = {
       template: path.resolve(__dirname, './src/de/articles/article-2.html'),
       filename: 'de/articles/article-2.html',
     }),
+
+
+    // Article - 28-days-holiday-with-6-days-off.html 
+    new HtmlWebpackPlugin({
+      title: '28 jours de vacances avec seulement 6 jours de congé',
+      description: 'Souvenez-vous, la clé pour profiter pleinement d un long séjour avec seulement six jours de congé est une planification réfléchie et un peu de créativité.',
+      template: path.resolve(__dirname, './src/fr/articles/28-days-holiday-with-6-days-off.html'),
+      filename: 'fr/articles/28-days-holiday-with-6-days-off.html',
+    }),
+    new HtmlWebpackPlugin({
+      title: '28 days holiday with 6 days off',
+      description: 'Remember, the key to enjoying an extended vacation with just 6 days off is thoughtful planning and a bit of creativity.',
+      template: path.resolve(__dirname, './src/en/articles/28-days-holiday-with-6-days-off.html'),//+REMOVE ARTICLES AND MOVE TO MAIN FOLDER
+      filename: 'en/articles/28-days-holiday-with-6-days-off.html',//+REMOVE ARTICLES AND MOVE TO MAIN FOLDER
+    }),
+    new HtmlWebpackPlugin({
+      title: '28 Urlaubstage mit nur 6 freien Tagen',
+      description: 'Denken Sie daran, der Schlüssel, um einen verlängerten Urlaub mit nur 6 freien Tagen zu genießen, ist eine durchdachte Planung und ein bisschen Kreativität.',
+      template: path.resolve(__dirname, './src/de/articles/28-days-holiday-with-6-days-off.html'),
+      filename: 'de/articles/28-days-holiday-with-6-days-off.html',
+    }),
+
 
     // Contact
     new HtmlWebpackPlugin({

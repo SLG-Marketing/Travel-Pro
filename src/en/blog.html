@@ -60,26 +60,28 @@
     <main class="tp-main">
       <div class="tp-section">
         <div class="tp-container">
-          <h1 class="tp-heading tp-heading--h1 mb-40 mb-md-80">Travel Pro’s blog</h1>
+          <h1 class="tp-heading tp-heading--h1 mb-40 mb-md-80">Travel Pro blog</h1>
           <h2 class="tp-heading tp-heading--h2 mb-24 mb-md-40">Latest article</h2>
 
           <article class="tp-article-card tp-article-card--jumbotron">
-            <a href="#">
+            <a href="https://travel-pro.lu/en/index.html">
               <div class="tp-article-card__image">
-                <img src="<%= require('/public/assets/images/travelpro-visual-4.webp') %>" alt="">
+                <img src="<%= require('/public/assets/images/blog/2024-01-10/new-website.png') %>" alt="New Website">
               </div>
               <div class="tp-article-card__content">
                 <p class="tp-article-card__timer"><i class="icon-time" aria-hidden="true"></i> 3 min reading</p>
                 <div class="mb-24">
-                  <span class="tp-badge tp-badge--primary-100 mr-8">CategoryName</span>
-                  <span class="tp-badge tp-badge--primary-100">CategoryName</span>
+                  <span class="tp-badge tp-badge--primary-100 mr-8">B2B</span>
+                  <!-- IN CASE 2ND BADGE
+                    <span class="tp-badge tp-badge--primary-100">TECH</span>
+                  -->
                 </div>
-                <h3 class="tp-heading tp-heading--h4 mb-16">Re-invoice Professional Expenses</h3>
+                <h3 class="tp-heading tp-heading--h4 mb-16">New Travel Pro website</h3>
                 <p class="tp-paragraph tp-paragraph--16 mb-40">
-                  To re-invoice professional expenses, it is essential to keep detailed accounting records to be able to track the professional expenses incurred, their amount, their nature, and the applicable VAT rate.
+                  To kick off this new year, we are excited to introduce you to our new website travel-pro.lu! The website has been developed to be accessible, as it will soon be a regulation for all European websites.
                 </p>
 
-                <span class="tp-button tp-button--outlined tp-button--primary-900">Read more <i class="icon-arrow-right-long" aria-hidden="true"></i></span>
+                <span class="tp-button tp-button--outlined tp-button--primary-900">Discover more <i class="icon-arrow-right-long" aria-hidden="true"></i></span>
               </div>
             </a>
           </article>
@@ -89,20 +91,20 @@
 
           <div id="filters" class="h-sm mb-32">
             <select id="category">
-              <option value="all">ALL</option>
-              <option value="b2b">B2B</option>
-              <option value="b2c">B2C</option>
-              <option value="mice">MICE</option>
-              <option value="tech">TECH</option>
+              <option value="ALL">ALL</option>
+              <option value="B2B">B2B</option>
+              <option value="B2C">B2C</option>
+              <option value="MICE">MICE</option>
+              <option value="TECH">TECH</option>
             </select>
           </div>
 
           <div class="d-flex column-gap-16 mb-32 d-f-sm">
-            <button class="tp-button tp-button--primary-900 tp-button--sm" data-filter="all">ALL</button>
-            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="b2b">B2B</button>
-            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="b2c">B2C</button>
-            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="mice">MICE</button>
-            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="tech">TECH</button>
+            <button class="tp-button tp-button--primary-900 tp-button--sm" data-filter="ALL">ALL</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="B2B">B2B</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="B2C">B2C</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="MICE">MICE</button>
+            <button class="tp-button tp-button--neutral-100 tp-button--sm" data-filter="TECH">TECH</button>
           </div>
           <div class="tp-flex row-gap-24" id="articles-list" data-lang="en" data-url="/" data-limit="9"></div>
 
