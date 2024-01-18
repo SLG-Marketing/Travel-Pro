@@ -54,7 +54,7 @@ export default class HeaderDE extends HTMLElement {
                                       : this._active === 'business-travel' 
                                       ? '../fr/business-travel.html'
                                       : this._active === 'about-us' 
-                                      ? '../fr/about-us.html'
+                                      ? '../fr/nous.html'
                                       : this._active === 'blog' 
                                       ? '../fr/blog.html'
                                       : this._active === 'contact' 
