@@ -4,9 +4,13 @@ import logoTravelProPartSLG from '/public/assets/images/logos/travelpro-part-of-
 export default class Footer extends HTMLElement {
   constructor() {
     super();
+
+    this._active = "";
   }
 
   connectedCallback() {
+    this._active = this.getAttribute('active');
+
     this.innerHTML = `<footer class="tp-footer">
               <div class="tp-container">
                 <div class="tp-flex">
@@ -91,8 +95,48 @@ export default class Footer extends HTMLElement {
                         <li tabindex="0">
                           <span class="tp-link"><i class="icon-globe" aria-hidden="true"></i> FR</span>
                           <ul>
-                            <li><a href="../en/index.html" class="tp-link">EN</a></li>
-                            <li><a href="../de/index.html" class="tp-link">DE</a></li>
+                            <li><a href="${
+                              this._active === 'home' 
+                              ? '../en/index.html' 
+                              : this._active === 'business-travel' 
+                              ? '../en/business-travel.html'
+                              : this._active === 'about-us' 
+                              ? '../en/about-us.html'
+                              : this._active === 'blog' 
+                              ? '../en/blog.html'
+                              : this._active === 'contact' 
+                              ? '../en/contact.html'
+                              : this._active === 'request-demo' 
+                              ? '../en/request-demo.html'
+                              : this._active === 'article-1' 
+                              ? '../../en/articles/article-1.html' 
+                              : this._active === 'article-2' 
+                              ? '../../en/articles/article-2.html'
+                              : this._active === 'article-0' 
+                              ? '../../en/articles/28-days-holiday-with-6-days-off.html'
+                              : '' 
+                            }" class="tp-link">EN</a></li>
+                            <li><a href="${
+                              this._active === 'home' 
+                              ? '../de/index.html' 
+                              : this._active === 'business-travel' 
+                              ? '../de/business-travel.html'
+                              : this._active === 'about-us' 
+                              ? '../de/about-us.html'
+                              : this._active === 'blog' 
+                              ? '../de/blog.html'
+                              : this._active === 'contact' 
+                              ? '../de/contact.html'
+                              : this._active === 'request-demo' 
+                              ? '../de/request-demo.html'
+                              : this._active === 'article-1' 
+                              ? '../../de/articles/article-1.html' 
+                              : this._active === 'article-2' 
+                              ? '../../de/articles/article-2.html'
+                              : this._active === 'article-0' 
+                              ? '../../de/articles/28-days-holiday-with-6-days-off.html'
+                              : '' 
+                            }" class="tp-link">DE</a></li>
                           </ul>
                         </li>
                       </ul>
