@@ -191,6 +191,15 @@ module.exports = {
       filename: 'de/articles/28-days-holiday-with-6-days-off.html',
     }),
 
+    // Article - 28-days-holiday-with-6-days-off.html
+   
+    new HtmlWebpackPlugin({
+      title: '28 days holiday with 6 days off',
+      description: 'Remember, the key to enjoying an extended vacation with just 6 days off is thoughtful planning and a bit of creativity.',
+      template: path.resolve(__dirname, './src/en/articles/emirates-get-2000-skywards-miles-instantly.html'),
+      filename: 'en/articles/emirates-get-2000-skywards-miles-instantly.html',
+    }),
+
 
     // Contact
     new HtmlWebpackPlugin({
