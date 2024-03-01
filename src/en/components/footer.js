@@ -113,6 +113,8 @@ export default class FooterEN extends HTMLElement {
                               ? '../../fr/articles/article-2.html'
                               : this._active === 'article-0' 
                               ? '../../fr/articles/28-days-holiday-with-6-days-off.html'
+                              : this._active === 'article-3' 
+                              ? '../../fr/articles/emirates-get-2000-skywards-miles-instantly.html'
                               : '' 
                             }" class="tp-link">FR</a></li>
                             <li><a href="${
@@ -134,6 +136,8 @@ export default class FooterEN extends HTMLElement {
                               ? '../../de/articles/article-2.html'
                               : this._active === 'article-0' 
                               ? '../../de/articles/28-days-holiday-with-6-days-off.html'
+                              : this._active === 'article-3' 
+                              ? '../../de/articles/emirates-get-2000-skywards-miles-instantly.html'
                               : '' 
                             }" class="tp-link">DE</a></li>
                           </ul>

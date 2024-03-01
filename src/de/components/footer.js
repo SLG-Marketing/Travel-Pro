@@ -87,7 +87,7 @@ export default class FooterDE extends HTMLElement {
                       <img src="${logoTravelProPartSLG}" alt="logo part of slg">
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-4  mt-16 mt-sm-0">
-                      <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2024 Travel Pro S.A. | All rights reserved</p>
+                      <p class="tp-paragraph tp-paragraph--14 color-primary-100">© 2024 Travel Pro S.A. | Alle Rechte vorbehalten</p>
                     </div>
                     <div class="tp-flex__col tp-flex__col-12 tp-flex__col-sm-2 text-sm-right mt-40 mt-sm-0">
                       <ul class="tp-nav-langs">
