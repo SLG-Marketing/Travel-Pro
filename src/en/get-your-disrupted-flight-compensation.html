@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="Viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://travel-pro.lu/" />
+    <meta property="og:title" content="Business Travel with Travel Pro: Easy Online Booking & 24/7 Support" />
+    <meta property="og:description" content="Discover customized business travel solutions with Travel Pro. Easy online bookings, agent assistance, 24/7 customer service, advanced reporting, and virtual payment systems for your business trips." />
+    <meta property="og:image" content="https://travel-pro.lu/travelpro-meta-image.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://travel-pro.lu/" />
+    <meta property="twitter:title" content="Business Travel with Travel Pro: Easy Online Booking & 24/7 Support" />
+    <meta property="twitter:description" content="Discover customized business travel solutions with Travel Pro. Easy online bookings, agent assistance, 24/7 customer service, advanced reporting, and virtual payment systems for your business trips." />
+    <meta property="twitter:image" content="https://travel-pro.lu/travelpro-meta-image.png" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="<%= require('/public/assets/favicon/apple-touch-icon.png') %>">
+    <link rel="icon" type="image/png" sizes="32x32" href="<%= require('/public/assets/favicon/favicon-32x32.png') %>">
+    <link rel="icon" type="image/png" sizes="16x16" href="<%= require('/public/assets/favicon/favicon-16x16.png') %>">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!--Knewledge START-->
+    <script data-cookieconsent="ignore">
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('consent', 'default', {
+          ad_personalization: 'denied',
+          ad_storage: 'denied',
+          ad_user_data: 'denied',
+          analytics_storage: 'denied',
+          functionality_storage: 'denied',
+          personalization_storage: 'denied',
+          security_storage: 'granted',
+          wait_for_update: 500,
+      });
+    </script>
+  
+    <script data-cookieconsent="ignore">(function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+          'gtm.start': new Date().getTime(),
+          event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-NTB3J5D');</script>
+  
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="0b502577-0cf0-4d39-b511-8d9c5d2e1b2b" data-consentmode-defaults="disabled" async></script>
+  
+    <script data-cookieconsent="statistics">(function (m, o, n, t, e, r, _) {
+      m['__GetResponseAnalyticsObject'] = e; m[e] = m[e] || function () { (m[e].q = m[e].q || []).push(arguments) };
+      r = o.createElement(n); _ = o.getElementsByTagName(n)[0]; r.async = 1; r.src = t; r.setAttribute('crossorigin', 'use-credentials'); _.parentNode.insertBefore(r, _);
+    })(window, document, 'script', 'https://newsletter.slg.lu/script/04309704-bfba-4e18-97d8-c7fc88928bfc/ga.js', 'GrTracking');</script>
+  <!--Knewledge END-->
+  </head>
+  <body>
+  <!-- Google Tag Manager (noscript) --> 
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NTB3J5D" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> 
+  <!-- End Google Tag Manager (noscript) -->
+  
+    <a class="tp-skiplink" href="#content">Go to content</a>
+    
+    <tp-header-en></tp-header-en>
+
+    <main class="tp-main">
+      <div class="tp-section pb-0 pb-md-80" style="background-image: url('<%= require('/public/assets/images/travelpro-background-6.webp') %>')">
+        <div class="tp-container">
+          <div class="tp-flex">
+            <div class="tp-flex__col tp-flex__col-md-7">
+              <h1 class="tp-heading tp-heading--h1 mb-32 mb-md-40">Get Your Disrupted Flight Compensation</h1>
+              <p class="tp-heading tp-heading--h3 mb-24">✔Quick and Easy ✔No Financial Risk ✔Claim Old Flights</p>
+              <p class="tp-paragraph tp-paragraph--16 mb-40">In collaboration with our partner "Skycop", you benefit from exclusive assistance that ensures the best service for submitting a compensation claim and understanding your rights in case of flight disruption.</p>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-5">
+              <img src="<%= require('/public/assets/images/illustrations/travelpro-illustration-3.svg') %>" alt="" class="tp-illu-2">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section tabs -->
+      <div class="tp-section">
+        <div class="tp-container text-center">
+          <div class="tp-flex justify-content-center mb-40">
+            <div class="tp-flex__col tp-flex__col-lg-6">
+              <h2 class="tp-heading tp-heading--h2 mb-24">Was your flight disrupted?</h2>
+              <p class="tp-heading tp-heading--h4">Turn your delayed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tp-container">
+          <!--
+          <div role="tablist" aria-labelledby="tablist-1" class="tp-tabs">
+            <button id="tab-1" class="tp-button tp-button--primary-900" role="tab" aria-selected="true" aria-controls="tabpanel-1">Cytric</button>
+            <button id="tab-2" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-2" tabindex="-1">Neo by KDS</button>
+          </div>
+          -->
+
+          <div class="tp-tabs-content">
+           <!--  Ne pas oublier de remettre tabindex="0" ainsi que aria-labelledby="tab-1" si on réactive les tabs -->
+            <div id="tabpanel-1" role="tabpanel">
+              <div class="tp-flex justify-content-between">
+                <div class="tp-flex__col tp-flex__col-md-7">
+                  <img src="<%= require('/public/assets/images/travelpro-visual-3.webp') %>" alt="">
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-paragraph tp-paragraph--16 mb-24">Skycop Solve More Flight Problems</p>
+                  <ul class="list-icons mb-40">
+                    <li>Air Passenger Rights</li>
+                    <li>Delayed Flight</li>
+                    <li>Cancelled Flight</li>
+                    <li>Overbooked Flight</li>
+                  </ul>
+                  <a href="request-demo.html" class="tp-button tp-button--primary">Claim Your Compensation</a>
+                </div>
+              </div>
+            </div>
+          <!--             
+            <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" class="is-hidden">
+              <p>TAB 2</p>
+            </div> 
+          -->
+          </div>
+        </div>
+      </div>
+
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-7.webp') %>')">
+        <div class="tp-container">
+          <div class="tp-flex">
+            <div class="tp-flex__col tp-flex__col-md-4">
+              <h2 class="tp-heading tp-heading--h2 mb-24">How Does It All Work With Skycop?</h2>
+              <p class="tp-paragraph tp-paragraph--16 mb-24">
+                Claiming your compensation via Skycop is an <strong>easy three-step process.</strong>
+              </p>
+              <a href="contact.html" class="tp-button tp-button--primary">Claim Now</a>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-8 mt-32 mt-md-0">
+              <div class="tp-expand mb-16">
+                <div class="tp-number mb-16">
+                  <div class="tp-number__number">1</div>
+                  <div class="tp-heading tp-heading--h4">Submit Your Claim</div>
+                </div>
+                <p class="tp-paragraph tp-paragraph--16">
+                  It only takes minutes to finish it! That way you’ll find out your preliminary eligibility – and the size of the compensation.
+                </p>
+                <div class="tp-expand__content" id="expand-1" aria-hidden="false">
+                  <p class="tp-paragraph tp-paragraph--16">
+                    You will fill out a form to provide your personal details to Skycop and to allow them to see if you are eligible for compensation.
+                  </p>
+                </div>
+                <button 
+                  class="tp-expand__trigger tp-link" 
+                  aria-controls="expand-1" 
+                  aria-expanded="false" 
+                  data-more="See more" 
+                  data-less="See less"
+                >
+                  <span>See more</span> 
+                  <i class="icon-chevron-down" aria-hidden="true"></i>
+                </button>
+              </div>
+
+              <div class="tp-expand mb-16">
+                <div class="tp-number mb-16">
+                  <div class="tp-number__number">2</div>
+                  <div class="tp-heading tp-heading--h4">Skycop Fight For Your Rights</div>
+                </div>
+                <p class="tp-paragraph tp-paragraph--16">
+                  Skycop experts will be checking your eligibility in depth, contacting the airlines, working with the authorities and so on.
+                </p>
+                <div class="tp-expand__content" id="expand-1" aria-hidden="false">
+                  <p class="tp-paragraph tp-paragraph--16">
+                    After sending your data, Skycop will take care of all the administrative procedures towards the airline, you will no longer have to do anything.
+                  </p>
+                </div>
+                <button 
+                  class="tp-expand__trigger tp-link" 
+                  aria-controls="expand-1" 
+                  aria-expanded="false" 
+                  data-more="See more" 
+                  data-less="See less"
+                >
+                  <span>See more</span> 
+                  <i class="icon-chevron-down" aria-hidden="true"></i>
+                </button>
+              </div>
+
+              <div class="tp-expand">
+                <div class="tp-number mb-16">
+                  <div class="tp-number__number">3</div>
+                  <div class="tp-heading tp-heading--h4">Receive Your Compensation</div>
+                </div>
+                <p class="tp-paragraph tp-paragraph--16">
+                  Once Skycop receive the compensation, they will transfer the money to you, minus Skycop fee. You don’t pay if Skycop don’t win.
+                </p>
+                <div class="tp-expand__content" id="expand-1" aria-hidden="false">
+                  <p class="tp-paragraph tp-paragraph--16">
+                    You will pay for this service only if you win against the airline to assert your rights.
+                  </p>
+                </div>
+                <button 
+                  class="tp-expand__trigger tp-link" 
+                  aria-controls="expand-1" 
+                  aria-expanded="false" 
+                  data-more="See more" 
+                  data-less="See less"
+                >
+                  <span>See more</span> 
+                  <i class="icon-chevron-down" aria-hidden="true"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section tabs -->
+      <div class="tp-section">
+        <div class="tp-container text-center">
+          <div class="tp-flex justify-content-center mb-40">
+            <div class="tp-flex__col tp-flex__col-lg-6">
+              <h2 class="tp-heading tp-heading--h2 mb-24">Our detailed services</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="tp-container">
+          <div role="tablist" aria-labelledby="tablist-1" class="tp-tabs">
+            <button id="digital-tools" class="tp-button tp-button--primary-900" role="tab" aria-selected="true" aria-controls="tabpanel-digital-tools">Digital tools</button>
+            <button id="travel-facilities" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-travel-facilities" tabindex="-1">Travel facilities</button>
+            <button id="assistance" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-assistance" tabindex="-1">Assistance</button>
+            <button id="review" class="tp-button tp-button--primary-900 tp-button--text-only" role="tab" aria-selected="false" aria-controls="tabpanel-review" tabindex="-1">Feedback &amp; claim</button>
+          </div>
+
+          <div class="tp-tabs-content">
+            <div id="tabpanel-digital-tools" role="tabpanel" tabindex="0" aria-labelledby="digital-tools">
+              <div class="tp-flex row-gap-40">
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Online Booking</p>
+                  <p class="tp-paragraph tp-paragraph--16">Enjoy advanced technology that simplifies the booking processes for travelers and travel managers. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Reporting</p>
+                  <p class="tp-paragraph tp-paragraph--16">Access a variety of reports to optimize your travel budget and make informed decisions. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Travel Alerts Notifier</p>
+                  <p class="tp-paragraph tp-paragraph--16">Stay informed during your trip by receiving the latest travel information. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Virtual payment</p>
+                  <p class="tp-paragraph tp-paragraph--16">Choose from a range of payment solutions including virtual methods for hotel bookings or low-costs. </p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Mobile messenger</p>
+                  <p class="tp-paragraph tp-paragraph--16">Get travel-related information regarding your itinerary sent directly to your mobile device. </p>
+                </div>
+              </div>
+            </div>
+            
+            
+            <div id="tabpanel-travel-facilities" role="tabpanel" tabindex="0" aria-labelledby="travel-facilities" class="is-hidden">
+              <div class="tp-flex row-gap-40">
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Worldwide Transfer</p>
+                  <p class="tp-paragraph tp-paragraph--16">We offer assistance in booking transfers from your home or hotel to the airport.</p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">eSIM / SIM</p>
+                  <p class="tp-paragraph tp-paragraph--16">We offer a worldwide solution to reduce your communication and browsing costs.</p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Visa Request</p>
+                  <p class="tp-paragraph tp-paragraph--16">We can assist you with visa applications or ESTA forms.</p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Additional Services</p>
+                  <p class="tp-paragraph tp-paragraph--16">We are happy to support you with any kind of additional services such as extra baggage, lounge pass</p>
+                </div>
+              </div>
+            </div>
+            <div id="tabpanel-assistance" role="tabpanel" tabindex="0" aria-labelledby="assistance" class="is-hidden">
+              <div class="tp-flex row-gap-40">
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">24/7 Support</p>
+                  <p class="tp-paragraph tp-paragraph--16">We are at your disposal at all times, including weekends and holidays.</p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Travel Vitals</p>
+                  <p class="tp-paragraph tp-paragraph--16">Tool from American Express GBT for monitoring evolving travel guidance and government requirements.</p>
+                </div>
+              </div>
+            </div>
+            <div id="tabpanel-review" role="tabpanel" tabindex="0" aria-labelledby="review" class="is-hidden">
+              <div class="tp-flex row-gap-40">
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Travel Care</p>
+                  <p class="tp-paragraph tp-paragraph--16">Claims and compensation inquiries are handled by our dedicated department.</p>
+                </div>
+                <div class="tp-flex__col tp-flex__col-md-4">
+                  <p class="tp-heading tp-heading--h4 mb-16">Client Satisfaction Survey</p>
+                  <p class="tp-paragraph tp-paragraph--16">Regular surveys among our clients allow us to improve our services constantly.</p>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- testimonials -->
+      <div class="tp-section" style="background-image: url('<%= require('/public/assets/images/travelpro-background-3.webp') %>')">
+        <div class="tp-slider-overflow-container">
+          <div class="tp-slider-overflow-container__content">
+            <h2 class="tp-heading tp-heading--h2 mb-md-40 mb-16">Customer reviews and testimonials</h2>
+            <p class="tp-paragraph tp-paragraph--16 mb-24">Our solutions have helped our customers to travel safely, easily and stress-free. They tell us about their experiences</p>
+          </div>
+
+          <div class="tp-slider-overflow-container__inner">
+            <div class="tp-slider-container">
+              <div class="tp-swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Working with Travel Pro has been a game-changer for our business travel needs. Their attention to detail, efficiency, and personalized service have truly set them apart. From organizing complex itineraries to ensuring seamless travel experiences, Travel Pro has consistently exceeded our expectations. As a B2B client based in Luxembourg, we highly recommend their services to fellow businesses looking for a reliable partner in travel management. ”</p>
+                        <!--<footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Luxembourg</p>
+                        </footer>-->
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Travel Pro has become an invaluable asset to our global operations. Their team's dedication to providing top-notch business travel solutions is evident in every interaction. The convenience and flexibility they offer make our international travel stress-free. From booking to on-the-go support, Travel Pro is a trusted ally in navigating the complexities of business travel. Highly recommended for businesses with an international footprint! ”</p>
+                        <!--<footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>-->
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Our experience with Travel Pro has been nothing short of exceptional. As a financial firm based in Luxembourg with international clientele, precision and reliability are paramount. Travel Pro has consistently delivered on both fronts, offering tailored solutions that align perfectly with our business requirements. Their proactive approach and commitment to customer satisfaction make them the ideal travel partner for any B2B enterprise. ”</p>
+                        <!--<footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>-->
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="tp-testimonial-card">
+                      <blockquote>
+                        <p class="tp-paragraph tp-paragraph--16">“ Partnering with Travel Pro has streamlined our business travel processes and elevated our overall experience. Their cutting-edge technology solutions, combined with a team of dedicated professionals, make managing our corporate travel portfolio effortless. As a tech company with a global presence, having Travel Pro as our travel management partner has been a strategic decision. Their specialist and commitment to excellence make them a standout choice for any B2B organization. ”</p>
+                        <!--<footer>
+                          <p class="tp-heading tp-heading--h4"><strong>John Doe</strong></p>
+                          <p class="tp-paragraph tp-paragraph--16">CEO of #Company</p>
+                        </footer>-->
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tp-container">
+          <div class="swiper-actions">
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-navigation">
+              <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-prev" aria-label="Previous slide"><i class="icon-arrow-left-long" aria-hidden="true"></i></button>
+              <button class="tp-button tp-button--primary-900 tp-button--outlined tp-button--icon-only swiper-button-next" aria-label="Next slide"><i class="icon-arrow-right-long" aria-hidden="true"></i></button></div>
+          </div>
+        </div>
+      </div>
+
+      <!--
+      <div class="tp-section">
+        <div class="tp-container">
+          <div class="tp-flex justify-content-between align-items-center mb-24 mb-md-40">
+            <div class="tp-flex__col tp-flex__col-md-6 mb-32 mb-md-0">
+              <h2 class="tp-heading tp-heading--h2">Discover the latest news</h2>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-6 text-md-right">
+              <a href="#" class="tp-button tp-button--primary-900 tp-button--outlined">All articles <i class="icon-arrow-right-long" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <div class="tp-flex row-gap-16">
+            <div class="tp-flex__col tp-flex__col-md-6">
+              <article class="tp-article-card">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <div class="tp-badge tp-badge--primary-100">Tech</div>
+                    <img src="<%= require('/public/assets/images/blog/2023-11-21/travelogix-analytix.webp') %>" alt="Analytix">
+                    <div class="tp-article-card__blur">
+                      <i class="icon-time" aria-hidden="true"></i>
+                      <p>3 min reading</p>
+                    </div>
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4 mb-16">Change your view of travel data</h3>
+                    <p class="tp-paragraph tp-paragraph--16">
+                      Analytix is a powerful cloud-based, business intelligence solution, that automates the consolidation of data from multiple back office and booking systems. It provides a single source of truth to Travel Managers alike, via immediate, intuitive and interactive reports and customisable dashboards.
+                    </p>
+                  </div>
+                </a>
+              </article>
+            </div>
+            <div class="tp-flex__col tp-flex__col-md-6 d-flex row-gap-16 justify-content-between" style="flex-direction: column;">
+              <article class="tp-article-card tp-article-card--horizontal">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <img src="<%= require('/public/assets/images/blog/2023-11-21/made-in-luxembourg.webp') %>" alt="Label Made in Luxembourg">
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4">Travel Pro S.A. is proud to announce obtaining the “Made in Luxembourg” label</h3>
+                  </div>
+                </a>
+              </article>
+              <article class="tp-article-card tp-article-card--horizontal">
+                <a href="#">
+                  <div class="tp-article-card__image">
+                    <img src="<%= require('/public/assets/images/blog/2023-11-21/new-distribution-capability.webp') %>" alt="NDC Flight">
+                  </div>
+                  <div class="tp-article-card__content">
+                    <h3 class="tp-heading tp-heading--h4">Embracing the Future: NDC in Business Travel</h3>
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      -->
+
+      <!-- Talk to the travel pro team -->
+      <tp-team-banner-en></tp-team-banner-en>
+    </main>
+    <tp-footer-en active="business-travel"></tp-footer-en>
+  </body>
+</html>

@@ -304,6 +304,14 @@ module.exports = {
       filename: 'de/lead-form-newsletter.html',
     }),
 
+    // Get Your Disrupted Flight Compensation
+    new HtmlWebpackPlugin({
+      title: 'Get Your disrupted Flight Compensation | Travel Pro',
+      description: 'Best Company for Flight Compensation. ✓ Trusted Legal Partner for Airline Refunds. ✓ Your Choice for Flight Compensation Services. ✓ Get Refund With Flight Compensation Company Skycop 🛬',
+      template: path.resolve(__dirname, './src/en/get-your-disrupted-flight-compensation.html'),
+      filename: 'en/get-your-disrupted-flight-compensation.html',
+    }),
+
 
     // Page 404
     new HtmlWebpackPlugin({
